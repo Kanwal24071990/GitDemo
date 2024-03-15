@@ -1,0 +1,325 @@
+[
+  {
+    "ID": "Main Form",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//form[@id = 'enetityWizardForm']"
+    }
+  },
+  {
+    "ID": "Display Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'tbDisplayName')]"
+    }
+  },
+  {
+    "ID": "Legal Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'tbLegalName')]"
+    }
+  },
+  {
+    "ID": "Language",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'cbLanguage')]"
+    }
+  },
+  {
+    "ID": "Enrollment Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'cbEnrollmentType')]"
+    }
+  },
+  {
+    "ID": "Location Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'cbLocationType')]"
+    }
+  },
+  {
+    "ID": "Parent Account Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'cbParentACName')]"
+    }
+  },
+  {
+    "ID": "Master Location",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'chkMasterFlag')]//ancestor::span[contains(@class, 'CheckBox')]"
+    }
+  },
+  {
+    "ID": "DDE Flag",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'chkDDE')]//ancestor::span[contains(@class, 'CheckBox')]"
+    }
+  },
+  {
+    "ID": "Program Code",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[@id='lbProgramCodes_LBT']"
+    }
+  },
+  {
+    "ID": "Account Code",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'CorcentricCode')]"
+    }
+  },
+  {
+    "ID": "Accounting Code",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'AccountingCode')]"
+    }
+  },
+  {
+    "ID": "Vendor Payment Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'VendorPaymentType')]"
+    }
+  },
+  {
+    "ID": "Eligible for Transaction Submission",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'chkTransactionSubmission_S_D') and contains(@class, 'CheckBox')]"
+    }
+  },
+  {
+    "ID": "Franchise Code",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'FranchiseCode_LBT')]"
+    }
+  },
+  {
+    "ID": "Selected Franchise Codes",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'SelectedFranchiseCodes_LBT')]"
+    }
+  },
+  {
+    "ID": "Address1",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//textarea[contains(@id, 'Address1')]"
+    }
+  },
+  {
+    "ID": "Address2",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//textarea[contains(@id, 'Address2')]"
+    }
+  },
+  {
+    "ID": "City",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'City')]"
+    }
+  },
+  {
+    "ID": "Country",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'cbCountry')]"
+    }
+  },
+  {
+    "ID": "State",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'cbState')]"
+    }
+  },
+  {
+    "ID": "Zip",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'Zip')]"
+    }
+  },
+  {
+    "ID": "County",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'County')]"
+    }
+  },
+  {
+    "ID": "Phone Number",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'PhoneNumber')]"
+    }
+  },
+  {
+    "ID": "Currency",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'cbCurrency')]"
+    }
+  },
+  {
+    "ID": "Dun Number",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'DunNumber')]"
+    }
+  },
+  {
+    "ID": "Federal Tax ID Number",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'FederalTaxIdNumber')]"
+    }
+  },
+  {
+    "ID": "Entity Code",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'EntityCode')]"
+    }
+  },
+  {
+    "ID": "Community Code",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'CommunityCode')]"
+    }
+  },
+  {
+    "ID": "Program Start Date",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'ProgramStartDate')]"
+    }
+  },
+  {
+    "ID": "Sub Community",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'SubCommunity')]"
+    }
+  },
+  {
+    "ID": "Pre Authorization",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'chkhasPreAuth') and contains(@class, 'CheckBox')]"
+    }
+  },
+  {
+    "ID": "Dealer Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'flex_26')]"
+    }
+  },
+  {
+    "ID": "Allow Billing Non Transaction Locations",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'chkAllowbillingNonTransactionable') and contains(@class, 'CheckBox')]"
+    }
+  },
+  {
+    "ID": "Do Not Charge Fee",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'chkDoNotChargeFee') and contains(@class, 'CheckBox')]"
+    }
+  },
+  {
+    "ID": "Corcentric Location",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'chkcorcentricLocation') and contains(@class, 'CheckBox')]"
+    }
+  },
+  {
+    "ID": "Credit Limit",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'tbCreditLimit_I')]"
+    }
+  },
+  {
+    "ID": "Direct Bill Code",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'DirectBillcode')]"
+    }
+  },
+  {
+    "ID": "Invoice Approval",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'InvoiceApproval')]"
+    }
+  },
+  {
+    "ID": "Finance Charge Exempt",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'chkfinanceChargeExempt') and contains(@class, 'CheckBox')]"
+    }
+  },
+  {
+    "ID": "EDI Code",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'EdiCode')]"
+    }
+  },
+  {
+    "ID": "Collector",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'Collector')]"
+    }
+  },
+  {
+    "ID": "Customer Tier",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'CustomerTier')]"
+    }
+  },
+  {
+    "ID": "Enable Payment Portal",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'chkEnablePaymentPortal_S_D') and contains(@class, 'CheckBox')]"
+    }
+  },
+  {
+    "ID": "Tax ID Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'cbTaxIDType')]"
+    }
+  },
+  {
+    "ID": "Tax Classification",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'cbTaxClassification')]"
+    }
+  }
+
+]

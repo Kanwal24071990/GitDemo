@@ -1,0 +1,72 @@
+[
+	{
+		"ID": "Dealer Company Name",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'dealerEntityDetailIds')]"
+		}
+	},
+	{
+		"ID": "Fleet Company Name",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'fleetEntityDetailIds')]"
+		}
+	},
+	{
+		"ID": "Load Bookmark",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'bookmarkId')]"
+		}
+	},
+	{
+		"ID": "Date Type",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'dateType')]"
+		}
+	},
+	{
+		"ID": "Date Range",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'DateRange')]"
+		}
+	},
+	{
+		"ID": "From",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//input[contains(@id,'fromdate')]"
+		}
+	},
+	{
+		"ID": "To",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//input[contains(@id,'endDate')]"
+		}
+	},
+	{
+		"ID": "Currency",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'currencyCode')]"
+		}
+	},
+	{
+		"ID": "Group By",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'groupById')]"
+		}
+	},
+	{
+		"ID": "Invoice Count",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table/tbody/tr[4]/td[3]/div"
+		}
+	}
+]

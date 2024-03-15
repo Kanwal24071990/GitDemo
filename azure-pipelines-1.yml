@@ -1,0 +1,181 @@
+# ASP.NET Core (.NET Framework
+# Build and test ASP.NET Core projects targeting the full .NET Framework.
+# Add steps that publish symbols, save build artifacts, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
+
+parameters:
+- name: UAT
+  displayName: UAT
+  type: string
+  values:
+  - Alliance
+  - AmeriquestCorp
+  - Aurora
+  - Bridgestone
+  - Canxxus
+  - Daimler
+  - DaimlerAUS
+  - DoubleCoin
+  - Fleet2020
+  - FunctionalAutomation
+  - Hino
+  - NCG
+  - Geith
+  - IndSCF
+  - Isuzu
+  - Meineke
+  - Michelin
+  - O2C
+  - PartShareCBP
+  - Premierinc
+  - Pronto
+  - RiteLoad
+  - SupplyChainFinancing
+  - Univar
+  - URG
+  - Vipar
+  - ViparBuyingGroup
+  - WheelTimeSignature
+  - QA
+
+- name: adminUser
+  displayName: Run for ADMIN user
+  type: boolean
+  default: true
+
+- name: fleetUser
+  displayName: Run for FLEET user
+  type: boolean
+  default: false
+
+- name: dealerUser
+  displayName: Run for DEALER user
+  type: boolean
+  default: false
+
+- name: clearResults
+  displayName: Clear Results and History?
+  type: boolean
+  default: false
+
+trigger:
+- vpn-test
+
+pool:
+  name: 'Default'
+  demands: 
+   - Agent.Name -equals C0PAPA01-USPA01
+
+variables:
+  solution: '**/*.sln'
+  buildPlatform: 'Any CPU'
+  buildConfiguration: 'Release'
+
+name: $(Date:yyyyMMdd)_${{ parameters.UAT }} 
+
+jobs:
+- job: Test
+  timeoutInMinutes: 400 # how long to run the job before automatically cancelling
+  
+  variables:
+  - name: UAT
+    value: ${{ parameters.UAT }}
+
+  - name: adminUser
+    value: ${{ parameters.adminUser }}
+    
+  - name: fleetUser
+    value: ${{ parameters.fleetUser }}
+
+  - name: dealerUser
+    value: ${{ parameters.dealerUser }}
+  
+  - name: clearResults
+    value: ${{ parameters.clearResults }}
+
+
+  steps:
+
+  - task: UseDotNet@2
+    inputs:
+      packageType: sdk
+      version: '6.0.x'
+      includePreviewVersions: true
+      
+  - task: NuGetToolInstaller@1
+    displayName: 'Install Packages'
+    inputs:
+      versionSpec: '5.8.0'
+      checkLatest: true
+
+  - task: NuGetCommand@2
+    inputs:
+      restoreSolution: '$(solution)'
+      feedsToUse: 'select'
+      noCache: true
+
+  - task: DotNetCoreCLI@2
+    displayName: 'Build Variable Set'
+    inputs:
+      command: build
+      projects: '**/SetEnviromentProperties/SetEnviromentProperties/*.sln'
+      
+  - task: DotNetCoreCLI@2
+    displayName: 'Set Enviroment Variable'
+    inputs:
+      command: run
+      projects: '**/SetEnviromentProperties/SetEnviromentProperties/**/*.csproj'
+
+  - task: DotNetCoreCLI@2
+    displayName: 'Build PageObjectUtility'
+    inputs:
+      command: build
+      projects: '**/PageObjectUtility/*.sln'
+
+  - task: DotNetCoreCLI@2
+    displayName: 'Execute PageObjectUtility'
+    inputs:
+      command: run
+      projects: '**/PageObjectUtility/**/*.csproj'
+  
+  - ${{ if eq(parameters.clearResults, true) }}:
+    - task: DotNetCoreCLI@2
+      displayName: 'Build ClearResults'
+      inputs:
+        command: build
+        projects: '**/ClearResults/*.sln'
+
+  - ${{ if eq(parameters.clearResults, true) }}:
+    - task: DotNetCoreCLI@2
+      displayName: 'Execute ClearResults'
+      inputs:
+        command: run
+        projects: '**/ClearResults/**/*.csproj'
+
+  - task: DotNetCoreCLI@2
+    displayName: 'Build'
+    inputs:
+      command: build
+      projects: '**/AutomationTesting_CorConnect/*.sln'
+
+  - task: DotNetCoreCLI@2
+    displayName: 'Test'
+    continueOnError: true    
+    inputs:
+      command: test
+      projects: '**/AutomationTesting_CorConnect/*.sln'
+      ${{ if ne( parameters.UAT, 'IMG') }}:
+        arguments: '--filter "Category=19.0 & Category!=QAOnly"'
+
+
+  - task: DotNetCoreCLI@2
+    displayName: 'Build Reporter'
+    inputs:
+      command: build
+      projects: '**/ReportGenerator/ReportGenerator/*.sln'
+      
+  - task: DotNetCoreCLI@2
+    displayName: 'Execute Reporter'
+    inputs:
+      command: run
+      projects: '**/ReportGenerator/ReportGenerator/**/*.csproj'

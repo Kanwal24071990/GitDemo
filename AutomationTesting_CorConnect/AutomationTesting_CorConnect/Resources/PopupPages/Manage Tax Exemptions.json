@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "Edit Type",
+    "Name": "Edit Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'EditType')]"
+    }
+  },
+  {
+    "ID": "Fleet Code",
+    "Name": "Fleet Code",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'CustomerCode')]"
+    }
+  },
+  {
+    "ID": "Name",
+    "Name": "Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'Name')]"
+    }
+  },
+  {
+    "ID": "Address",
+    "Name": "Address",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'Address')]"
+    }
+  },
+  {
+    "ID": "City",
+    "Name": "City",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'City')]"
+    }
+  },
+  {
+    "ID": "State",
+    "Name": "State",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'states')]"
+    }
+  },
+  {
+    "ID": "Tax Document Name",
+    "Name": "TaxDocumentName",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtTaxDocument')]"
+    }
+  },
+  {
+    "ID": "ClientTaxDocumentsTable",
+    "Name": "ClientTaxDocumentsTable",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'ClientTaxDocuments')]"
+    }
+  },
+  {
+    "ID": "AttachExistingDocumentsTable",
+    "Name": "AttachExistingDocumentsTable",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'AttachExistingDocuments')]"
+    }
+  },
+  {
+    "ID": "TaxExemptsForFleetsTable",
+    "Name": "TaxExemptsForFleetsTable",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[@id='grdTaxExemptsForFleets']"
+    }
+  },
+  {
+    "ID": "SaveChangesButton",
+    "Name": "SaveChangesButton",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[@value='Save Changes']"
+    }
+  },
+  {
+    "ID": "PerformedOperationMessage",
+    "Name": "PerformedOperationMessage",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[@id='lblTaxExemptError']"
+    }
+  },
+  {
+    "ID": "File Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'UploadControl_TextBox0_Input')]"
+    }
+  },
+  {
+    "ID": "FileUploadError",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//tr[not(contains(@style, 'display:none'))]/td[contains(@class, 'ErrorCell')]"
+    }
+  },
+  {
+    "ID": "AddAnchor",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//a[text()='Add']"
+    }
+  },
+  {
+    "ID": "RemoveAnchor",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//td[contains(@id, 'UploadControl_Remove0')]//a[text()='Remove']"
+    }
+  },
+  {
+    "ID": "TaxExemptedStateCheckBoxList",
+    "Name": "TaxExemptedStateCheckBoxList",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'chkLstStates') and contains(@class, 'CheckBoxList') and not(contains(@class, 'Disabled'))]"
+    }
+  },
+  {
+    "ID": "Loading Message",
+    "Name": "",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//div[@id='UpdateProgress1'][not(contains(@style, 'display: none'))]"
+    }
+  }
+]

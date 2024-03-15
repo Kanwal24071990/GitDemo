@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "CruFJu70wLiZLPtYwk3J+P9rqNVACE3B7o3rfkawgSZV6N0PnOY3SREwlKV3zBva5yWTmxAcv079XNs7dYIiqQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jytesh.punjwani\\Documents\\CorconnectAutomation\\ClearResults\\ClearResults\\ClearResults\\ClearResults.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jytesh.punjwani\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
+    "C:\\Users\\jytesh.punjwani\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\jytesh.punjwani\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\jytesh.punjwani\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

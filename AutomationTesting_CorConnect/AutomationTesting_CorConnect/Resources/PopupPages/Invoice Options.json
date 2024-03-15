@@ -1,0 +1,35 @@
+[
+  {
+    "ID": "Change Invoice",
+    "Name": "Change Invoice",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//div[contains(@id,'btnChangeInvoice')]"
+    }
+  },
+  {
+    "ID": "Invoice Options",
+    "Name": "Invoice Options",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//div[contains(@id,'optionsBut')]"
+    }
+  },
+  {
+    "ID": "Create Rebill",
+    "Name": "Create Rebill",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//div[contains(@id,'btnOffsetTransaction')]"
+    }
+  },
+  {
+    "ID": "Invoice History",
+    "Name": "Invoice History",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//div[contains(@id, 'btnInvoiceHistory')]"
+    }
+  }
+
+]

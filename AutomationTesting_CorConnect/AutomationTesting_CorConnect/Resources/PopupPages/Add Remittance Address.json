@@ -1,0 +1,86 @@
+[
+  {
+    "ID": "Currency",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'cbCurrency')]"
+    }
+  },
+  {
+    "ID": "Remit To Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'txtRemitToName_I')]"
+    }
+  },
+  {
+    "ID": "Address1",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//textarea[contains(@id, 'txtAddress1_I')]"
+    }
+  },
+  {
+    "ID": "City",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'txtCity_I')]"
+    }
+  },
+  {
+    "ID": "Country",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cbCountry')]"
+    }
+  },
+  {
+    "ID": "State/Province",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'cbState')]"
+    }
+  },
+  {
+    "ID": "Zip",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'txtZip_I')]"
+    }
+  },
+  {
+    "ID": "Phone",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'txtPhone_I')]"
+    }
+  },
+  {
+    "ID": "Email",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'txtEmail_I')]"
+    }
+  },
+  {
+    "ID": "Invoice Logo",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'UploadControl_TextBox0_Input')]"
+    }
+  },
+  {
+    "ID": "Save",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Save']"
+    }
+  },
+  {
+    "ID": "Add New",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Add new']"
+    }
+  }
+]

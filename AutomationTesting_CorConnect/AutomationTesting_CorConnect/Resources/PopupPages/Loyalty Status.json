@@ -1,0 +1,18 @@
+[
+  {
+    "ID": "Company Name",
+    "Name": "Company Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'fleetentitydetailId')]"
+    }
+  },
+  {
+    "ID": "Title",
+    "Name": "Title",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id,'lblTitleGridView')]"
+    }
+  }
+]

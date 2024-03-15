@@ -1,0 +1,730 @@
+[
+  {
+    "Client": "AmeriquestCorp",
+    "URL": "https://ebilling-preprod.corcentric.com/",
+    "Database": {
+      "DBName": "AmeriquestCorp",
+      "WebCoreDBName": "WebCore_AmeriquestCorp",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "testsupport",
+        "password": "abc",
+        "type": "admin"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "abc",
+        "type": "fleet"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "abc",
+        "type": "dealer"
+      }
+    ]
+  },
+  {
+    "Client": "Daimler",
+    "URL": "https://pfs-preprod.corcentric.com/",
+    "Database": {
+      "DBName": "Daimler",
+      "WebCoreDBName": "Webcore_Daimler",
+      "Type": "Diamler"
+    },
+    "users": [
+      {
+        "user": "testsupport",
+        "password": "abc",
+        "type": "admin"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "abc",
+        "type": "fleet"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "abc",
+        "type": "dealer"
+      }
+    ]
+  },
+  {
+    "Client": "DaimlerAUS",
+    "URL": "https://pinnaclefleet-preprod.corcentric.com/",
+    "Database": {
+      "DBName": "DaimlerAUS",
+      "WebCoreDBName": "WebCore_DaimlerAUS",
+      "Type": "Diamler"
+    },
+    "users": [
+      {
+        "user": "testsupport",
+        "password": "abc",
+        "type": "admin"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "abc",
+        "type": "fleet"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "abc",
+        "type": "dealer"
+      }
+    ]
+  },
+  {
+    "Client": "FunctionalAutomation",
+    "URL": "https://corconnect-qafunctionalautomation.corcentric.com/",
+    "Database": {
+      "DBName": "CorConnect_FuncAuto",
+      "WebCoreDBName": "WebCore_CorConnect_FuncAuto",
+      "Type": "QA"
+    },
+    "users": [
+      {
+        "user": "testsupport",
+        "password": "abc",
+        "type": "admin"
+      },
+      {
+        "user": "ArgentinaQAFleet",
+        "password": "10Pearls1+",
+        "type": "fleet"
+      },
+      {
+        "user": "ArgentinaQADealer",
+        "password": "Abc123456!",
+        "type": "dealer"
+      }
+    ]
+  },
+  {
+    "Client": "Premierinc",
+    "URL": "https://remitracfo-preprod.corcentric.com/Public/Login.aspx",
+    "Database": {
+      "DBName": "Remitra",
+      "WebCoreDBName": "WebCore_Remitra",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "testsupport",
+        "password": "abc",
+        "type": "admin"
+      },
+      {
+        "user": "",
+        "password": "",
+        "type": "fleet"
+      },
+      {
+        "user": "",
+        "password": "",
+        "type": "dealer"
+      }
+    ]
+  },
+  {
+    "Client": "Pronto",
+    "URL": "https://pronto-preprod.corcentric.com/",
+    "Database": {
+      "DBName": "Pronto",
+      "WebCoreDBName": "WebCore_Pronto",
+      "Type": "Pronto"
+    },
+    "users": [
+      {
+        "user": "testsupport",
+        "password": "abc",
+        "type": "admin"
+      },
+      {
+        "user": "",
+        "password": "",
+        "type": "fleet"
+      },
+      {
+        "user": "",
+        "password": "",
+        "type": "dealer"
+      }
+    ]
+  },
+  {
+    "Client": "Alliance",
+    "URL": "https://alliance-preprod.corcentric.com/",
+    "Database": {
+      "DBName": "Alliance",
+      "WebCoreDBName": "WebCore_Alliance",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "testsupport",
+        "password": "abc",
+        "type": "admin"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "abc",
+        "type": "fleet"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "abc",
+        "type": "dealer"
+      }
+    ]
+  },
+  {
+    "Client": "Aurora",
+    "URL": "https://aurora-preprod.corcentric.com/",
+    "Database": {
+      "DBName": "Aurora",
+      "WebCoreDBName": "WebCore_Aurora",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "testsupport",
+        "password": "abc",
+        "type": "admin"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "abc",
+        "type": "fleet"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "abc",
+        "type": "dealer"
+      }
+    ]
+  },
+  {
+    "Client": "Bridgestone",
+    "URL": "https://bridgestone-preprod.corcentric.com/",
+    "Database": {
+      "DBName": "Bridgestone",
+      "WebCoreDBName": "WebCore_Bridgestone",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "Testsupport",
+        "password": "Test@123",
+        "type": "admin"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "Abcd@123",
+        "type": "fleet"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "Abcd@123",
+        "type": "dealer"
+      }
+    ]
+  },
+  {
+    "Client": "DoubleCoin",
+    "URL": "https://smartmoneyfleet-preprod.corcentric.com/",
+    "Database": {
+      "DBName": "DoubleCoin",
+      "WebCoreDBName": "WebCore_DoubleCoin",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "Testsupport",
+        "password": "Abcd@1234",
+        "type": "admin"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "Abcd@5678",
+        "type": "fleet"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "Abcd@1234",
+        "type": "dealer"
+      }
+    ]
+  },
+  {
+    "Client": "Hino",
+    "URL": "https://hino-preprod.corcentric.com/",
+    "Database": {
+      "DBName": "Hino",
+      "WebCoreDBName": "WebCore_Hino",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "testsupport",
+        "password": "abc",
+        "type": "admin"
+      },
+      {
+        "user": "",
+        "password": "",
+        "type": "fleet"
+      },
+      {
+        "user": "",
+        "password": "",
+        "type": "dealer"
+      }
+    ]
+  },
+  {
+    "Client": "IMG",
+    "URL": "https://img-preprod.corcentric.com/",
+    "Database": {
+      "DBName": "IMG",
+      "WebCoreDBName": "WebCore_IMG",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "testsupport",
+        "password": "abc",
+        "type": "admin"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "abc",
+        "type": "fleet"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "abc",
+        "type": "dealer"
+      }
+    ]
+  },
+  {
+    "Client": "Isuzu",
+    "URL": "https://isuzu-preprod.corcentric.com/",
+    "Database": {
+      "DBName": "Isuzu",
+      "WebCoreDBName": "WebCore_Isuzu",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "testsupport",
+        "password": "abc",
+        "type": "admin"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "abc",
+        "type": "fleet"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "abc",
+        "type": "dealer"
+      }
+    ]
+  },
+  {
+    "Client": "Meineke",
+    "URL": "https://mdpci-preprod.corcentric.com/",
+    "Database": {
+      "DBName": "Meineke",
+      "WebCoreDBName": "WebCore_Meineke",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "Testsupport",
+        "password": "galaxy_KH34233335789",
+        "type": "admin"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "Test@123",
+        "type": "fleet"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "Test@123",
+        "type": "dealer"
+      }
+    ]
+  },
+  {
+    "Client": "PartShareCBP",
+    "URL": "https://partsharecbp-preprod.corcentric.com/",
+    "Database": {
+      "DBName": "PartShareCBP",
+      "WebCoreDBName": "WebCore_PartShareCBP",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "testsupport",
+        "password": "abc",
+        "type": "admin"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "abc",
+        "type": "fleet"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "abc",
+        "type": "dealer"
+      }
+    ]
+  },
+  {
+    "Client": "SupplyChainFinancing",
+    "URL": "https://supplychainfinancing-preprod.corcentric.com/",
+    "Database": {
+      "DBName": "SupplyChainFinancing",
+      "WebCoreDBName": "WebCore_SupplyChainFinancing",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "Testsupport",
+        "password": "Test@123",
+        "type": "admin"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "Test@123",
+        "type": "fleet"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "Test@123",
+        "type": "dealer"
+      }
+    ]
+  },
+  {
+    "Client": "TransAdvantage",
+    "URL": "https://transadvantage-uat.corcentric.com/",
+    "Database": {
+      "DBName": "TransAdvantage",
+      "WebCoreDBName": "WebCore_TransAdvantage",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "testsupport",
+        "password": "abc",
+        "type": "admin"
+      },
+      {
+        "user": "",
+        "password": "",
+        "type": "fleet"
+      },
+      {
+        "user": "",
+        "password": "",
+        "type": "dealer"
+      }
+    ]
+  },
+  {
+    "Client": "Vipar",
+    "URL": "https://partspherefleet-preprod.corcentric.com/",
+    "Database": {
+      "DBName": "Vipar",
+      "WebCoreDBName": "WebCore_Vipar",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "testsupport",
+        "password": "abc",
+        "type": "admin"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "abc",
+        "type": "fleet"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "abc",
+        "type": "dealer"
+      }
+    ]
+  },
+  {
+    "Client": "ViparBuyingGroup",
+    "URL": "https://partsphereoms-preprod.corcentric.com/",
+    "Database": {
+      "DBName": "ViparBuyingGroup",
+      "WebCoreDBName": "WebCore_ViparBuyingGroup",
+      "Type": "Pronto"
+    },
+    "users": [
+      {
+        "user": "testsupport",
+        "password": "abc",
+        "type": "admin"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "Abcd@5678",
+        "type": "fleet"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "Abcd@5678",
+        "type": "dealer"
+      }
+    ]
+  },
+  {
+    "Client": "Univar",
+    "URL": "https://univar-preprod.corcentric.com/",
+    "Database": {
+      "DBName": "Univar",
+      "WebCoreDBName": "WebCore_Univar",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "Testsupport",
+        "password": "Test@123",
+        "type": "admin"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "abc",
+        "type": "fleet"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "abc",
+        "type": "dealer"
+      }
+    ]
+  },
+  {
+    "Client": "WheelTimeSignature",
+    "URL": "https://signature-preprod.corcentric.com/",
+    "Database": {
+      "DBName": "WheelTimeSignature",
+      "WebCoreDBName": "WebCore_WheelTimeSignature",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "Testsupport",
+        "password": "abc",
+        "type": "admin"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "Test@123",
+        "type": "fleet"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "Test@123",
+        "type": "dealer"
+      }
+    ]
+  },
+  {
+    "Client": "Michelin",
+    "URL": "https://michelin-preprod.corcentric.com/",
+    "Database": {
+      "DBName": "Michelin",
+      "WebCoreDBName": "WebCore_Michelin",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "support",
+        "password": "abc",
+        "type": "admin"
+      },
+      {
+        "user": "",
+        "password": "",
+        "type": "fleet"
+      },
+      {
+        "user": "",
+        "password": "",
+        "type": "dealer"
+      }
+    ]
+  },
+  {
+    "Client": "Canxxus",
+    "URL": "https://canxxus-preprod.corcentric.com/",
+    "Database": {
+      "DBName": "Canxxus",
+      "WebCoreDBName": "WebCore_Canxxus",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "support",
+        "password": "abc",
+        "type": "admin"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "abc",
+        "type": "fleet"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "abc",
+        "type": "dealer"
+      }
+    ]
+  },
+  {
+    "Client": "O2C",
+    "URL": "https://o2c.corcentric.com/",
+    "Database": {
+      "DBName": "O2C",
+      "WebCoreDBName": "WebCore_O2C",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "support",
+        "password": "abc",
+        "type": "admin"
+      },
+      {
+        "user": "",
+        "password": "",
+        "type": "fleet"
+      },
+      {
+        "user": "",
+        "password": "",
+        "type": "dealer"
+      }
+    ]
+  },
+  {
+    "Client": "URG",
+    "URL": "https://urg-preprod.corcentric.com/Secure/MainForm.aspx?",
+    "Database": {
+      "DBName": "URG",
+      "WebCoreDBName": "WebCore_URG",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "support",
+        "password": "abc",
+        "type": "admin"
+      },
+      {
+        "user": "",
+        "password": "",
+        "type": "fleet"
+      },
+      {
+        "user": "",
+        "password": "",
+        "type": "dealer"
+      }
+    ]
+  },
+  {
+    "Client": "Fleet2020",
+    "URL": "https://nationaleasefleet2020-preprod.corcentric.com/",
+    "Database": {
+      "DBName": "Fleet2020",
+      "WebCoreDBName": "WebCore_Fleet2020",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "testsupport1",
+        "password": "abc",
+        "type": "admin"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "abc",
+        "type": "fleet"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "abc",
+        "type": "dealer"
+      }
+    ]
+  },
+  {
+    "Client": "IndSCF",
+    "URL": "https://indscf-preprod.corcentric.com/",
+    "Database": {
+      "DBName": "IndSCF",
+      "WebCoreDBName": "WebCore_IndSCF",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "QASuperAdmin",
+        "password": "C0rcentr1c@147",
+        "type": "admin"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "abc",
+        "type": "fleet"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "abc",
+        "type": "dealer"
+      }
+    ]
+  },
+  {
+    "Client": "RiteLoad",
+    "URL": "https://rtld-preprod.corcentric.com/",
+    "Database": {
+      "DBName": "RiteLoad",
+      "WebCoreDBName": "WebCore_RiteLoad",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "QASuperAdmin ",
+        "password": "C0rcentr1c@147",
+        "type": "admin"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "abc",
+        "type": "fleet"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "abc",
+        "type": "dealer"
+      }
+    ]
+  }
+]

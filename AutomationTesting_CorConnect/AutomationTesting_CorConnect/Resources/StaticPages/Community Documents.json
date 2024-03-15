@@ -1,0 +1,9 @@
+[
+ {
+      "ID":"Online Support Center",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//a[@id='lnkOnlineSupportPortal']"
+      }
+   }
+]

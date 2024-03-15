@@ -1,0 +1,521 @@
+[
+  {
+    "ID": "Invoice Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cbTransactionType')]"
+    }
+  },
+  {
+    "ID": "Dealer Code",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cbDealerCode')]"
+    }
+  },
+  {
+    "ID": "Fleet Code",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cbCustomerCode')]"
+    }
+  },
+    {
+    "ID": "Open Authorization",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cbAuthorization')]"
+    }
+  },
+  {
+    "ID": "Dealer Invoice Number",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtInvoiceNumber_I')]"
+    }
+  },
+  {
+    "ID": "Invoice Date",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'dateDealerInvoiceDate_I')]"
+    }
+  },
+  {
+    "ID": "PO Line #",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'editRefDocLineNumber_I')]"
+    }
+  },
+  {
+    "ID": "Purchase Order Number",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtPoNumber')]"
+    }
+  },
+  {
+    "ID": "Note_1",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//textarea[contains(@id,'corSectionMemoComment_0')]"
+    }
+  },
+  {
+    "ID": "Note_2",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//textarea[contains(@id,'corSectionMemoComment_1')]"
+    }
+  },
+  {
+    "ID": "Fleet Item",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'editReceiverPartNumber_I')]"
+    }
+  },
+  {
+    "ID": "VMRS",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'editVMRSCode_I')]"
+    }
+  },
+  {
+    "ID": "UNSPSC",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'editUNSPSC_I')]"
+    }
+  },
+  {
+    "ID": "Manufacturer Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'editManufacturerName_I')]"
+    }
+  },
+  {
+    "ID": "Save and Continue",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//div[contains(@id,'btnContinue_CD')]/span"
+    }
+  },
+  {
+    "ID": "INVOICE_Save and Continue",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//div[contains(@id,'invoicePageHeader_btnHeaderDetContinue_CD')]/span"
+    }
+  },
+  {
+    "ID": "Same as Dealer Address",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'chkUseDealerUiAddress_S')]"
+    }
+  },
+  {
+    "ID": "Country",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cmbPosCountry')]"
+    }
+  },
+  {
+    "ID": "State/Province",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cmbPosProvince')]"
+    }
+  },
+  {
+    "ID": "State/Province_InputField",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'cmbPosProvince_I')]"
+    }
+  },
+  {
+    "ID": "Country_InputField",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'cmbPosCountry_I')]"
+    }
+  },
+  {
+    "ID": "Discrepancy Information",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//div[contains(@id,'dvDiscInfo')]"
+    }
+  },
+  {
+    "ID": "Invoice History",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Invoice History']"
+    }
+  },
+  {
+    "ID": "Continue",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//button[text()='Continue']"
+    }
+  },
+  {
+    "ID": "OK",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//button[text()='Ok']"
+    }
+  },
+  {
+    "ID": "Unit Number",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'grdVehicleInformation_cell0_5_txtReferenceValue_0_I')]"
+    }
+  },
+  {
+    "ID": "VIN Number",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'grdVehicleInformation_cell1_5_txtReferenceValue_1')]"
+    }
+  },
+  {
+    "ID": "Vehicle ID",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'grdVehicleInformation_cell2_5_txtReferenceValue_2')]"
+    }
+  },
+  {
+    "ID": "Vehicle Make",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'grdVehicleInformation_cell3_5_txtReferenceValue_3')]"
+    }
+  },
+  {
+    "ID": "Vehicle Year",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'grdVehicleInformation_cell4_5_txtReferenceValue_4')]"
+    }
+  },
+  {
+    "ID": "Vehicle Mileage",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'grdVehicleInformation_cell5_5_txtReferenceValue_5')]"
+    }
+  },
+  {
+    "ID": "Vehicle License",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'grdVehicleInformation_cell6_5_txtReferenceValue_6')]"
+    }
+  },
+  {
+    "ID": "Ref #",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'grdVehicleInformation_cell7_5_txtReferenceValue_7')]"
+    }
+  },
+  {
+    "ID": "Delivery Receipt",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'grdVehicleInformation_cell8_5_txtReferenceValue_8')]"
+    }
+  },
+  {
+    "ID": "Admin Override",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id,'chkPPVAdminOverride')]"
+    }
+  },
+  {
+    "ID": "Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cbEdityType')]"
+    }
+  },
+  {
+    "ID": "Edit_Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'UC_Section1_grdLineItems_ef0_cbEdityType_0')]"
+    }
+  },
+  {
+    "ID": "Item",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'grdLineItems_efnew_cbEditItem') and not(contains(@id, 'LP'))]"
+    }
+  },
+  {
+    "ID": "Edit_Item",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'editItem_0_I') and not(contains(@id, 'LP'))]"
+    }
+  },
+  {
+    "ID": "Quantity",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'UC_Section1_grdLineItems_efnew_editQuantity_I')]"
+    }
+  },
+  {
+    "ID": "Unit Price",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'editUnitPrice')]"
+    }
+  },
+  {
+    "ID": "Unit Of Measurement",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'UC_Section1_grdLineItems_efnew_cbEditUom')]"
+    }
+  },
+  {
+    "ID": "Item Description",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'editDescription')]"
+    }
+  },
+  {
+    "ID": "Edit_Item Description",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'UC_Section1_grdLineItems_ef0_editDescription_0_I')]"
+    }
+  },
+  {
+    "ID": "Core Price",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'editCorePrice')]"
+    }
+  },
+  {
+    "ID": "FET",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'UC_Section1_grdLineItems_efnew_editFET_ET')]"
+    }
+  },
+  {
+    "ID": "Add Line Item",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "(//span[text()='Add Line Item']//ancestor::div[contains(@id,'UC_Section') and contains(@class,'Button')])"
+    }
+  },
+  {
+    "ID": "Delete Section",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "(//span[text()='Delete Section']//ancestor::div[contains(@id,'UC_Section') and contains(@class,'Button')])"
+    }
+  },
+
+  {
+    "ID": "Add Tax",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Add Tax']"
+    }
+  },
+  {
+    "ID": "Tax Info Table",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'corcTaxes_grdTaxes_DXMainTable')]"
+    }
+  },
+  {
+    "ID": "Tax Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'corcTaxes_grdTaxes_DXEditor0')]"
+    }
+  },
+  {
+    "ID": "Tax ID",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'corcTaxes_grdTaxes_DXEditor1_I')]"
+    }
+  },
+  {
+    "ID": "Tax Description",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'corcTaxes_grdTaxes_DXEditor2_I')]"
+    }
+  },
+  {
+    "ID": "Amount",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'corcTaxes_grdTaxes_DXEditor3_I')]"
+    }
+  },
+  {
+    "ID": "Attachment",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'corcAttachments_UploadControl_TextBox0_FakeInput')]"
+    }
+  },
+  {
+    "ID": "Upload Attachments",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Upload Attachments']"
+    }
+  },
+  {
+    "ID": "Delete Attachment",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "(//table[contains(@id,'tblList')]//td/img)[1]"
+    }
+  },
+  {
+    "ID": "Save Invoice",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Save Invoice']"
+    }
+  },
+  {
+    "ID": "Submit Invoice",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Submit Invoice']"
+    }
+  },
+    {
+    "ID": "Delete Invoice",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Delete Invoice']"
+    }
+  },
+  {
+    "ID": "Save Line Item",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//a[contains(@id,'btnSave')]//span[text()='Save']"
+    }
+  },
+   {
+    "ID": "Description Error Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//td[contains(@id,'UC_Section1_grdLineItems_ef0_editDescription_0_ETC')]"
+    }
+  },
+  {
+    "ID": "Edit Line Item",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "(//span[text()='Edit']//parent::a[contains(@id,'UC_Section')])"
+    }
+  },
+  {
+    "ID": "Delete Line Item",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "(//span[text()='Delete']//parent::a[contains(@id,'UC_Section')])"
+    }
+  },
+  {
+    "ID": "Save Tax",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//a[contains(@id,'corcTaxes_grdTaxes_DXCBtn')]//span[text()='Save']"
+    }
+  },
+   {
+    "ID": "Edit Tax",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//a[contains(@id,'corcTaxes_grdTaxes_DXCBtn0')]//span[text()='Edit']"
+    }
+  },
+  {
+    "ID": "Delete Tax",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//a[contains(@id,'corcTaxes_grdTaxes_DXCBtn')]//span[text()='Delete']"
+    }
+  },
+  {
+    "ID": "New Tax",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//a[contains(@id,'corcTaxes_grdTaxes_DXCBtn')]//span[text()='New']"
+    }
+  },
+  {
+    "ID": "Override Invoice Validity",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id,'chkDoNotMoveToHistory_S_D')]"
+    }
+  },
+  {
+    "ID": "New_Item",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'grdLineItems_efnew_editItem_I') and not(contains(@id, 'LP'))]"
+    }
+  },
+  {
+    "ID": "Add Section",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Add Section']"
+    }
+  },
+  {
+    "ID": "Do not put hold for Dealer copy:",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'chkDealerCopy_S')]"
+    }
+  },
+  {
+    "ID": "Release",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Release']"
+    }
+  },
+  {
+    "ID": "Update",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Update']"
+    }
+  }
+]

@@ -1,0 +1,81 @@
+[
+   {
+      "ID":"Title",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//Span[contains(@id,'lblTitle')]"
+      }
+   },   {
+      "ID":"First Name",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//input[contains(@id,'FirstName')]"
+      }
+   },{
+      "ID":"Last Name",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//input[contains(@id,'LastName')]"
+      }
+   },{
+      "ID":"Work #",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//input[contains(@id,'Work')]"
+      }
+   },{
+      "ID":"Ext",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//input[contains(@id,'tbExt')]"
+      }
+   },{
+      "ID":"Cell #",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//input[contains(@id,'Cell')]"
+      }
+   },{
+      "ID":"Fax #",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//input[contains(@id,'Fax')]"
+      }
+   },{
+      "ID":"Email",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//input[contains(@id,'Email')]"
+      }
+   },{
+      "ID":"Current Password",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//input[contains(@id,'CurPassword')]"
+      }
+   },{
+      "ID":"New Password",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//input[contains(@id,'tbNewPassword')]"
+      }
+   },{
+      "ID":"Confirm New Password",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//input[contains(@id,'tbConfirmNewPassword')]"
+      }
+   },{
+      "ID":"Save User",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//span[text()='Save User']"
+      }
+   },{
+      "ID":"Submit",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//span[text()='Submit']"
+      }
+   }
+]

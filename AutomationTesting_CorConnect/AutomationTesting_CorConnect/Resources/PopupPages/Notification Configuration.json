@@ -1,0 +1,31 @@
+[
+   {
+      "ID":"Submit",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//span[contains(text(),'Submit')]"
+      }
+   },
+   {
+      "ID":"Activate Default",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'chkActivateDefaultUser_S_D')]"
+    }
+   },
+   {
+      "ID":"Overwrite All",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'chkOverwriteAll_S_D')]"
+    }
+   },
+   {
+      "ID":"Title",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//td[contains(text(),'Notification Configuration')]"
+      }
+   }
+   
+]

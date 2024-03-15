@@ -1,0 +1,2090 @@
+[
+  {
+    "ID": "TabList",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//ul[contains(@id,'pageCntr_RightPane_TC')]"
+    }
+  },
+  {
+    "ID": "Add New Relationship",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Add New Relationship']"
+    }
+  },
+  {
+    "ID": "Entity",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cboSelectedEntity')]"
+    }
+  },
+  {
+    "ID": "Relationship Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cboRelationshipType')]"
+    }
+  },
+  {
+    "ID": "Currency",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cboRelCurrency')]"
+    }
+  },
+  {
+    "ID": "Edit_Currency",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'Edit_currencyCode')]"
+    }
+  },
+  {
+    "ID": "Rel Currency Table",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'pnlRelCurrency')]"
+    }
+  },
+  {
+    "ID": "Account Configuration Tabs",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//td[contains(@id,'EnrollmentMenu')]"
+    }
+  },
+  {
+    "ID": "Applicable to Transaction Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cboRelTransaction') or contains(@id, 'TransactionType')]"
+    }
+  },
+  {
+    "ID": "Data Requirements",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cboRelDataRequirements')]"
+    }
+  },
+  {
+    "ID": "Applicable to Invoice Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'ApplicableToInvType')]"
+    }
+  },
+  {
+    "ID": "Data Requirements Table",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'pnlRelDataReq')]"
+    }
+  },
+  {
+    "ID": "Core Price Check Table",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'pnlRelCheckCorePrice')]"
+    }
+  },
+  {
+    "ID": "Credit Limit Variance Table",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'pnlRelCreditLimitVariance')]"
+    }
+  },
+  {
+    "ID": "Pricing Type Table",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'pnlRelPricingType')]"
+    }
+  },
+  {
+    "ID": "Invoice Delivery Table",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'pnlRelInvoiceDelivery')]"
+    }
+  },
+  {
+    "ID": "Transaction currency must match",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id,'chktranCurrencyMustMatch')]"
+    }
+  },
+  {
+    "ID": "Allow multi-currency transaction",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id,'chkMultiCurrency')]"
+    }
+  },
+  {
+    "ID": "Transaction Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'TransactionType')]"
+    }
+  },
+  {
+    "ID": "Core Price Check Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cboRelCheckCorePrice') and not(contains(@id, 'TransactionType'))]"
+    }
+  },
+  {
+    "ID": "Credit Tolerance Percentage",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtRelCreditLimitVariance')]"
+    }
+  },
+  {
+    "ID": "Price Audit Credit Transactions",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cboRelCreditPriceAuditTransactions')]"
+    }
+  },
+  {
+    "ID": "Applicable To",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cboRelCreditPriceAuditApplicableTo')]"
+    }
+  },
+  {
+    "ID": "Method",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cboRelInvoiceDeliveryMethod')]"
+    }
+  },
+  {
+    "ID": "Method Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'pnlRelInvoiceDelivery_ASPxLabel31')][text()='*']"
+    }
+  },
+  {
+    "ID": "Edit_Method",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cboEdit_invoiceDeliveryMethodId')]"
+    }
+  },
+  {
+    "ID": "Structure",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cboRelInvoiceDeliveryStructure')]"
+    }
+  },
+  {
+    "ID": "Structure Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'pnlRelInvoiceDelivery_ASPxLabel34')][text()='*']"
+    }
+  },
+  {
+    "ID": "Dealer Invoice Copy",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'chkRelHoldFlag_S')]//ancestor::span[contains(@class, 'CheckBox')]"
+    }
+  },
+  {
+    "ID": "Dealer Invoice Copy Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'pnlRelInvoiceDelivery_ASPxLabel36')][text()='*']"
+    }
+  },
+  {
+    "ID": "Pricing Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'TypeCascade')]"
+    }
+  },
+  {
+    "ID": "Edit_Pricing Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cboEdit_pricingTypeId')]"
+    }
+  },
+  {
+    "ID": "Pricing Type Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'Type_ctl35')][text()='*']"
+    }
+  },
+  {
+    "ID": "Precendence Order",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'PrecendenceOrder')]"
+    }
+  },
+  {
+    "ID": "Edit_Precendence Order",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cboEdit_precendenceOrderId')]"
+    }
+  },
+  {
+    "ID": "Precendence Order Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'Type_ctl41')][text()='*']"
+    }
+  },
+  {
+    "ID": "RelationShipTable",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'gvRelation_DXMainTable')]"
+    }
+  },
+  {
+    "ID": "RelationShipTableHeader",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//td[contains(@id,'gvRelation') and contains(@class,'dxgvHeader')]"
+    }
+  },
+  {
+    "ID": "Credit Audit History Table",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'Acc_grid_DXMainTable')]"
+    }
+  },
+  {
+    "ID": "Credit Audit History Table Header",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//td[contains(@id,'Acc_grid')]"
+    }
+  },
+
+  {
+    "ID": "Edit Table",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'Acc_grid_DXMainTable')]"
+    }
+  },
+  {
+    "ID": "Edit Table Header",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//td[contains(@id,'Acc_grid')]"
+    }
+  },
+  {
+    "ID": "Edit_Transaction Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cboEdit_transactionTypeId')]"
+    }
+  },
+  {
+    "ID": "Edit_Price Audit Credit Transactions",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cboEdit_priceAuditCreditTransactionId')]"
+    }
+  },
+  {
+    "ID": "Edit_Applicable To",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'Edit_applicableToId')]"
+    }
+  },
+  {
+    "ID": "Edit_Calculate GMC + Additional GMC",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'ChkEdit_enableGMCCalculation_S')]"
+    }
+  },
+  {
+    "ID": "Edit_Calculate Rebates",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'ChkEdit_enableRebatesCalculation_S')]"
+    }
+  },
+  {
+    "ID": "Calculate GMC + Additional GMC",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'chkCalculateGmc')]"
+    }
+  },
+  {
+    "ID": "Calculate Rebates",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'chkCalculateRebates')]"
+    }
+  },
+  {
+    "ID": "Table_Credit Price Audit",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'pnlRelCreditPriceAudit')]"
+    }
+  },
+  {
+    "ID": "Reseller Invoice Required Table",
+    "Name": "Reseller Invoice Required Table",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'pnlResellerInvoiceRequired')]"
+    }
+  },
+  {
+    "ID": "ResellerInvoiceRequiredMessageConstant",
+    "Name": "Reseller Invoice Required Message Constant",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'pnlResellerInvoiceRequired')]//span[contains(@id, 'ResellerInvoiceRequiredMessageConstant')]"
+    }
+  },
+  {
+    "ID": "ResellerInvoiceRequiredMessage",
+    "Name": "Reseller Invoice Required Message",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'pnlResellerInvoiceRequired')]//span[contains(@id, 'ResellerInvoiceRequiredMessage')][2]"
+    }
+  },
+  {
+    "ID": "ResellerRequiredFieldErrorMessage",
+    "Name": "ResellerRequiredFieldErrorMessage",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'pnlResellerInvoiceRequired')]//td[contains(@id, 'ResellerInvoiceRequired_EC') and contains(@style, 'visibility: visible')]//td[contains(@id, 'ResellerInvoiceRequired')]"
+    }
+  },
+  {
+    "ID": "Reseller Invoice Required",
+    "Name": "Reseller Invoice Required",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cboResellerInvoiceRequired')]"
+    }
+  },
+  {
+    "ID": "ResellerInvoiceRequiredError",
+    "Name": "ResellerInvoiceRequiredError",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//div[contains(@id, 'pnlResellerInvoiceRequired')]//span[contains(@id, 'lblErrorResellerInvoiceRequired')]"
+    }
+  },
+  {
+    "ID": "Main Table",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'Acc_grid_DXMainTable')]"
+    }
+  },
+  {
+    "ID": "Main Table Header",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//td[contains(@id,'Acc_grid')]"
+    }
+  },
+  {
+    "ID": "EditResellerId",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cboEdit_resellerId')]"
+    }
+  },
+  {
+    "ID": "RelationshipTypeInput",
+    "Name": "RelationshipTypeInput",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'RelationshipType_I') and contains(@class, 'EditArea')]"
+    }
+  },
+  {
+    "ID": "Requestor Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'RequestorName')]"
+    }
+  },
+  {
+    "ID": "Requestor Phone",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'RequestorPhone')]"
+    }
+  },
+  {
+    "ID": "Requestor Email",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'RequestorEmail')]"
+    }
+  },
+  {
+    "ID": "Requestor Company",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'RequestorCompany')]"
+    }
+  },
+  {
+    "ID": "Enrollment Status",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'EnrollmentStatus')]"
+    }
+  },
+  {
+    "ID": "Display Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'DisplayName')]"
+    }
+  },
+  {
+    "ID": "Display Name Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'lblDisplayNameRequired')]"
+    }
+  },
+  {
+    "ID": "Legal Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'LegalName')]"
+    }
+  },
+  {
+    "ID": "Legal Name Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'lblLegalNameRequired')]"
+    }
+  },
+  {
+    "ID": "Language",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'Language')]"
+    }
+  },
+  {
+    "ID": "Language Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'lblLanguage')]"
+    }
+  },
+  {
+    "ID": "Enrollment Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'EnrollmentType')]"
+    }
+  },
+  {
+    "ID": "Enrollment Type Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'lblEnrollmentType')]"
+    }
+  },
+  {
+    "ID": "Location Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'LocationType')]"
+    }
+  },
+  {
+    "ID": "Location Type Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'lblLocationTypeRequired')]"
+    }
+  },
+  {
+    "ID": "Parent Account Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'ParentACName')]"
+    }
+  },
+  {
+    "ID": "Master Location",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'MasterFlag') and contains(@class, 'CheckBox')]"
+    }
+  },
+  {
+    "ID": "DDE Flag",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'chkDDE')]//ancestor::span[contains(@class, 'CheckBox')]"
+    }
+  },
+  {
+    "ID": "Account Code",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'CorcentricCode')]"
+    }
+  },
+  {
+    "ID": "Account Code Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'lblCorcentricCode')]"
+    }
+  },
+  {
+    "ID": "Accounting Code",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'AccountingCode')]"
+    }
+  },
+  {
+    "ID": "Accounting Code Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'lblAccountingCode')]"
+    }
+  },
+  {
+    "ID": "Vendor Payment Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'VendorPaymentType')]"
+    }
+  },
+  {
+    "ID": "Deactivated",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'chkDeactivated') and contains(@class, 'CheckBox')]"
+    }
+  },
+  {
+    "ID": "Terminated",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'chkTerminated')]"
+    }
+  },
+  {
+    "ID": "Terminated Date",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'termDate')]"
+    }
+  },
+  {
+    "ID": "Termination Notes",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//textarea[contains(@id, 'terminationNotes')]"
+    }
+  },
+  {
+    "ID": "Eligible for Transaction Submission",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'chkTransactionSubmission') and contains(@class, 'CheckBox')]"
+    }
+  },
+  {
+    "ID": "Franchise Code",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'FranchiseCode_LBT')]"
+    }
+  },
+  {
+    "ID": "Selected Franchise Codes",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'SelectedFranchiseCodes_LBT')]"
+    }
+  },
+  {
+    "ID": "Invoice Forwarding",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'chkInvoiceForwarding') and contains(@class, 'CheckBox')]"
+    }
+  },
+  {
+    "ID": "Invoice Forwarding Start Date",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'InvFwdStartDate')]"
+    }
+  },
+  {
+    "ID": "Address1",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//textarea[contains(@id, 'Address1')]"
+    }
+  },
+  {
+    "ID": "Address1 Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'lblAddressRequired')]"
+    }
+  },
+  {
+    "ID": "Address2",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//textarea[contains(@id, 'Address2')]"
+    }
+  },
+  {
+    "ID": "City",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'City')]"
+    }
+  },
+  {
+    "ID": "City Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'lblCityRequired')]"
+    }
+  },
+  {
+    "ID": "Country",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'Country')]"
+    }
+  },
+  {
+    "ID": "Country Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'lblCountryRequired')]"
+    }
+  },
+  {
+    "ID": "State",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'State')]"
+    }
+  },
+  {
+    "ID": "State Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'lblStateRequired')]"
+    }
+  },
+  {
+    "ID": "Zip",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'Zip')]"
+    }
+  },
+  {
+    "ID": "Zip Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'lblZipRequired')]"
+    }
+  },
+  {
+    "ID": "County",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'County')]"
+    }
+  },
+  {
+    "ID": "Phone Number",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'PhoneNumber')]"
+    }
+  },
+  {
+    "ID": "Currency Dropdown",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'Currency')]"
+    }
+  },
+  {
+    "ID": "Dun Number",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'DunNumber')]"
+    }
+  },
+  {
+    "ID": "Federal Tax ID Number",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'FederalTaxIdNumber')]"
+    }
+  },
+  {
+    "ID": "Entity Code",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'EntityCode')]"
+    }
+  },
+  {
+    "ID": "Community Code",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'CommunityCode')]"
+    }
+  },
+  {
+    "ID": "Program Start Date",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'ProgramStartDate')]"
+    }
+  },
+  {
+    "ID": "Program Start Date Input",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'ProgramStartDate')]"
+    }
+  },
+  {
+    "ID": "Program Start Date Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//tr[contains(@id, 'programStartDateRow')]//span[text()='*']"
+    }
+  },
+  {
+    "ID": "Sub Community",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'SubCommunity')]"
+    }
+  },
+  {
+    "ID": "Dealer Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'flex_26')]"
+    }
+  },
+  {
+    "ID": "Non Transactionable Locations",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'chkAllowbillingNonTransactionablelocations') and contains(@class, 'CheckBox')]"
+    }
+  },
+  {
+    "ID": "Do Not Charge Fee",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'chkDoNotChargeFee') and contains(@class, 'CheckBox')]"
+    }
+  },
+  {
+    "ID": "Pre Authorization",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'chkhasPreAuth') and contains(@class, 'CheckBox')]"
+    }
+  },
+  {
+    "ID": "Fleet Count",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'FleetCount')]"
+    }
+  },
+  {
+    "ID": "No Program Code Assignment",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[@id='chkNoProgramCodeAssignment_S_D']"
+    }
+  },
+  {
+    "ID": "Provider Count",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'FleetCount')]"
+    }
+  },
+  {
+    "ID": "Fleet Count Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'FleetCount')]/ancestor::td[contains(@class, 'spaceUnder')]/preceding-sibling::td//span[text()='*']"
+    }
+  },
+  {
+    "ID": "Anticipated Monthly Spend",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'spendvolume')]"
+    }
+  },
+  {
+    "ID": "Anticipated Monthly Spend Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'spendvolume')]/ancestor::td[contains(@class, 'spaceUnder')]/preceding-sibling::td//span[text()='*']"
+    }
+  },
+  {
+    "ID": "Requested Credit Line",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'CreditLine')]"
+    }
+  },
+  {
+    "ID": "Requested Credit Line Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'CreditLine')]/ancestor::td[contains(@class, 'spaceUnder')]/preceding-sibling::td//span[text()='*']"
+    }
+  },
+  {
+    "ID": "Program Code",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[@id='lbProgramCodes']"
+    }
+  },
+  {
+    "ID": "Program Code Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//tr[contains(@id, 'programCodeRow')]//span[text()='*']"
+    }
+  },
+  {
+    "ID": "Credit Limit",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'CreditLimit')]"
+    }
+  },
+  {
+    "ID": "NA Manager",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'NAManager')]"
+    }
+  },
+  {
+    "ID": "Collector",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'Collector')]"
+    }
+  },
+  {
+    "ID": "Customer Tier",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'CustomerTier')]"
+    }
+  },
+  {
+    "ID": "Upload Tax Form",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'FormUpload')]/ancestor::td[contains(@class, 'spaceUnder')]/preceding-sibling::td//span[text()='Upload Tax Form:']"
+    }
+  },
+  {
+    "ID": "Tax Form Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'TaxFormName')]"
+    }
+  },
+  {
+    "ID": "Tax Info",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'chkTaxExempt')]/ancestor::span[contains(@class, 'CheckBox')]"
+    }
+  },
+  {
+    "ID": "Direct Bill Code",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'DirectBillcode')]"
+    }
+  },
+  {
+    "ID": "Credit Manager Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Credit Manager Name']/ancestor::td[contains(@class, 'spaceUnder')]/following-sibling::td//input"
+    }
+  },
+  {
+    "ID": "Credit Manager Email",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Credit Manager Email']/ancestor::td[contains(@class, 'spaceUnder')]/following-sibling::td//input"
+    }
+  },
+  {
+    "ID": "Credit Manager Phone Number",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Credit Manager Phone Number']/ancestor::td[contains(@class, 'spaceUnder')]/following-sibling::td//input"
+    }
+  },
+  {
+    "ID": "Invoice Approval",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'InvoiceApproval')]"
+    }
+  },
+  {
+    "ID": "Purchasing Level",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Purchasing Level']/ancestor::td[contains(@class, 'spaceUnder')]/following-sibling::td//table"
+    }
+  },
+  {
+    "ID": "Community Invoices Forwarded to",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'CommunityCodes')]"
+    }
+  },
+  {
+    "ID": "Core Price Adjustment Table",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'pnlRelCorePriceAdjustment')]"
+    }
+  },
+  {
+    "ID": "Core Price Adjustment Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'CorePriceAdjustmentType')]"
+    }
+  },
+  {
+    "ID": "Accounting Document Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'AccountingDocumentType')]"
+    }
+  },
+  {
+    "ID": "Edit_Core Price Adjustment Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'Edit_priceAdjustmentType')]"
+    }
+  },
+  {
+    "ID": "Edit_Accounting Document Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cboEdit_documentTypeId')]"
+    }
+  },
+  {
+    "ID": "Accounting Document Type Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'Type_ctl47')][text()='*']"
+    }
+  },
+  {
+    "ID": "Current Entity Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[@id='lblCurEntity']"
+    }
+  },
+  {
+    "ID": "Invoice Validity Days Table",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'pnlRelInvoiceValidityDays')]"
+    }
+  },
+  {
+    "ID": "Validity Days",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtInvoiceValidityDays')]"
+    }
+  },
+  {
+    "ID": "Approver Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'ApproverName')]"
+    }
+  },
+  {
+    "ID": "Approver Phone Number",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'ApproverPhoneNumber')]"
+    }
+  },
+  {
+    "ID": "Approver Email",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'ApproverEmail')]"
+    }
+  },
+  {
+    "ID": "Start Date",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'StartDate')]"
+    }
+  },
+  {
+    "ID": "End Date",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'EndDate')]"
+    }
+  },
+  {
+    "ID": "Note",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//textarea[contains(@id,'Note_I')]"
+    }
+  },
+  {
+    "ID": "Applicable to Transaction Type Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Applicable to Transaction Type']//parent::td//following-sibling::td//span[text()='*']"
+    }
+  },
+  {
+    "ID": "Applicable to Invoice Type Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Applicable to Invoice Type']//parent::td//following-sibling::td//span[text()='*']"
+    }
+  },
+  {
+    "ID": "Validity Days Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Validity Days']//parent::td//following-sibling::td//span[text()='*']"
+    }
+  },
+  {
+    "ID": "Approver Name Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Approver Name']//parent::td//following-sibling::td//span[text()='*']"
+    }
+  },
+  {
+    "ID": "Approver Phone Number Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Approver Phone Number']//parent::td//following-sibling::td//span[text()='*']"
+    }
+  },
+  {
+    "ID": "Approver Email Address Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Approver Email Address']//parent::td//following-sibling::td//span[text()='*']"
+    }
+  },
+  {
+    "ID": "Start Date Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Start Date']//parent::td//following-sibling::td//span[text()='*']"
+    }
+  },
+  {
+    "ID": "Statement Delivery Table",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'pnlRelStatementDelivery')]"
+    }
+  },
+  {
+    "ID": "Statement Delivery Method",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'StatementDeliveryMethod')]"
+    }
+  },
+  {
+    "ID": "Statement Delivery Method Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='*']//parent::td//preceding-sibling::td//span[text()='Method']"
+    }
+  },
+  {
+    "ID": "Statement Delivery Structure",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'StatementDeliveryStructure')]"
+    }
+  },
+  {
+    "ID": "Statement Delivery Structure Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='*']//parent::td//preceding-sibling::td//span[text()='Method']"
+    }
+  },
+  {
+    "ID": "Edit_Statement Delivery Structure",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'Edit_statementDeliveryStructureId')]"
+    }
+  },
+  {
+    "ID": "Edit_Statement Delivery Method",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'Edit_statementDeliveryMethodId')]"
+    }
+  },
+  {
+    "ID": "Edit_Allow multi-currency transaction",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id,'Edit_allowMultiCurrency') and contains(@class, 'CheckBox')]"
+    }
+  },
+  {
+    "ID": "Finance Charge Exempt",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'chkfinanceChargeExempt') and contains(@class, 'CheckBox')]"
+    }
+  },
+  {
+    "ID": "Corcentric Location",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'chkcorcentricLocation') and contains(@class, 'CheckBox')]"
+    }
+  },
+  {
+    "ID": "New Location Frame",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//iframe[contains(@id, 'newLocFrame')]"
+    }
+  },
+  {
+    "ID": "Copy From Master",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@class, 'CheckBox')]//ancestor::td//following-sibling::td//label[contains(text(), 'Copy from Parent')]"
+    }
+  },
+  {
+    "ID": "Selection Box Available",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'custom_lbAvailable') and contains(@id, 'LBT')]"
+    }
+  },
+  {
+    "ID": "Payment Terms Table",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'pnlRelPaymentTerms')]"
+    }
+  },
+  {
+    "ID": "Payment Terms",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cboRelPaymentTerms')]"
+    }
+  },
+  {
+    "ID": "Payment Terms Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Payment Terms']//parent::td//following-sibling::td//span[text()='*']"
+    }
+  },
+  {
+    "ID": "Billing Cycle",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'RelBillingCycle')]"
+    }
+  },
+  {
+    "ID": "Billing Cycle Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Billing Cycle']//parent::td//following-sibling::td//span[text()='*']"
+    }
+  },
+  {
+    "ID": "Ending Day Of The Week",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'RelBillingCycle')]"
+    }
+  },
+  {
+    "ID": "Statement End Day",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'RelEndingDayOfWeek')]"
+    }
+  },
+  {
+    "ID": "Statement End Day Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Statement End Day']//parent::td//following-sibling::td//span[text()='*']"
+    }
+  },
+  {
+    "ID": "Ending Day Of The Week Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id,'lblEndingDayOfWeek')]"
+    }
+  },
+  {
+    "ID": "Billing Cycle Start Date",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'BillingCycleStartDate_I')]"
+    }
+  },
+  {
+    "ID": "Billing Cycle Start Date Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Billing Cycle Start Date']//parent::td//following-sibling::td//span[text()='*']"
+    }
+  },
+  {
+    "ID": "Statement Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'StatementType')]"
+    }
+  },
+  {
+    "ID": "Statement Type Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Statement Type']//parent::td//following-sibling::td//span[text()='*']"
+    }
+  },
+  {
+    "ID": "Acceleration Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'AccelerationType')]"
+    }
+  },
+  {
+    "ID": "Acceleration Program",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'AccelerationProgram')]"
+    }
+  },
+  {
+    "ID": "Effective Date Based On",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'EffectiveDateBasedOn')]"
+    }
+  },
+  {
+    "ID": "Effective Date Based On Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Effective Date Based On']//parent::td//following-sibling::td//span[text()='*']"
+    }
+  },
+  {
+    "ID": "Effective Date",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'deEffectiveDate_I')]"
+    }
+  },
+  {
+    "ID": "Effective Date Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Effective Date']//parent::td//following-sibling::td//span[text()='*']"
+    }
+  },
+  {
+    "ID": "PO Acceptance Table",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'pnlRelPOAcceptanceRule')]"
+    }
+  },
+  {
+    "ID": "Line Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'multiSelect_cboRelPOAcceptanceRuleLineType')]"
+    }
+  },
+  {
+    "ID": "Allow New PO",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id,'AllowNewPO') and contains(@class, 'CheckBox')]"
+    }
+  },
+  {
+    "ID": "Allow Change PO",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id,'AllowChangePO_S_D') and contains(@class, 'CheckBox')]"
+    }
+  },
+  {
+    "ID": "Allow Duplicate PO",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id,'AllowDupPO_S_D') and contains(@class, 'CheckBox')]"
+    }
+  },
+  {
+    "ID": "Apply Pricing Rules to PO",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id,'ApplyPricingRulestoPO_S_D') and contains(@class, 'CheckBox')]"
+    }
+  },
+  {
+    "ID": "Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cbContactType')]"
+    }
+  },
+  {
+    "ID": "First Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtfirstName_I')]"
+    }
+  },
+  {
+    "ID": "Last Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtLastName_I')]"
+    }
+  },
+  {
+    "ID": "Title",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtTitle_I')]"
+    }
+  },
+  {
+    "ID": "Phone",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'txtPhone_I')]"
+    }
+  },
+  {
+    "ID": "Email",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'txtEmail_I')]"
+    }
+  },
+  {
+    "ID": "Settlement Based Due Date calculation",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id,'chkDateBasedDueDateCalc_S_D')]"
+    }
+  },
+  {
+    "ID": "Term Description",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtTermDescription_I')]"
+    }
+  },
+  {
+    "ID": "Variable Due Date calculation",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtVariableDueDateCalc_I')]"
+    }
+  },
+  {
+    "ID": "Override Payment Term Description (days from current date)",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id,'chkOverridePaymentTerm_S_D')]"
+    }
+  },
+  {
+    "ID": "Override If Dealer Invoice Date",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtOverridePaymentTermDays_I')]"
+    }
+  },
+  {
+    "ID": "Payment Terms Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Payment Terms'and contains(@id, 'lbl')]"
+    }
+  },
+  {
+    "ID": "Settlement Based Due Date calculation Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Settlement Based Due Date calculation']"
+    }
+  },
+  {
+    "ID": "Term Description Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Term Description']"
+    }
+  },
+  {
+    "ID": "Variable Due Date calculation Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Variable Due Date calculation']"
+    }
+  },
+  {
+    "ID": "Billing Cycle Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Billing Cycle']"
+    }
+  },
+  {
+    "ID": "Statement End Day Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Statement End Day']"
+    }
+  },
+  {
+    "ID": "Statement Type Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Statement Type']"
+    }
+  },
+  {
+    "ID": "Acceleration Type Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Acceleration Type']"
+    }
+  },
+  {
+    "ID": "Acceleration Program Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Acceleration Program']"
+    }
+  },
+  {
+    "ID": "Effective Date Based On Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Effective Date Based On']"
+    }
+  },
+  {
+    "ID": "Effective Date Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Effective Date']"
+    }
+  },
+  {
+    "ID": "Override Payment Term Description (days from current date) Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Override Payment Term Description (days from current date)']"
+    }
+  },
+  {
+    "ID": "Override If Dealer Invoice Date Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Override If Dealer Invoice Date < Days From Current Date']"
+    }
+  },
+  {
+    "ID": "Billing Cycle Start Date DD",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'BillingCycleStartDate')]"
+    }
+  },
+  {
+    "ID": "Effective Date DD",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'deEffectiveDate')]"
+    }
+  },
+  {
+    "ID": "Relationship Grid Table",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'pnlDynamicGridView')]"
+    }
+  },
+  {
+    "ID": "Payment Terms Table Header",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//td[contains(@id,'Acc_grid')]"
+    }
+  },
+  {
+    "ID": "Edit_Payment Terms",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'cboEdit_paymentTermsId')]"
+    }
+  },
+  {
+    "ID": "Edit_Term Description",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'txtEdit_termDescription_I')]"
+    }
+  },
+  {
+    "ID": "Edit_Override Payment Term Description (days from current date)",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id,'ChkEdit_isOverrideTermDescription_S_D')]"
+    }
+  },
+  {
+    "ID": "Edit_Override If Dealer Invoice Date",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtEdit_overrideTermDescriptionDays_I')]"
+    }
+  },
+  {
+    "ID": "Edit_Effective Date",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'dateEdit_startDate_I')]"
+    }
+  },
+  {
+    "ID": "Corcentric Electronic Fee PCT",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtRelCorcentricElectronicFeePCT')]"
+    }
+  },
+  {
+    "ID": "Corcentric Paper Fee PCT",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtRelCorcentricPaperFeePCT')]"
+    }
+  },
+  {
+    "ID": "Corcentric Electronic Credit Fee PCT",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtRelCorcentricElectronicCreditFeePCT')]"
+    }
+  },
+  {
+    "ID": "Corcentric Paper Credit Fee PCT",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtRelCorcentricPaperCreditFeePCT')]"
+    }
+  },
+  {
+    "ID": "Community Fee Table",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'pnlRelCommunityFee')]"
+    }
+  },
+  {
+    "ID": "Community Fee Adjustment Rate PCT",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtRelCommunityFeeAdjustmentRatePCT')]"
+    }
+  },
+  {
+    "ID": "Corcentric Electronic Fee PCT Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Corcentric Electronic Fee PCT']//parent::td//following-sibling::td//span[text()='*']"
+    }
+  },
+  {
+    "ID": "Corcentric Paper Fee PCT Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Corcentric Paper Fee PCT']//parent::td//following-sibling::td//span[text()='*']"
+    }
+  },
+  {
+    "ID": "Corcentric Electronic Credit Fee PCT Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Corcentric Electronic Credit Fee PCT']//parent::td//following-sibling::td//span[text()='*']"
+    }
+  },
+  {
+    "ID": "Corcentric Paper Credit Fee PCT Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Corcentric Paper Credit Fee PCT']//parent::td//following-sibling::td//span[text()='*']"
+    }
+  },
+  {
+    "ID": "Community Fee Adjustment Rate PCT Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Community Fee Adjustment Rate PCT']//parent::td//following-sibling::td//span[text()='*']"
+    }
+  },
+  {
+    "ID": "Processing Fee Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cboRelProcessingFee')]"
+    }
+  },
+  {
+    "ID": "Processing Fee Value Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cboRelProcessingFeeValue')]"
+    }
+  },
+  {
+    "ID": "Processing Fee Value",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'txtRelProcessingFreeValue_I')]"
+    }
+  },
+  {
+    "ID": "For Credit",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'chkForCredit_S_D')]"
+    }
+  },
+  {
+    "ID": "Effective Date Processing Fee",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'dateProcessingFeeStartDate')]"
+    }
+  },
+  {
+    "ID": "Processing Fee Table",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'pnlRelProcessingFee')]"
+    }
+  },
+  {
+    "ID": "Corcentric Electronic Fee Value Edit Box",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtEdit_corcentricElectronicFeePCT')]"
+    }
+  },
+  {
+    "ID": "New_Payment Terms",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'cboEdit_paymentTermsId')]"
+    }
+  },
+  {
+    "ID": "New_Settlement Based Due Date calculation",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'ChkEdit_dateBasedDueDateCalc_S_D')]"
+    }
+  },
+  {
+    "ID": "New_Term Description",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'txtEdit_termDescription_I')]"
+    }
+  },
+  {
+    "ID": "New_Variable Due Date calculation",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'txtEdit_variableDueDateCalc_I')]"
+    }
+  },
+  {
+    "ID": "New_Billing Cycle",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'cboEdit_billingCycleId')]"
+    }
+  },
+  {
+    "ID": "New_Statement Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'cboEdit_statementTypeId')]"
+    }
+  },
+  {
+    "ID": "New_Acceleration Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'cboEdit_accelerationTypeId')]"
+    }
+  },
+  {
+    "ID": "New_Acceleration Program",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'cboEdit_accelerationProgramId')]"
+    }
+  },
+  {
+    "ID": "New_Effective Date Based On",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'cboEdit_EffectiveDateBasedOnId')]"
+    }
+  },
+  {
+    "ID": "New_Effective Date",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'dateEdit_startDate_I')]"
+    }
+  },
+  {
+    "ID": "New_Override Payment Term Description (days from current date)",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'ChkEdit_isOverrideTermDescription_S_D')]"
+    }
+  },
+  {
+    "ID": "New_Override If Dealer Invoice Date",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'txtEdit_overrideTermDescriptionDays_I')]"
+    }
+  },
+  {
+    "ID": "Delete Second Relation",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//a[contains(@id,'pageCntr_RightPane_pnlDynamicGridView_dynamicGridView_Acc_grid_DXCBtn5')]//span[text()='Delete']"
+    }
+  },
+  {
+    "ID": "New_Statement End Day",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'cboEdit_endingDayOfWeek')]"
+    }
+  },
+  {
+    "ID": "Tax Table",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'pnlRelTax')]"
+    }
+  },
+  {
+    "ID": "FET Tax Exempt",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'chkRelFETTax_S')]//ancestor::span[contains(@class, 'CheckBox')]"
+    }
+  },
+  {
+    "ID": "Tax ID Number",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'pageCntr_RightPane_pnlRelTax_txtRelTaxIdNumber_I')]"
+    }
+  },
+  {
+    "ID": "Tax Exempt Number",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'pageCntr_RightPane_pnlRelTax_txtRelTaxExemptionNumber_I')]"
+    }
+  },
+  {
+    "ID": "Invoice must have Dealer's VAT Tax ID for CAD Dealer",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'chkVATTaxID_S')]//ancestor::span[contains(@class, 'CheckBox')]"
+    }
+  },
+  {
+    "ID": "Tax Calculation",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cboRelUseAvalara')]"
+    }
+  },
+  {
+    "ID": "Tax Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cboRelTaxType')]"
+    }
+  },
+  {
+    "ID": "Line Type Tax",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cboRelLineType')]"
+    }
+  },
+  {
+    "ID": "Line Price Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cboRelLinePriceType')]"
+    }
+  },
+  {
+    "ID": "Tax Rate",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'txtRelTaxRate_I')]"
+    }
+  },
+  {
+    "ID": "Tax Type not Required",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'TaxTypeNotRequired')]"
+    }
+  },
+  {
+    "ID": "Enhanced Duplicate Check Table",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'pnlEnhancedDuplicateCheck')]"
+    }
+  },
+  {
+    "ID": "Match On Fleet",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cboRelEnhancedDuplicate')]"
+    }
+  },
+  {
+    "ID": "Match On Fleet Edit",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cboEdit_checkRuleId')]"
+    }
+  },
+  {
+    "ID": "Number of years from previous Dealer Invoice Date",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'YearsForDuplicateCheck')]"
+    }
+  },
+  {
+    "ID": "Number of years from previous Dealer Invoice Date Edit",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtEdit_noOfYears_I')]"
+    }
+  },
+  {
+    "ID": "Tax Error",
+    "Name": "TaxError",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//div[contains(@id, 'pnlRelTax')]//span[contains(@id, 'lblErrorRelTax')]"
+    }
+  },
+  {
+    "ID": "Core Price Type Table",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'pnlRelCorePriceType')]"
+    }
+  },
+  {
+    "ID": "Fax",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'Fax')]"
+    }
+  },
+  {
+    "ID": "Zip/Postal Code",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'Zip')]"
+    }
+  },
+  {
+    "ID": "Payment Method Table Header",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//td[contains(@id,'Acc_grid')]"
+    }
+  },
+  {
+    "ID": "Edit Payment Method Table",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'Acc_grid_DXMainTable')]"
+    }
+  },
+  {
+    "ID": "Financial Handling Table",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'pnlRelFinancialHandling')]"
+    }
+  },
+  {
+    "ID": "Payment Method Table",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'pnlRelPaymentMethod')]"
+    }
+  },
+  {
+    "ID": "Financial Handling Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cboRelFinancialHandlingType')]"
+    }
+  },
+  {
+    "ID": "Payment Method Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cboRelPaymentMethod')]"
+    }
+  },
+  {
+    "ID": "Edit Payment Method Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cboEdit_paymentMethodId')]"
+    }
+  },
+  {
+    "ID": "Enable Payment Portal",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'chkEnablePaymentPortal_S_D') and contains(@class, 'CheckBox')]"
+    }
+  },
+  {
+    "ID": "Tax ID Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'cbTaxIDType')]"
+    }
+  },
+  {
+    "ID": "Tax Classification",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'cbTaxClassification')]"
+    }
+  }
+]

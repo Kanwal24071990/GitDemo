@@ -1,0 +1,50 @@
+[
+  {
+    "ID": "Credit History",
+    "Name": "Credit History",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//div[contains(@id,'btnHistory')]"
+    }
+  },
+  {
+    "ID": "Billing Location",
+    "Name": null,
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cbBillingLocation')]"
+    }
+  },
+  {
+    "ID": "New Credit Limit",
+    "Name": null,
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtNewCreditLimit_I')]"
+    }
+  },
+  {
+    "ID": "Update",
+    "Name": null,
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Update' and not(ancestor::div[contains(@style,'display:none')]) and not(ancestor::div[contains(@style,'display: none')])]"
+    }
+  },
+  {
+    "ID": "Current Credit Limit Hidden",
+    "Name": null,
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtCurrentCreditLimit') and contains(@type,'hidden')]"
+    }
+  },
+  {
+    "ID": "Current Credit Limit",
+    "Name": null,
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtCurrentCreditLimit') and not (contains(@type,'hidden'))]"
+    }
+  }
+]

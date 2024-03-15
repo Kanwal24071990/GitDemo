@@ -1,0 +1,41 @@
+[
+	{
+		"ID": "Locale settings",
+		"Name": null,
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'cbPreference06')]"
+		}
+	},
+	{
+		"ID": "Default Search Type",
+		"Name": null,
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'cbPreference07')]"
+		}
+	},
+	{
+		"ID": "Number of rows displayed per page of grid",
+		"Name": null,
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//input[contains(@id,'txtPreference01')]"
+		}
+	},
+	{
+		"ID": "Number of rows displayed per page of dropdown",
+		"Name": null,
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//input[contains(@id,'txtPreference05')]"
+		}
+	},
+	{
+      "ID":"Save",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//span[text()='Save']"
+      }
+   }
+]

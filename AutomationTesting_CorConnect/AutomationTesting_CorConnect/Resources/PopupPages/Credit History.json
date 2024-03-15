@@ -1,0 +1,21 @@
+[
+   {
+      "ID":"Billing Location",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//table[contains(@id,'CreditLimit_cbBillingLocation')]"
+      }
+   }, {
+      "ID":"Main Table",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//table[contains(@id,'gvCreditHistory_DXMainTable')]"
+      }
+   }, {
+      "ID":"HeaderRow",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//td[contains(@class,'dxgvHeader')]"
+      }
+   }
+]

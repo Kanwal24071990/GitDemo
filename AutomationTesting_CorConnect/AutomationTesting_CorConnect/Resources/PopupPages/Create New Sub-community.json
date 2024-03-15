@@ -1,0 +1,135 @@
+[
+  {
+    "ID": "Sub-community Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'cbSubCommunityType')]"
+    }
+  },
+  {
+    "ID": "Description",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//textarea[contains(@id, 'memDescription_I')]"
+    }
+  },
+  {
+    "ID": "Skin Code",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'cbSkinCode')]"
+    }
+  },
+  {
+    "ID": "Sub-community Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'tbSubCommunityName_I')]"
+    }
+  },
+  {
+    "ID": "Sub-community Code",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'tbSubCommunityCode_I')]"
+    }
+  },
+  {
+    "ID": "SFTP Host",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'tbSftpServer_I')]"
+    }
+  },
+  {
+    "ID": "Open Balance - SFTP Folder",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'tbSftpLocation_I')]"
+    }
+  },
+  {
+    "ID": "Draft Statement - SFTP Folder",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'tbSftpDraftLocation_I')]"
+    }
+  },
+  {
+    "ID": "Dunning - SFTP Folder",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'tbSftpDunningLocation_I')]"
+    }
+  },
+  {
+    "ID": "Unassigned List",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//select[contains(@id, 'unAssignedSelect')]"
+    }
+  },
+  {
+    "ID": "Assigned List",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//select[contains(@id, 'assignedSelect')]"
+    }
+  },
+  {
+    "ID": "Assign",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='>>']"
+    }
+  },
+  {
+    "ID": "Unassign",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='<<']"
+    }
+  },
+  {
+    "ID": "Save",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Save']"
+    }
+  },
+  {
+    "ID": "Cancel",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Cancel']"
+    }
+  },
+  {
+    "ID": "Success Message",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Record saved successfully.']"
+    }
+  },
+  {
+    "ID": "Invoice Prefix",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'InvoicePrefix_I')]"
+    }
+  },
+  {
+    "ID": "Add New",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//div[contains(@id, 'btnAddRemitTo')]"
+    }
+  },
+  {
+    "ID": "Update",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//div[contains(@id, 'btnSave')]"
+    }
+  }
+]

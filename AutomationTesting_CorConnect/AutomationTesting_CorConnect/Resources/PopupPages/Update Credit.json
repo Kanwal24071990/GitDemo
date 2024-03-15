@@ -1,0 +1,10 @@
+[
+   {
+      "ID":"Credit History",
+      "Name":"Credit History",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//div[contains(@id,'btnHistory')]"
+      }
+   }
+]

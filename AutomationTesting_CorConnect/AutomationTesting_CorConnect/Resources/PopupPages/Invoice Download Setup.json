@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "Export Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cmbExports')]"
+    }
+  },
+  {
+    "ID": "Export Definition for",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cmbLocation')]"
+    }
+  },
+  {
+    "ID": "File Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cmbFileType')]"
+    }
+  },
+  {
+    "ID": "Company Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cmbCompany')]"
+    }
+  },
+  {
+    "ID": "Field_Company Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Company Name']"
+    }
+  },
+  {
+    "ID": "Column Heading",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtColumnHeading')]"
+    }
+  },
+  {
+    "ID": "Add Column",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Add Column']"
+    }
+  },
+  {
+    "ID": "Column",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cmbColumns')]"
+    }
+  },
+  {
+    "ID": "Add",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Add']"
+    }
+  },
+  {
+    "ID": "Include in Export",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'cbIncludeInExport')]"
+    }
+  },
+  {
+    "ID": "Present for selection on manual execution",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'cbPresentForSelection')]"
+    }
+  },
+  {
+    "ID": "INVOICE_Save and Continue",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Save and Continue']"
+    }
+  },
+  {
+    "ID": "Same as Dealer Address",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'chkUseDealerUiAddress_S')]"
+    }
+  },
+  {
+    "ID": "Country",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cmbPosCountry')]"
+    }
+  },
+  {
+    "ID": "State/Province",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cmbPosProvince')]"
+    }
+  },
+  {
+    "ID": "State/Province_InputField",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'cmbPosProvince_I')]"
+    }
+  },
+  {
+    "ID": "Country_InputField",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'cmbPosCountry_I')]"
+    }
+  },
+  {
+    "ID": "Discrepancy Information",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//div[contains(@id,'dvDiscInfo')]"
+    }
+  },
+  {
+    "ID": "Save",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Save']"
+    }
+  },
+  {
+    "ID": "Main Table",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[@id='gvColumns_DXMainTable']"
+    }
+  }
+]

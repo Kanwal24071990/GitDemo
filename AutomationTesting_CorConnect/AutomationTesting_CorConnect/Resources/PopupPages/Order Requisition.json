@@ -1,0 +1,30 @@
+[
+  {
+    "ID": "Dealer Code",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[@id = 'cbDealerCode']"
+    }
+  },
+  {
+    "ID": "Fleet Code",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[@id = 'cbFleetCode']"
+    }
+  },
+  {
+    "ID": "View Catalogue",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//div[contains(@id, 'btnViewCatalogue')]"
+    }
+  },
+  {
+    "ID": "Close",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//div[contains(@id, 'btnClose')]"
+    }
+  }
+]

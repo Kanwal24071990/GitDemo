@@ -1,0 +1,93 @@
+[
+	{
+		"ID": "Currency",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'CurrencyCode')]"
+		}
+	},
+	{
+		"ID": "Status",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'Status')]"
+		}
+	},
+	{
+		"ID": "Payer",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'RebatePayer')]"
+		}
+	},
+	{
+		"ID": "Payer Location",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'Location')]"
+		}
+	},
+	{
+		"ID": "Receiver",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'RebateReceiver')]"
+		}
+	},
+	{
+		"ID": "Receiver Location",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'LocationReceiver')]"
+		}
+	},
+	{
+		"ID": "Load Bookmark",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'bookmarkId')]"
+		}
+	},
+	{
+		"ID": "Contract Name",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'ContractName')]"
+		}
+	},
+	{
+		"ID": "Parent Contract Name",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//input[contains(@id,'txtFilter_ParentContractName')]"
+		}
+	},
+	{
+		"ID": "Date Range",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'DateRange')]"
+		}
+	},
+	{
+		"ID": "From",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//input[contains(@id,'fromDate')]"
+		}
+	},
+	{
+		"ID": "To",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//input[contains(@id,'toDate')]"
+		}
+	},
+	{
+		"ID": "Group By",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'groupById')]"
+		}
+	}
+]

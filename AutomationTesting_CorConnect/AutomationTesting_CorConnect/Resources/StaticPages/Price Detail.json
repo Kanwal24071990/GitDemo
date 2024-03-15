@@ -1,0 +1,51 @@
+[
+  {
+    "ID": "New",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//tr[contains(@class,'DetailRow')]//span[text()='New']//parent::a"
+    }
+  },
+  {
+    "ID": "Insert",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//tr[contains(@class,'DetailRow')]//span[text()='Insert']//parent::a"
+    }
+  },
+  {
+    "ID": "Close",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//tr[contains(@class,'DetailRow')]//span[text()='Close']//parent::a"
+    }
+  },
+  {
+    "ID": "Price Level",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'priceLevelId')]"
+    }
+  },
+  {
+    "ID": "Unit Price",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'priceValue')]"
+    }
+  },
+  {
+    "ID": "Core Price",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'corePriceValue')]"
+    }
+  },
+  {
+    "ID": "FET",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'FETValue')]"
+    }
+  }
+]

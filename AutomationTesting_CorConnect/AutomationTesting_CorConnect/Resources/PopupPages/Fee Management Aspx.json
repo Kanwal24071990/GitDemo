@@ -1,0 +1,170 @@
+[
+  {
+    "ID": "Fee Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'FeeName')]"
+    }
+  },
+  {
+    "ID": "Description",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'Description')]"
+    }
+  },
+  {
+    "ID": "Display Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'FeeDisplay')]"
+    }
+  },
+  {
+    "ID": "Currency",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'Currency')]"
+    }
+  },
+  {
+    "ID": "Invoice Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'InvoiceType')]"
+    }
+  },
+  {
+    "ID": "Transaction Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'TransactionType')]"
+    }
+  },
+  {
+    "ID": "Fee Value Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'FeeAmountType')]"
+    }
+  },
+  {
+    "ID": "Fee Value",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'FeeAmount_')]"
+    }
+  },
+  {
+    "ID": "Min. Invoice Amount",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'MinInvAmount')]"
+    }
+  },
+  {
+    "ID": "Max. Invoice Amount",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'MaxInvAmount')]"
+    }
+  },
+  {
+    "ID": "Effective Date",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'EffectiveDate')]"
+    }
+  },
+  {
+    "ID": "End Date",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'EndDate')]"
+    }
+  },
+  {
+    "ID": "Fee Charged To",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'EntityType')]"
+    }
+  },
+  {
+    "ID": "Sub Community",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'SubCommunity')]"
+    }
+  },
+  {
+    "ID": "Unassigned",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//select[contains(@id, 'unAssignedSelect')]"
+    }
+  },
+  {
+    "ID": "Assigned",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//select[contains(@id, 'assignedSelect')]"
+    }
+  },
+  {
+    "ID": "Assigned_ExportBtn",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'assignedExport')]"
+    }
+  },
+  {
+    "ID": "Unassigned_ExportBtn",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'unAssignedExport')]"
+    }
+  },
+  {
+    "ID": "Fees Applicable To Transactions From",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'FeesApplicable')]"
+    }
+  },
+  {
+    "ID": "Update",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Update']"
+    }
+  },
+  {
+    "ID": "Update Note Dialog",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//div[contains(@role, 'dialog') and contains(@class, 'dialog') and not(contains(@style, 'none;'))]"
+    }
+  },
+  {
+    "ID": "Continue",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Continue']"
+    }
+  },
+  {
+    "ID": "Update Note",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria":  "//textarea[contains(@id, 'Notes')]"
+    }
+  },
+  {
+    "ID": "Cancel",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Cancel']"
+    }
+  }
+]

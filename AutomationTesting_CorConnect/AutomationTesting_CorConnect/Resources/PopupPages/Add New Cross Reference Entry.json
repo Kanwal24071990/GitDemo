@@ -1,0 +1,64 @@
+[{
+		"ID": "Entity Type",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'cboEntityType')]"
+		}
+	},
+	{
+		"ID": "Cross Reference Type",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'cboCrossRefrenceType')]"
+		}
+	},
+	{
+		"ID": "Cross Reference Code",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//input[contains(@id,'tbCrossRefCode_I')]"
+		}
+	},
+	{
+		"ID": "Source Bill To",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//input[contains(@id,'tbSrcBillTo_I')]"
+		}
+	},
+	{
+		"ID": "Corcentric Code",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'cbCustomerName')]"
+		}
+	},
+	{
+		"ID": "ADD",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//span[text()='ADD']"
+		}
+	},
+	{
+		"ID": "Record saved successfully",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//span[text()='Record saved successfully.']"
+		}
+	},
+	{
+		"ID": "Close",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//span[text()='Close']"
+		}
+	},
+	{
+		"ID": "Cancel",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//span[text()='Cancel']"
+		}
+	}
+]

@@ -1,0 +1,612 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountMaintenance" xml:space="preserve">
+    <value>Account Maintenance</value>
+  </data>
+  <data name="AccountMaintenanceAspx" xml:space="preserve">
+    <value>Account Maintenance Aspx</value>
+  </data>
+  <data name="CreditHistory" xml:space="preserve">
+    <value>Credit History</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="DealerLookup" xml:space="preserve">
+    <value>Dealer Lookup</value>
+  </data>
+  <data name="DunningStatus" xml:space="preserve">
+    <value>Dunning Status</value>
+  </data>
+  <data name="InvoiceEntry" xml:space="preserve">
+    <value>Invoice Entry</value>
+  </data>
+  <data name="UpdateCredit" xml:space="preserve">
+    <value>Update Credit</value>
+  </data>
+  <data name="FleetLookup" xml:space="preserve">
+    <value>Fleet Lookup</value>
+  </data>
+  <data name="FleetPreAuthorization" xml:space="preserve">
+    <value>Fleet Pre Authorization</value>
+  </data>
+  <data name="EntityCrossReferenceMaintenance" xml:space="preserve">
+    <value>Entity Cross Reference Maintenance</value>
+  </data>
+  <data name="AddNewCrossReferenceEntry" xml:space="preserve">
+    <value>Add New Cross Reference Entry</value>
+  </data>
+  <data name="FleetSalesSummaryBillTo" xml:space="preserve">
+    <value>Fleet Sales Summary - Bill To</value>
+  </data>
+  <data name="TaxCodeConfiguration" xml:space="preserve">
+    <value>Tax Code Configuration</value>
+  </data>
+  <data name="DealerPreAuthorization" xml:space="preserve">
+    <value>Dealer Pre Authorization</value>
+  </data>
+  <data name="BookmarksMaintenance" xml:space="preserve">
+    <value>Bookmarks Maintenance</value>
+  </data>
+  <data name="DealerSalesSummaryLocation" xml:space="preserve">
+    <value>Dealer Sales Summary - Location</value>
+  </data>
+  <data name="EntityGroupMaintenance" xml:space="preserve">
+    <value>Entity Group Maintenance</value>
+  </data>
+  <data name="FleetPartsCrossReference" xml:space="preserve">
+    <value>Fleet Parts Cross Reference</value>
+  </data>
+  <data name="PartPriceLookup" xml:space="preserve">
+    <value>Part Price Lookup</value>
+  </data>
+  <data name="SupportCenter" xml:space="preserve">
+    <value>Support Center</value>
+  </data>
+  <data name="PartsCrossReference" xml:space="preserve">
+    <value>Parts Cross Reference</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="InvoiceHistory" xml:space="preserve">
+    <value>Invoice History</value>
+  </data>
+  <data name="QlikViewDashboard" xml:space="preserve">
+    <value>QlikView Dashboard</value>
+  </data>
+  <data name="UserProfile" xml:space="preserve">
+    <value>User Profile</value>
+  </data>
+  <data name="Parts" xml:space="preserve">
+    <value>Parts</value>
+  </data>
+  <data name="UserGroupSetup" xml:space="preserve">
+    <value>User Group Setup</value>
+  </data>
+  <data name="InvoiceDownloadSetup" xml:space="preserve">
+    <value>Invoice Download Setup</value>
+  </data>
+  <data name="InvoiceDownload" xml:space="preserve">
+    <value>Invoice Download</value>
+  </data>
+  <data name="DealerPOPOQTransactionLookup" xml:space="preserve">
+    <value>Dealer PO/POQ Transaction Lookup</value>
+  </data>
+  <data name="FleetPOPOQTransactionLookup" xml:space="preserve">
+    <value>Fleet PO/POQ Transaction Lookup</value>
+  </data>
+  <data name="AddNewUser" xml:space="preserve">
+    <value>Add New User</value>
+  </data>
+  <data name="ManageUsers" xml:space="preserve">
+    <value>Manage Users</value>
+  </data>
+  <data name="ManagePaymentTerms" xml:space="preserve">
+    <value>Manage Payment Terms</value>
+  </data>
+  <data name="CreateNewPaymentTerm" xml:space="preserve">
+    <value>Create New Payment Term</value>
+  </data>
+  <data name="ManagePaymentAcceleration" xml:space="preserve">
+    <value>Manage Payment Acceleration</value>
+  </data>
+  <data name="AccelerationProgram" xml:space="preserve">
+    <value>Acceleration Program</value>
+  </data>
+  <data name="MasterBillingStatementConfiguration" xml:space="preserve">
+    <value>Master/Billing Statement Configuration</value>
+  </data>
+  <data name="CreateMasterBillingStatementConfiguration" xml:space="preserve">
+    <value>Create New MasterBilling Statement Configuration</value>
+  </data>
+  <data name="EditMasterBillingStatementConfiguration" xml:space="preserve">
+    <value>Edit MasterBilling Statement Configuration</value>
+  </data>
+  <data name="BulkActions" xml:space="preserve">
+    <value>Bulk Actions</value>
+  </data>
+  <data name="CommunityDocuments" xml:space="preserve">
+    <value>Community Documents</value>
+  </data>
+  <data name="InvoiceDiscrepancyHistory" xml:space="preserve">
+    <value>Invoice Discrepancy History</value>
+  </data>
+  <data name="FleetReleaseInvoices" xml:space="preserve">
+    <value>Fleet Release Invoices</value>
+  </data>
+  <data name="FleetInvoices" xml:space="preserve">
+    <value>Fleet Invoices</value>
+  </data>
+  <data name="ShopSummaryReport" xml:space="preserve">
+    <value>Shop Summary Report</value>
+  </data>
+  <data name="PartSalesByFleetReport" xml:space="preserve">
+    <value>Part Sales by Fleet Report</value>
+  </data>
+  <data name="InvoiceDetailReport" xml:space="preserve">
+    <value>Invoice Detail Report</value>
+  </data>
+  <data name="BatchRequestStatus" xml:space="preserve">
+    <value>Batch Request Status</value>
+  </data>
+  <data name="AccountStatusChangeReport" xml:space="preserve">
+    <value>Account Status Change Report</value>
+  </data>
+  <data name="POQEntry" xml:space="preserve">
+    <value>POQ Entry</value>
+  </data>
+  <data name="DealerReleaseInvoices" xml:space="preserve">
+    <value>Dealer Release Invoices</value>
+  </data>
+  <data name="OpenAuthorizations" xml:space="preserve">
+    <value>Open Authorizations</value>
+  </data>
+  <data name="POEntry" xml:space="preserve">
+    <value>PO Entry</value>
+  </data>
+  <data name="ManageTaxExemptions" xml:space="preserve">
+    <value>Manage Tax Exemptions</value>
+  </data>
+  <data name="AgencyGroupApproversReport" xml:space="preserve">
+    <value>Agency Group Approvers Report</value>
+  </data>
+  <data name="InvoiceDiscrepancy" xml:space="preserve">
+    <value>Invoice Discrepancy</value>
+  </data>
+  <data name="DealerStatements" xml:space="preserve">
+    <value>Dealer Statements</value>
+  </data>
+  <data name="SettlementFileSummary" xml:space="preserve">
+    <value>Settlement File Summary</value>
+  </data>
+  <data name="P-CardTransactions" xml:space="preserve">
+    <value>P-Card Transactions</value>
+  </data>
+  <data name="PCardErrorInvoices" xml:space="preserve">
+    <value>PCard Error Invoices</value>
+  </data>
+  <data name="FleetStatements" xml:space="preserve">
+    <value>Fleet Statements</value>
+  </data>
+  <data name="GPDraftStatements" xml:space="preserve">
+    <value>GP Draft Statements</value>
+  </data>
+  <data name="FleetMasterInvoicesStatements" xml:space="preserve">
+    <value>Fleet Master Invoices/Statements</value>
+  </data>
+  <data name="Disputes" xml:space="preserve">
+    <value>Disputes</value>
+  </data>
+  <data name="SettlementFile" xml:space="preserve">
+    <value>Settlement File</value>
+  </data>
+  <data name="DealerInvoices" xml:space="preserve">
+    <value>Dealer Invoices</value>
+  </data>
+  <data name="LineItemReport" xml:space="preserve">
+    <value>Line Item Report</value>
+  </data>
+  <data name="DealerLocations" xml:space="preserve">
+    <value>Dealer Locations</value>
+  </data>
+  <data name="DealerPurchasesReport" xml:space="preserve">
+    <value>Dealer Purchases Report</value>
+  </data>
+  <data name="CreateAuthorization" xml:space="preserve">
+    <value>Create Authorization</value>
+  </data>
+  <data name="ManageRebates" xml:space="preserve">
+    <value>Manage Rebates</value>
+  </data>
+  <data name="ManageApprovals" xml:space="preserve">
+    <value>Manage Approvals</value>
+  </data>
+  <data name="DisplayPreferences" xml:space="preserve">
+    <value>Display Preferences</value>
+  </data>
+  <data name="DealerInvoiceTransactionLookup" xml:space="preserve">
+    <value>Dealer Invoice Transaction Lookup</value>
+  </data>
+  <data name="FleetInvoiceTransactionLookup" xml:space="preserve">
+    <value>Fleet Invoice Transaction Lookup</value>
+  </data>
+  <data name="InvoiceWatchList" xml:space="preserve">
+    <value>Invoice Watch List</value>
+  </data>
+  <data name="FleetLocations" xml:space="preserve">
+    <value>Fleet Locations</value>
+  </data>
+  <data name="SummaryReconcileReport" xml:space="preserve">
+    <value>Summary Reconcile Report</value>
+  </data>
+  <data name="RebateAccrualsReport" xml:space="preserve">
+    <value>Rebate Accruals Report</value>
+  </data>
+  <data name="InvoiceOptionsAspx" xml:space="preserve">
+    <value>Invoice Options Aspx</value>
+  </data>
+  <data name="TaxReviewReport" xml:space="preserve">
+    <value>Tax Review Report</value>
+  </data>
+  <data name="PriceExceptionReport" xml:space="preserve">
+    <value>Price Exception Report</value>
+  </data>
+  <data name="GrossMarginCreditReport" xml:space="preserve">
+    <value>Gross Margin Credit Report</value>
+  </data>
+  <data name="DealerSalesSummaryBillTo" xml:space="preserve">
+    <value>Dealer Sales Summary - Bill To</value>
+  </data>
+  <data name="DealerPartSummaryFleetLocation" xml:space="preserve">
+    <value>Dealer Part Summary - Fleet Location</value>
+  </data>
+  <data name="DealerInvoicePreApprovalReport" xml:space="preserve">
+    <value>Dealer Invoice Pre-Approval Report</value>
+  </data>
+  <data name="DealerDueDateReport" xml:space="preserve">
+    <value>Dealer Due Date Report</value>
+  </data>
+  <data name="DealerDiscountDateReport" xml:space="preserve">
+    <value>Dealer Discount Date Report</value>
+  </data>
+  <data name="PriceLookup" xml:space="preserve">
+    <value>Price Lookup</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="PartsLookup" xml:space="preserve">
+    <value>Parts Lookup</value>
+  </data>
+  <data name="PartPriceFileUploadReport" xml:space="preserve">
+    <value>Part/Price File Upload Report</value>
+  </data>
+  <data name="OpenAuthorization" xml:space="preserve">
+    <value>Open Authorization</value>
+  </data>
+  <data name="CreateNewEntity" xml:space="preserve">
+    <value>Create New Entity</value>
+  </data>
+  <data name="GroupRelationshipsMaintenance" xml:space="preserve">
+    <value>Group Relationships Maintenance</value>
+  </data>
+  <data name="FleetPartSummaryLocation" xml:space="preserve">
+    <value>Fleet Part Summary - Location</value>
+  </data>
+  <data name="FleetPartSummaryBillTo" xml:space="preserve">
+    <value>Fleet Part Summary - Bill To</value>
+  </data>
+  <data name="FleetPartCategorySalesSummaryLocation" xml:space="preserve">
+    <value>Fleet Part Category Sales Summary - Location</value>
+  </data>
+  <data name="FleetSalesSummaryLocation" xml:space="preserve">
+    <value>Fleet Sales Summary - Location</value>
+  </data>
+  <data name="FleetLocationSalesSummary" xml:space="preserve">
+    <value>Fleet Location Sales Summary</value>
+  </data>
+  <data name="FleetDueDateReport" xml:space="preserve">
+    <value>Fleet Due Date Report</value>
+  </data>
+  <data name="FleetPartCategorySalesSummaryBillTo" xml:space="preserve">
+    <value>Fleet Part Category Sales Summary - Bill To</value>
+  </data>
+  <data name="FleetBillToSalesSummary" xml:space="preserve">
+    <value>Fleet Bill To Sales Summary</value>
+  </data>
+  <data name="FleetDiscountDateReport" xml:space="preserve">
+    <value>Fleet Discount Date Report</value>
+  </data>
+  <data name="RemittanceReport" xml:space="preserve">
+    <value>Remittance Report</value>
+  </data>
+  <data name="DealerPartSummaryFleetBillTo" xml:space="preserve">
+    <value>Dealer Part Summary - Fleet Bill To</value>
+  </data>
+  <data name="PendingBillingManagementReport" xml:space="preserve">
+    <value>Pending Billing Management Report</value>
+  </data>
+  <data name="PartCategories" xml:space="preserve">
+    <value>Part Categories</value>
+  </data>
+  <data name="PartSalesByShopReport" xml:space="preserve">
+    <value>Part Sales by Shop Report</value>
+  </data>
+  <data name="BillingScheduleManagement" xml:space="preserve">
+    <value>Billing Schedule Management</value>
+  </data>
+  <data name="POQEntryAspx" xml:space="preserve">
+    <value>POQ Entry Aspx</value>
+  </data>
+  <data name="POEntryAspx" xml:space="preserve">
+    <value>PO Entry Aspx</value>
+  </data>
+  <data name="FleetCreditLimitWatchListReport" xml:space="preserve">
+    <value>Fleet Credit Limit Watch List Report</value>
+  </data>
+  <data name="FleetCreditLimit" xml:space="preserve">
+    <value>Fleet Credit Limit</value>
+  </data>
+  <data name="DraftStatementReport" xml:space="preserve">
+    <value>Draft Statement Report</value>
+  </data>
+  <data name="CommunityFeeReport" xml:space="preserve">
+    <value>Community Fee Report</value>
+  </data>
+  <data name="AgedInvoiceReport" xml:space="preserve">
+    <value>Aged Invoice Report</value>
+  </data>
+  <data name="ManageDelinquentFee" xml:space="preserve">
+    <value>Manage Delinquent Fee</value>
+  </data>
+  <data name="ManageDisputes" xml:space="preserve">
+    <value>Manage Disputes</value>
+  </data>
+  <data name="PriceDetail" xml:space="preserve">
+    <value>Price Detail</value>
+  </data>
+  <data name="POTransactionLookup" xml:space="preserve">
+    <value>PO Transaction Lookup</value>
+  </data>
+  <data name="POOrders" xml:space="preserve">
+    <value>PO Orders</value>
+  </data>
+  <data name="PODiscrepancyHistory" xml:space="preserve">
+    <value>PO Discrepancy History</value>
+  </data>
+  <data name="PODiscrepancy" xml:space="preserve">
+    <value>PO Discrepancy</value>
+  </data>
+  <data name="IntercommunityInvoiceReport" xml:space="preserve">
+    <value>Intercommunity Invoice Report</value>
+  </data>
+  <data name="CreateNewBillingScheduleManagement" xml:space="preserve">
+    <value>Create New Billing Schedule Management</value>
+  </data>
+  <data name="ManageCustomFields" xml:space="preserve">
+    <value>Manage Custom Fields</value>
+  </data>
+  <data name="ManageCustomFieldsAspx" xml:space="preserve">
+    <value>Manage Custom Fields Aspx</value>
+  </data>
+  <data name="FeeManagement" xml:space="preserve">
+    <value>Fee Management</value>
+  </data>
+  <data name="FeeManagementAspx" xml:space="preserve">
+    <value>Fee Management Aspx</value>
+  </data>
+  <data name="Sub-communityManagement" xml:space="preserve">
+    <value>Sub-community Management</value>
+  </data>
+  <data name="FleetCredit" xml:space="preserve">
+    <value>Fleet Credit</value>
+  </data>
+  <data name="FleetInvoiceDetailReport" xml:space="preserve">
+    <value>Fleet Invoice Detail Report</value>
+  </data>
+  <data name="PurchasingFleetSummary" xml:space="preserve">
+    <value>Purchasing Fleet Summary</value>
+  </data>
+  <data name="AssignUserCharts" xml:space="preserve">
+    <value>Assign User Charts</value>
+  </data>
+  <data name="ProductGroupRuleMaintenance" xml:space="preserve">
+    <value>Product Group Rule Maintenance</value>
+  </data>
+  <data name="ProductGroupRulesOverride" xml:space="preserve">
+    <value>Product Group Rules Override</value>
+  </data>
+  <data name="ManageUserNotifications" xml:space="preserve">
+    <value>Manage User Notifications</value>
+  </data>
+  <data name="CashFlowReport" xml:space="preserve">
+    <value>Cash Flow Report</value>
+  </data>
+  <data name="AssignEntityFunction" xml:space="preserve">
+    <value>Assign Entity Function</value>
+  </data>
+  <data name="AssignEntityChart" xml:space="preserve">
+    <value>Assign Entity Chart</value>
+  </data>
+  <data name="NotificationConfiguration" xml:space="preserve">
+    <value>Notification Configuration</value>
+  </data>
+  <data name="FleetInvoicePreApprovalReport" xml:space="preserve">
+    <value>Fleet Invoice Pre-Approval Report</value>
+  </data>
+  <data name="OpenBalanceReport" xml:space="preserve">
+    <value>Open Balance Report</value>
+  </data>
+  <data name="PartPurchasesReport" xml:space="preserve">
+    <value>Part Purchases Report</value>
+  </data>
+  <data name="DelinquentFeeInvoiceSetup" xml:space="preserve">
+    <value>Delinquent Fee Invoice Setup</value>
+  </data>
+  <data name="DealerInvoiceDetail" xml:space="preserve">
+    <value>Dealer Invoice Detail</value>
+  </data>
+  <data name="LoyaltyStatus" xml:space="preserve">
+    <value>Loyalty Status</value>
+  </data>
+  <data name="ASN" xml:space="preserve">
+    <value>ASN</value>
+  </data>
+  <data name="SummaryRemittanceReport" xml:space="preserve">
+    <value>Summary Remittance Report</value>
+  </data>
+  <data name="VendorSummary" xml:space="preserve">
+    <value>Vendor Summary</value>
+  </data>
+  <data name="Connections" xml:space="preserve">
+    <value>Connections</value>
+  </data>
+  <data name="LocationSummary" xml:space="preserve">
+    <value>Location Summary</value>
+  </data>
+  <data name="ServiceRequests" xml:space="preserve">
+    <value>Service Requests</value>
+  </data>
+  <data name="MemberSummary" xml:space="preserve">
+    <value>Member Summary</value>
+  </data>
+  <data name="PurchaseOrders" xml:space="preserve">
+    <value>Purchase Orders</value>
+  </data>
+  <data name="FranchiseCodeManagement" xml:space="preserve">
+    <value>Franchise Code Management</value>
+  </data>
+  <data name="TransactionActivity" xml:space="preserve">
+    <value>Transaction Activity</value>
+  </data>
+  <data name="CreateInvoiceWatchList" xml:space="preserve">
+    <value>Create Invoice Watch List</value>
+  </data>
+  <data name="Enrollment" xml:space="preserve">
+    <value>Enrollment</value>
+  </data>
+  <data name="OrderRequisition" xml:space="preserve">
+    <value>Order Requisition</value>
+  </data>
+  <data name="RelationshipSearch" xml:space="preserve">
+    <value>Relationship Search</value>
+  </data>
+</root>

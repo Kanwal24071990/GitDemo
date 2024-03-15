@@ -1,0 +1,241 @@
+[
+	{
+		"ID": "Action",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'cbAction')]"
+		}
+	},
+	{
+		"ID": "Distribution Method",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'cbDistributionMethod')]"
+		}
+	},
+	{
+		"ID": "Batch Size",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//input[contains(@id,'txtBatchSize')]"
+		}
+	},
+	{
+		"ID": "Email Address",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//textarea[contains(@id,'txtEmailAdd')]"
+		}
+	},
+	{
+		"ID": "Download Dispute Template",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//input[contains(@id,'btnDownload')]"
+		}
+	},
+	{
+		"ID": "File Name",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//input[contains(@id,'UploadControl_TextBox0_Input')]"
+		}
+	},
+	{
+		"ID": "Field on File_1",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'cbFileField0')]"
+		}
+	},
+	{
+		"ID": "Field on File_2",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'cbFileField1')]"
+		}
+	},
+	{
+		"ID": "Field on File_1_Mandatory Message",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//td[contains(@id,'cbFileField0_ETC')]"
+		}
+	},
+	{
+		"ID": "Field on File_2_Mandatory Message",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//td[contains(@id,'cbFileField1_ETC')]"
+		}
+	},
+	{
+		"ID": "CorConnect Fields_1",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'cbCorConnectField0')]"
+		}
+	},
+	{
+		"ID": "CorConnect Fields_2",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'cbCorConnectField1')]"
+		}
+
+	},
+	{
+		"ID": "FileUploadError",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//tr[contains(@id,'UploadControl_ErrR0')]/td[contains(@class, 'ErrorCell')]"
+		}
+	},
+	{
+		"ID": "Attachment Type",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'cbAttachmentType')]"
+		}
+	},
+	{
+		"ID": "Field on File_3_Mandatory Message",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//td[contains(@id,'cbFileField2_ETC')]"
+		}
+	},
+	{
+		"ID": "Field on File_4_Mandatory Message",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//td[contains(@id,'cbFileField3_ETC')]"
+		}
+	},
+	{
+		"ID": "Field on File_5_Mandatory Message",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//td[contains(@id,'cbFileField4_ETC')]"
+		}
+	},
+	{
+		"ID": "Field on File_6_Mandatory Message",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//td[contains(@id,'cbFileField5_ETC')]"
+		}
+	},
+	{
+		"ID": "Field on File_7_Mandatory Message",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//td[contains(@id,'cbFileField6_ETC')]"
+		}
+	},
+	{
+		"ID": "Field on File_8_Mandatory Message",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//td[contains(@id,'cbFileField7_ETC')]"
+		}
+	},
+	{
+		"ID": "CorConnect Fields_3",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'cbCorConnectField2')]"
+		}
+	},
+	{
+		"ID": "CorConnect Fields_4",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'cbCorConnectField3')]"
+		}
+	},
+	{
+		"ID": "CorConnect Fields_5",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'cbCorConnectField4')]"
+		}
+	},
+	{
+		"ID": "CorConnect Fields_6",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'cbCorConnectField5')]"
+		}
+	},
+	{
+		"ID": "CorConnect Fields_7",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'cbCorConnectField6')]"
+		}
+	},
+	{
+		"ID": "CorConnect Fields_8",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'cbCorConnectField7')]"
+		}
+	},
+	{
+		"ID": "Field on File_3",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'cbFileField2')]"
+		}
+	},
+	{
+		"ID": "Field on File_4",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'cbFileField3')]"
+		}
+	},
+	{
+		"ID": "Field on File_5",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'cbFileField4')]"
+		}
+	},
+	{
+		"ID": "Field on File_6",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'cbFileField5')]"
+		}
+	},
+	{
+		"ID": "Field on File_7",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'cbFileField6')]"
+		}
+	},
+	{
+		"ID": "Field on File_8",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'cbFileField7')]"
+		}
+	},
+	{
+		"ID": "Download Reversal Template",
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//input[contains(@id,'btnDownload')]"
+		}
+	},
+		{
+			"ID": "CorConnect Fields_1 Message",
+			"xpath": {
+				"Mechanism": "xpath",
+				"Criteria": "//td[contains(@id,'cbCorConnectField1_ETC')]"
+			}
+		}
+]

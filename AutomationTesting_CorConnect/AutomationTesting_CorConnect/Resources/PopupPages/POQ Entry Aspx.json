@@ -1,0 +1,282 @@
+[
+  {
+    "ID": "Quote Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'TransactionType')]"
+    }
+  },
+  {
+    "ID": "Dealer Code",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'DealerCode')]"
+    }
+  },
+  {
+    "ID": "Fleet Code",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'CustomerCode')]"
+    }
+  },
+  {
+    "ID": "Dealer POQ Number",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'InvoiceNumber')]"
+    }
+  },
+  {
+    "ID": "POQ Date",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'dateDealerInvoiceDate_I')]"
+    }
+  },
+  {
+    "ID": "Mandatory Field",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[@id='lblMandatory']"
+    }
+  },
+  {
+    "ID": "Save and Continue",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//div[contains(@id,'btnContinue_CD')]/span"
+    }
+  },
+  {
+    "ID": "POQ_Save and Continue",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//div[contains(@id,'invoicePageHeader_btnHeaderDetContinue_CD')]/span"
+    }
+  },
+  {
+    "ID": "Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'_grdLineItems_efnew_cbEdityType')]"
+    }
+  },
+  {
+    "ID": "Edit_Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'UC_Section1_grdLineItems_ef0_cbEdityType_0')]"
+    }
+  },
+  {
+    "ID": "Item",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'grdLineItems_efnew_cbEditItem') and not(contains(@id, 'LP'))]"
+    }
+  },
+  {
+    "ID": "Edit_Item",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'UC_Section1_grdLineItems_ef0_editItem_0_I') and not(contains(@id, 'LP'))]"
+    }
+  },
+  {
+    "ID": "Save Line Item",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//a[contains(@id,'btnSave')]//span[text()='Save']"
+    }
+  },
+  {
+    "ID": "Add Line Item",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "(//span[text()='Add Line Item'])"
+    }
+  },
+  {
+    "ID": "Add Tax",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Add Tax']"
+    }
+  },
+  {
+    "ID": "Tax Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'corcTaxes_grdTaxes_DXEditor0')]"
+    }
+  },
+  {
+    "ID": "Tax ID",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'corcTaxes_grdTaxes_DXEditor1_I')]"
+    }
+  },
+  {
+    "ID": "Tax Description",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'corcTaxes_grdTaxes_DXEditor2_I')]"
+    }
+  },
+  {
+    "ID": "Amount",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'corcTaxes_grdTaxes_DXEditor3_I')]"
+    }
+  },
+  {
+    "ID": "Save Tax",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//a[contains(@id,'corcTaxes_grdTaxes_DXCBtn')]//span[text()='Save']"
+    }
+  },
+  {
+    "ID": "Edit Tax",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//a[contains(@id,'corcTaxes_grdTaxes_DXCBtn0')]//span[text()='Edit']"
+    }
+  },
+  {
+    "ID": "New Tax",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//a[contains(@id,'corcTaxes_grdTaxes_DXCBtn')]//span[text()='New']"
+    }
+  },
+  {
+    "ID": "Tax Info Table",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'corcTaxes_grdTaxes_DXMainTable')]"
+    }
+  },
+  {
+    "ID": "Save POQ",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Save POQ']"
+    }
+  },
+  {
+    "ID": "Edit Line Item",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "(//a[contains(@id,'UC_Section')]//span[text()='Edit'])"
+    }
+  },
+  {
+    "ID": "Edit_Item Description",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'UC_Section1_grdLineItems_ef0_editDescription_0_I')]"
+    }
+  },
+  {
+    "ID": "Description Error Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//td[contains(@id,'UC_Section1_grdLineItems_ef0_editDescription_0_ETC')]"
+    }
+  },
+  {
+    "ID": "Delete Line Item",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//a[contains(@id,'UC_Section1_grdLineItems_DXCBtn3')]//span[text()='Delete']"
+    }
+  },
+  {
+    "ID": "Delete Tax",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//a[contains(@id,'corcTaxes_grdTaxes_DXCBtn5')]//span[text()='Delete']"
+    }
+  },
+  {
+    "ID": "Delete POQ",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Delete POQ']"
+    }
+  },
+  {
+    "ID": "Submit POQ",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Submit POQ']"
+    }
+  },
+  {
+    "ID": "Continue",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Continue']"
+    }
+  },
+  {
+    "ID": "Unit Number",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'grdVehicleInformation_cell0_5_txtReferenceValue_0')]"
+    }
+  },
+  {
+    "ID": "Same as Dealer Address",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id,'chkUseDealerUiAddress_S_D')]"
+    }
+  },
+  {
+    "ID": "New_Item",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'grdLineItems_efnew_editItem_I') and not(contains(@id, 'LP'))]"
+    }
+  },
+  {
+    "ID": "Item Description",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'grdLineItems_efnew_editDescription_I')]"
+    }
+  },
+  {
+    "ID": "Unit Price",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'grdLineItems_efnew_editUnitPrice_I')]"
+    }
+  },
+  {
+    "ID": "Add Section",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Add Section']"
+    }
+  },
+  {
+    "ID": "Delete Section",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "(//span[text()='Delete Section'])"
+    }
+  },
+  {
+    "ID": "Core Price",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'editCorePrice')]"
+    }
+  }
+]

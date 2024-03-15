@@ -1,0 +1,109 @@
+[
+  {
+    "ID": "Title",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id,'lblTransAuth')]"
+    }
+  },
+  {
+    "ID": "Transaction Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cbTransactionType')]"
+    }
+  },
+  {
+    "ID": "Dealer Code",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cbDealerCode') and not(contains(@id, 'LP'))]"
+    }
+  },
+  {
+    "ID": "Fleet Code",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cbCustomerCode') and not(contains(@id, 'LP'))]"
+    }
+  },
+  {
+    "ID": "Invoice Date",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'dtEditTransactionDate')]"
+    }
+  },
+    {
+    "ID": "Invoice Amount",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'tbTransacionAmount')]"
+    }
+  },
+  {
+    "ID": "Purchase Order Number",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'tbPONumber')]"
+    }
+  },
+    {
+    "ID": "Invoice Number",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'tbTransactionNumber')]"
+    }
+  },
+  {
+    "ID": "Unit Number",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'tbdyField_UnitNumber')]"
+    }
+  },
+    {
+    "ID": "Vehicle ID",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'tbdyField_VehicleID')]"
+    }
+  },
+   {
+    "ID": "Vehicle Year",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'tbdyField_VehicleYear')]"
+    }
+  },
+   {
+    "ID": "Vehicle License",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'tbdyField_VehicleLicense')]"
+    }
+  },
+  {
+      "ID":"Continue",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//span[text()='Continue']"
+      }
+   },
+   {
+      "ID":"Create Authorization",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//span[text()='Create Authorization']"
+      }
+   },
+   {
+      "ID":"Authorization Code Label",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//span[contains(@id,'lblAuthorizationCode')]"
+      }
+   }
+   ,
+   
+]

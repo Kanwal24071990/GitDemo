@@ -1,0 +1,87 @@
+﻿[
+  {
+    "clientNameLower": "alliance",
+    "regexReplacements": [
+      {
+        "pattern": "Category",
+        "replacement": "Type"
+      }
+    ]
+  },
+  {
+    "clientNameLower": "partsharecbp",
+    "regexReplacements": [
+      {
+        "pattern": "Category",
+        "replacement": "Type"
+      }
+    ]
+  },
+  {
+    "clientNameLower": "canxxus",
+    "regexReplacements": [
+      {
+        "pattern": "Category",
+        "replacement": "Type"
+      }
+    ]
+  },
+  {
+    "clientNameLower": "fleet2020",
+    "regexReplacements": [
+      {
+        "pattern": "Category",
+        "replacement": "Type"
+      }
+    ]
+  },
+  {
+    "clientNameLower": "img",
+    "regexReplacements": [
+      {
+        "pattern": "Category",
+        "replacement": "Type"
+      }
+    ]
+  },
+  {
+    "clientNameLower": "vipar",
+    "regexReplacements": [
+      {
+        "pattern": "Category",
+        "replacement": "Type"
+      }
+    ]
+  },
+  {
+    "clientNameLower": "riteload",
+    "regexReplacements": [
+      {
+        "pattern": "Category",
+        "replacement": "Type"
+      }
+    ]
+  },
+  {
+    "clientNameLower": "urg",
+    "regexReplacements": [
+      {
+        "pattern": "Category",
+        "replacement": "Type"
+      }
+    ]
+  },
+  {
+    "clientNameLower": "premierinc",
+    "regexReplacements": [
+      {
+        "pattern": "Part",
+        "replacement": "Item"
+      },
+      {
+        "pattern": "Category",
+        "replacement": "Type"
+      }
+    ]
+  }
+]

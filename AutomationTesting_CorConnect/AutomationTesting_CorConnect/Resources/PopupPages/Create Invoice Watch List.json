@@ -1,0 +1,57 @@
+[
+  {
+    "ID": "Dealer",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id , 'multiSelect_Dealer')]"
+    }
+  },
+
+  {
+    "ID": "Fleet",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id , 'multiSelect_Fleet')]"
+    }
+  },
+
+  {
+    "ID": "Sales Representative",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains (@id, 'txtSalesRepresentative_I')]"
+    }
+  },
+
+  {
+    "ID": "Save",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//div[contains (@id, 'btnSubmit')]"
+    }
+  },
+
+  {
+    "ID": "Start Date",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'dtStartDate')]"
+    }
+  },
+
+  {
+    "ID": "Active",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains (@id, 'chkActive_S_D')]"
+    }
+  },
+
+  {
+    "ID": "Duplicate Entries",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains (@id,'lblMesage')]"
+    }
+  }
+]

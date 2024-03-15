@@ -1,0 +1,44 @@
+[
+   {
+      "ID":"Fleet Code",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//table[contains(@id,'cbCustomer')]"
+      }
+   },
+   {
+      "ID":"Fleet Part Number",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//input[contains(@id,'txtCustomerPart_I')]"
+      }
+   },
+   {
+      "ID":"Long Description",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//input[contains(@id,'txtLongDescription_I')]"
+      }
+   },
+   {
+      "ID":"Community Part Number",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//table[contains(@id,'cbCommunityPartNumber')]"
+      }
+   },
+   {
+      "ID":"Insert",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//span[text()='Insert']"
+      }
+   },
+    {
+      "ID":"Cancel",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//span[text()='Cancel']"
+      }
+   }
+]

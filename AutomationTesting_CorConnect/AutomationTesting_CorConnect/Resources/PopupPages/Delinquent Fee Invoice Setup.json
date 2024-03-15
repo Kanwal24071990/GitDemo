@@ -1,0 +1,282 @@
+[
+{
+    "ID": "Select Dealer Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains (@id,'lblSelectDealer')]"
+    }
+},
+{
+    "ID": "Dealer Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[@id='lblDealer']"
+    }
+},
+{
+    "ID": "Select Fleet Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains (@id,'lblSelectFleet')]"
+    }
+},
+{
+    "ID": "Fleet Group Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains (@id,'lblFleetGroup')]"
+    }
+},
+{
+    "ID": "Fleet Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[@id='lblFleet']"
+    }
+},
+{
+    "ID": "Fee Calculation Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains (@id,'ctl08')]"
+    }
+},
+{
+    "ID": "Yearly Delinquent Fee Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains (@id,'ctl11')]"
+    }
+},
+  {
+    "ID": "Yearly Delinquent Fee Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains (@id,'ctl10')]"
+    }
+  },
+{
+    "ID": "Delinquent Fee per period Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains (@id,'ctl12')]"
+    }
+},
+{
+    "ID": "Threshold time (Days) Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains (@id,'ctl14')]"
+    }
+},
+{
+    "ID": "Threshold time (Days) Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains (@id,'ctl13')]"
+    }
+},
+{
+    "ID": "Minimum Amount Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains (@id,'ctl16')]"
+    }
+},
+{
+    "ID": "Minimum Amount Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains (@id,'ctl15')]"
+    }
+},
+{
+    "ID": "Billing Reference Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains (@id,'ctl17')]"
+    }
+},
+{
+    "ID": "Billing Reference Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains (@id,'ctl18')]"
+    }
+},
+{
+    "ID": "Rules used for Delinquent Fee Invoice creation Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains (@id,'ctl19')]"
+    }
+},
+{
+    "ID": "Default Relationships used Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains (@id,'ctl20')]"
+    }
+},
+{
+    "ID": "Dealer Relationships Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains (@id,'lblDealerRelationship')]"
+    }
+},
+{
+    "ID": "Fleet Relationships Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains (@id,'lblFleetRelationship')]"
+    }
+},
+{
+    "ID": "Dealer Currency Code Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//td[contains (@id,'lstDealerRelations_LBI0T0')]"
+    }
+},
+{
+    "ID": "Payment Terms Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//td[contains (@id,'lstDealerRelations_LBI1T0')]"
+    }
+},
+{
+    "ID": "Fleet Currency Code Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//td[contains (@id,'lstFleetRelations_LBI0T0')]"
+    }
+},
+{
+    "ID": "Master Billing statement Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//td[contains (@id,'lstFleetRelations_LBI1T0')]"
+    }
+},
+{
+    "ID": "Effective Date Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//td[contains (@id,'lstFleetRelations_LBI1T0')]"
+    }
+},
+  {
+    "ID": "Effective Date Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains (@id,'ctl22')]"
+    }
+  },
+{
+    "ID": "Dealer",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains (@id,'cbDealer')]"
+    }
+},
+{
+    "ID": "Fleet Group",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains (@id,'cbFleetGroup')]"
+    }
+},
+{
+    "ID": "Fleet",
+  "xpath": {
+    "Mechanism": "xpath",
+    "Criteria": "//table[contains(@id, 'cbFleet') and not(contains(@id, 'cbFleetGroup')) and contains(@id, 'cbFleet')]"
+  }
+},
+{
+    "ID": "Yearly Delinquent Fee",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains (@id,'txtYearlyDelinquentFee_I')]"
+    }
+},
+{
+    "ID": "Delinquent Fee per period",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains (@id,'txtDelinquentFeePerPeriod_I')]"
+    }
+},
+{
+    "ID": "Threshold time (Days)",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains (@id,'txtThresholdTimeDays_I')]"
+    }
+},
+{
+    "ID": "Minimum Amount",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains (@id,'txtMinimumAmount_I')]"
+    }
+},
+{
+    "ID": "Billing Reference",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains (@id,'txtFeeBillingRef_I')]"
+    }
+},
+{
+    "ID": "Effective Date",
+  "xpath": {
+    "Mechanism": "xpath",
+    "Criteria": "//input[contains (@id,'dateEffectiveDate')]"
+  }
+},
+{
+    "ID": "Deactivate",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Deactivate']"
+    }
+},
+{
+    "ID": "Activate",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Activate']"
+    }
+},
+{
+    "ID": "Save",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Save']"
+    }
+},
+  {
+    "ID": "Cancel",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Cancel']"
+    }
+  },
+  {
+    "ID": "Dealer Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains (@id,'ctl07')]"
+    }
+  },
+  {
+    "ID": "Fleet Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains (@id,'lblfleetMandatory')]"
+    }
+  }
+]

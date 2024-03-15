@@ -1,0 +1,834 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ADD" xml:space="preserve">
+    <value>ADD</value>
+  </data>
+  <data name="ApplyFilter" xml:space="preserve">
+    <value>Apply Filter</value>
+  </data>
+  <data name="Approve" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="ClearFilter" xml:space="preserve">
+    <value>Clear Filter</value>
+  </data>
+  <data name="ClearSelection" xml:space="preserve">
+    <value>Clear Selection</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Columns" xml:space="preserve">
+    <value>Columns</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="CreatePartsCrossReference" xml:space="preserve">
+    <value>Create Parts Cross Reference</value>
+  </data>
+  <data name="DeleteAlertMessage" xml:space="preserve">
+    <value>Are you sure you want to delete this record?</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Loading…</value>
+  </data>
+  <data name="LoadingWithElipsis" xml:space="preserve">
+    <value>Loading…</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="NewEntry" xml:space="preserve">
+    <value>New Entry</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Please wait... we are processing your request.</value>
+  </data>
+  <data name="ProcessingRequestMessage" xml:space="preserve">
+    <value>Please wait... we are processing your request</value>
+  </data>
+  <data name="Reject" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="RequestNew" xml:space="preserve">
+    <value>Request New</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="SaveLayout" xml:space="preserve">
+    <value>Save Layout</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="CreateNewInvoice" xml:space="preserve">
+    <value>Create New Invoice</value>
+  </data>
+  <data name="InvoiceHistory" xml:space="preserve">
+    <value>Invoice History</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="QlikViewDashboardAlertMsg" xml:space="preserve">
+    <value>Permission denied to access this page. Please contact system administrator.</value>
+  </data>
+  <data name="EditUser" xml:space="preserve">
+    <value>Edit User</value>
+  </data>
+  <data name="PasswordChangeSuccessfully" xml:space="preserve">
+    <value>Password has been changed successfully.</value>
+  </data>
+  <data name="SaveUser" xml:space="preserve">
+    <value>Save User</value>
+  </data>
+  <data name="UserSavedSuccessfully" xml:space="preserve">
+    <value>User has been saved successfully.</value>
+  </data>
+  <data name="SUBMITALLCAPS" xml:space="preserve">
+    <value>SUBMIT</value>
+  </data>
+  <data name="InsertSuccessMessage" xml:space="preserve">
+    <value>The record has been inserted successfully.</value>
+  </data>
+  <data name="RecordSubmittedUser" xml:space="preserve">
+    <value>The record has been inserted successfully.
+Please use Close button to exit from insert form.</value>
+  </data>
+  <data name="AddColumn" xml:space="preserve">
+    <value>Add Column</value>
+  </data>
+  <data name="Add_pascal" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Execute" xml:space="preserve">
+    <value>Execute</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CreateNewPaymentTerm" xml:space="preserve">
+    <value>Create New Payment Term</value>
+  </data>
+  <data name="Recordsavedsuccessfully" xml:space="preserve">
+    <value>Record saved successfully.</value>
+  </data>
+  <data name="SaveTerm" xml:space="preserve">
+    <value>Save Term</value>
+  </data>
+  <data name="CreateUser" xml:space="preserve">
+    <value>Create User</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="RecordUpdatedMessage" xml:space="preserve">
+    <value>The record has been updated successfully.</value>
+  </data>
+  <data name="OnlineSupportCenter" xml:space="preserve">
+    <value>Online Support Center</value>
+  </data>
+  <data name="CreateConfiguration" xml:space="preserve">
+    <value>Create Configuration</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>Activate</value>
+  </data>
+  <data name="ActivatedSuccessfully" xml:space="preserve">
+    <value>Activated successfully.</value>
+  </data>
+  <data name="Deactivate" xml:space="preserve">
+    <value>Deactivate</value>
+  </data>
+  <data name="CommunityStatementName" xml:space="preserve">
+    <value>Community Statement Name</value>
+  </data>
+  <data name="DeactivatedSuccessfully" xml:space="preserve">
+    <value>Deactivated successfully.</value>
+  </data>
+  <data name="CreateNewAccelerationTerm" xml:space="preserve">
+    <value>Create New Acceleration Term</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="FileUploadSuccessfully" xml:space="preserve">
+    <value>File has been processed and uploaded successfully.</value>
+  </data>
+  <data name="PleaseSelectAValue" xml:space="preserve">
+    <value>Please select a value</value>
+  </data>
+  <data name="EmailSubjectMoreThan300Chars" xml:space="preserve">
+    <value>Email Subject in file is more than 300 characters; can accept value below 300 characters only.</value>
+  </data>
+  <data name="EmailSubjectEmpty" xml:space="preserve">
+    <value>Email Subject cannot be empty; please enter the required Email subject in file.</value>
+  </data>
+  <data name="AllErrors" xml:space="preserve">
+    <value>Email Subject cannot be empty; please enter the required Email subject in file. 
+Email Subject in file is more than 300 characters; can accept value below 300 characters only. 
+Program Invoice Numbers cannot be empty/blank in file; please provide correct values.</value>
+  </data>
+  <data name="InvoiceNumberEmpty" xml:space="preserve">
+    <value>Program Invoice Numbers cannot be empty/blank in file; please provide correct values.</value>
+  </data>
+  <data name="InvalidInvoiceNumber" xml:space="preserve">
+    <value>Invoice numbers DTInvalid01 not found, please correct and try submitting again</value>
+  </data>
+  <data name="SaveChanges" xml:space="preserve">
+    <value>Save Changes</value>
+  </data>
+  <data name="RecordSavedSuccessfully_caps" xml:space="preserve">
+    <value>Record Saved Successfully</value>
+  </data>
+  <data name="Display" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="UploadTaxDocuments" xml:space="preserve">
+    <value>Upload Tax Documents</value>
+  </data>
+  <data name="DeletedSuccessfully" xml:space="preserve">
+    <value>Deleted successfully.</value>
+  </data>
+  <data name="DeleteTaxDocuments" xml:space="preserve">
+    <value>Delete Tax Documents</value>
+  </data>
+  <data name="SavedSuccessfully" xml:space="preserve">
+    <value>Saved successfully.</value>
+  </data>
+  <data name="ThisFileExtensionIsNotAllowed" xml:space="preserve">
+    <value>This file extension isn't allowed</value>
+  </data>
+  <data name="PleaseWaitElipsis" xml:space="preserve">
+    <value>Please wait...</value>
+  </data>
+  <data name="MaxInvoiceNumber" xml:space="preserve">
+    <value>Program Invoice Numbers [DTI000101056DTI00010105] exceed 22 character limit; please correct the values.</value>
+  </data>
+  <data name="BrowseWithElipsis" xml:space="preserve">
+    <value>Browse...</value>
+  </data>
+  <data name="DuplicateInvoiceNumbers" xml:space="preserve">
+    <value>Duplicate Program Invoice Numbers  in file; please remove duplicate entries: [SAC000011032].</value>
+  </data>
+  <data name="PONumbersMaxLimit" xml:space="preserve">
+    <value>PO Numbers [PO Number 1 PO Number 1 PO] exceed 22 character limit; please correct the values.</value>
+  </data>
+  <data name="UploadedExcelFileIsEmpty" xml:space="preserve">
+    <value>Uploaded excel file is empty. Please upload another file</value>
+  </data>
+  <data name="BulkActionsMultipleErrors" xml:space="preserve">
+    <value>Program Invoice Numbers cannot be empty/blank in file; please provide correct values. Duplicate Program Invoice Numbers  in file; please remove duplicate entries: [SAC000011032].  PO Numbers [PO Number 1 PO Number 1 PO] exceed 22 character limit; please correct the values.</value>
+  </data>
+  <data name="InvalidInvoiceNumberPO" xml:space="preserve">
+    <value>Invoice numbers [  DTInvalid01] not found, please correct and try submitting again.</value>
+  </data>
+  <data name="ResellerInvoiceRequiredMessage" xml:space="preserve">
+    <value>Please ensure both Dealer and Fleet Reseller Invoice Required relationship is setup</value>
+  </data>
+  <data name="ResellerInvoiceRequiredMessageConstant" xml:space="preserve">
+    <value>Invoices will be in ''Awaiting Reseller Release'' until Invoice is received from Reseller set below</value>
+  </data>
+  <data name="ResellerIsRequired" xml:space="preserve">
+    <value>Reseller is required</value>
+  </data>
+  <data name="ResellerSameFleetError" xml:space="preserve">
+    <value>Reseller (Fleet) value cannot be same as selected Fleet</value>
+  </data>
+  <data name="RecordAddedSuccessfully" xml:space="preserve">
+    <value>Record has been added successfully</value>
+  </data>
+  <data name="ResellerSameLocationError" xml:space="preserve">
+    <value>Relation cannot be created between same locations or if they are in same hierarchy</value>
+  </data>
+  <data name="InactiveAccounts" xml:space="preserve">
+    <value>Please remove the following accounts as they are inactive or terminated:
+  bazghabulkupdate10</value>
+  </data>
+  <data name="CreditUpdateOnlyForBillingLocations1" xml:space="preserve">
+    <value>Credit update is only for Billing Locations, please remove the following Accounts:
+  03khbulk0010, 03khbulk0012, 03khbulk0001-JF, 03khbulk0002, 03khbulk0003</value>
+  </data>
+  <data name="InvalidCreditLimit" xml:space="preserve">
+    <value>Invalid Credit limit for the following accounts:
+  bazghabulkupdate1  340000526, bazghabulkupdate101  A350000</value>
+  </data>
+  <data name="PleaseRemoveDuplicateAccounts" xml:space="preserve">
+    <value>Please remove duplicate accounts:
+  bazghabulkupdate1</value>
+  </data>
+  <data name="MaxFileSize" xml:space="preserve">
+    <value>Size of the uploaded file exceeds maximum file size</value>
+  </data>
+  <data name="UpdateCreditInvalid10kRows" xml:space="preserve">
+    <value>Credit update is only for Billing Locations, please remove the following Accounts:
+  InvalidAccount001, InvalidAccount002, InvalidAccount003, InvalidAccount004, InvalidAccount005, InvalidAccount006, InvalidAccount007, InvalidAccount008, InvalidAccount009, InvalidAccount010, InvalidAccount011, InvalidAccount012, InvalidAccount013, InvalidAccount014, InvalidAccount015, InvalidAccount016, InvalidAccount017, InvalidAccount018, InvalidAccount019, InvalidAccount020, InvalidAccount021, InvalidAccount022, InvalidAccount023, InvalidAccount024, InvalidAccount025, InvalidAccount026, InvalidAccount027, InvalidAccount028, InvalidAccount029, InvalidAccount030, InvalidAccount031, InvalidAccount032, InvalidAccount033, InvalidAccount034, InvalidAccount035, InvalidAccount036, InvalidAccount037, InvalidAccount038, InvalidAccount039, InvalidAccount040, InvalidAccount041, InvalidAccount042, InvalidAccount043, InvalidAccount044, InvalidAccount045, InvalidAccount046, InvalidAccount047, InvalidAccount048, InvalidAccount049, InvalidAccount050, InvalidAccount051, InvalidAccount052, InvalidAccount053, InvalidAccount054, InvalidAccount055, InvalidAccount056, InvalidAccount057, InvalidAccount058, InvalidAccount059, InvalidAccount060, InvalidAccount061, InvalidAccount062, InvalidAccount063, InvalidAccount064, InvalidAccount065, InvalidAccount066, InvalidAccount067, InvalidAccount068, InvalidAccount069, InvalidAccount070, InvalidAccount071, InvalidAccount072, InvalidAccount073, InvalidAccount074, InvalidAccount075, InvalidAccount076, InvalidAccount077, InvalidAccount078, InvalidAccount079, InvalidAccount080, InvalidAccount081, InvalidAccount082, InvalidAccount083, InvalidAccount084, InvalidAccount085, InvalidAccount086, InvalidAccount087, InvalidAccount088, InvalidAccount089, InvalidAccount090, InvalidAccount091, InvalidAccount092, InvalidAccount093, InvalidAccount094, InvalidAccount095, InvalidAccount096, InvalidAccount097, InvalidAccount098, InvalidAccount099, InvalidAccount100, InvalidAccount101, InvalidAccount102, InvalidAccount103, InvalidAccount104, InvalidAccount105, InvalidAccount106, InvalidAccount107, InvalidAccount108, InvalidAccount109, InvalidAccount110, InvalidAccount111, InvalidAccount112, InvalidAccount113, InvalidAccount114, InvalidAccount115, InvalidAccount116, InvalidAccount117, InvalidAccount118, InvalidAccount119, InvalidAccount120, InvalidAccount121, InvalidAccount122, InvalidAccount123, InvalidAccount124, InvalidAccount125, InvalidAccount126, InvalidAccount127, InvalidAccount128, InvalidAccount129, InvalidAccount130, InvalidAccount131, InvalidAccount132, InvalidAccount133, InvalidAccount134, InvalidAccount135, InvalidAccount136, InvalidAccount137, InvalidAccount138, InvalidAccount139, InvalidAccount140, InvalidAccount141, InvalidAccount142, InvalidAccount143, InvalidAccount144, InvalidAccount145, InvalidAccount146, InvalidAccount147, InvalidAccount148, InvalidAccount149, InvalidAccount150, InvalidAccount151, InvalidAccount152, InvalidAccount153, InvalidAccount154, InvalidAccount155, InvalidAccount156, InvalidAccount157, InvalidAccount158, InvalidAccount159, InvalidAccount160, InvalidAccount161, InvalidAccount162, InvalidAccount163, InvalidAccount164, InvalidAccount165, InvalidAccount166, InvalidAccount167, InvalidAccount168, InvalidAccount169, InvalidAccount170, InvalidAccount171, InvalidAccount172, InvalidAccount173, InvalidAccount174, InvalidAccount175, InvalidAccount176, InvalidAccount177, InvalidAccount178, InvalidAccount179, InvalidAccount180, InvalidAccount181, InvalidAccount182, InvalidAccount183, InvalidAccount184, InvalidAccount185, InvalidAccount186, InvalidAccount187, InvalidAccount188, InvalidAccount189, InvalidAccount190, InvalidAccount191, InvalidAccount192, InvalidAccount193, InvalidAccount194, InvalidAccount195, InvalidAccount196, InvalidAccount197, InvalidAccount198, InvalidAccount199, InvalidAccount200, InvalidAccount201, InvalidAccount202, InvalidAccount203, InvalidAccount204, InvalidAccount205, InvalidAccount206, InvalidAccount207, InvalidAccount208, InvalidAccount209, InvalidAccount210, InvalidAccount211, InvalidAccount212, InvalidAccount213, InvalidAccount214, InvalidAccount215, InvalidAccount216, InvalidAccount217, InvalidAccount218, InvalidAccount219, InvalidAccount220, InvalidAccount221, InvalidAccount222, InvalidAccount223, InvalidAccount224, InvalidAccount225, InvalidAccount226, InvalidAccount227, InvalidAccount228, InvalidAccount229, InvalidAccount230, InvalidAccount231, InvalidAccount232, InvalidAccount233, InvalidAccount234, InvalidAccount235, InvalidAccount236, InvalidAccount237, InvalidAccount238, InvalidAccount239, InvalidAccount240, InvalidAccount241, InvalidAccount242, InvalidAccount243, InvalidAccount244, InvalidAccount245, InvalidAccount246, InvalidAccount247, InvalidAccount248, InvalidAccount249, InvalidAccount250, InvalidAccount251, InvalidAccount252, InvalidAccount253, InvalidAccount254, InvalidAccount255, InvalidAccount256, InvalidAccount257, InvalidAccount258, InvalidAccount259, InvalidAccount260, InvalidAccount261, InvalidAccount262, InvalidAccount263, InvalidAccount264, InvalidAccount265, InvalidAccount266, InvalidAccount267, InvalidAccount268, InvalidAccount269, InvalidAccount270, InvalidAccount271, InvalidAccount272, InvalidAccount273, InvalidAccount274, InvalidAccount275, InvalidAccount276, InvalidAccount277, InvalidAccount278, InvalidAccount279, InvalidAccount280, InvalidAccount281, InvalidAccount282, InvalidAccount283, InvalidAccount284, InvalidAccount285, InvalidAccount286, InvalidAccount287, InvalidAccount288, InvalidAccount289, InvalidAccount290, InvalidAccount291, InvalidAccount292, InvalidAccount293, InvalidAccount294, InvalidAccount295, InvalidAccount296, InvalidAccount297, InvalidAccount298, InvalidAccount299, InvalidAccount300, InvalidAccount301, InvalidAccount302, InvalidAccount303, InvalidAccount304, InvalidAccount305, InvalidAccount306, InvalidAccount307, InvalidAccount308, InvalidAccount309, InvalidAccount310, InvalidAccount311, InvalidAccount312, InvalidAccount313, InvalidAccount314, InvalidAccount315, InvalidAccount316, InvalidAccount317, InvalidAccount318, InvalidAccount319, InvalidAccount320, InvalidAccount321, InvalidAccount322, InvalidAccount323, InvalidAccount324, InvalidAccount325, InvalidAccount326, InvalidAccount327, InvalidAccount328, InvalidAccount329, InvalidAccount330, InvalidAccount331, InvalidAccount332, InvalidAccount333, InvalidAccount334, InvalidAccount335, InvalidAccount336, InvalidAccount337, InvalidAccount338, InvalidAccount339, InvalidAccount340, InvalidAccount341, InvalidAccount342, InvalidAccount343, InvalidAccount344, InvalidAccount345, InvalidAccount346, InvalidAccount347, InvalidAccount348, InvalidAccount349, InvalidAccount350, InvalidAccount351, InvalidAccount352, InvalidAccount353, InvalidAccount354, InvalidAccount355, InvalidAccount356, InvalidAccount357, InvalidAccount358, InvalidAccount359, InvalidAccount360, InvalidAccount361, InvalidAccount362, InvalidAccount363, InvalidAccount364, InvalidAccount365, InvalidAccount366, InvalidAccount367, InvalidAccount368, InvalidAccount369, InvalidAccount370, InvalidAccount371, InvalidAccount372, InvalidAccount373, InvalidAccount374, InvalidAccount375, InvalidAccount376, InvalidAccount377, InvalidAccount378, InvalidAccount379, InvalidAccount380, InvalidAccount381, InvalidAccount382, InvalidAccount383, InvalidAccount384, InvalidAccount385, InvalidAccount386, InvalidAccount387, InvalidAccount388, InvalidAccount389, InvalidAccount390, InvalidAccount391, InvalidAccount392, InvalidAccount393, InvalidAccount394, InvalidAccount395, InvalidAccount396, InvalidAccount397, InvalidAccount398, InvalidAccount399, InvalidAccount400, InvalidAccount401, InvalidAccount402, InvalidAccount403, InvalidAccount404, InvalidAccount405, InvalidAccount406, InvalidAccount407, InvalidAccount408, InvalidAccount409, InvalidAccount410, InvalidAccount411, InvalidAccount412, InvalidAccount413, InvalidAccount414, InvalidAccount415, InvalidAccount416, InvalidAccount417, InvalidAccount418, InvalidAccount419, InvalidAccount420, InvalidAccount421, InvalidAccount422, InvalidAccount423, InvalidAccount424, InvalidAccount425, InvalidAccount426, InvalidAccount427, InvalidAccount428, InvalidAccount429, InvalidAccount430, InvalidAccount431, InvalidAccount432, InvalidAccount433, InvalidAccount434, InvalidAccount435, InvalidAccount436, InvalidAccount437, InvalidAccount438, InvalidAccount439, InvalidAccount440, InvalidAccount441, InvalidAccount442, InvalidAccount443, InvalidAccount444, InvalidAccount445, InvalidAccount446, InvalidAccount447, InvalidAccount448, InvalidAccount449, InvalidAccount450, InvalidAccount451, InvalidAccount452, InvalidAccount453, InvalidAccount454, InvalidAccount455, InvalidAccount456, InvalidAccount457, InvalidAccount458, InvalidAccount459, InvalidAccount460, InvalidAccount461, InvalidAccount462, InvalidAccount463, InvalidAccount464, InvalidAccount465, InvalidAccount466, InvalidAccount467, InvalidAccount468, InvalidAccount469, InvalidAccount470, InvalidAccount471, InvalidAccount472, InvalidAccount473, InvalidAccount474, InvalidAccount475, InvalidAccount476, InvalidAccount477, InvalidAccount478, InvalidAccount479, InvalidAccount480, InvalidAccount481, InvalidAccount482, InvalidAccount483, InvalidAccount484, InvalidAccount485, InvalidAccount486, InvalidAccount487, InvalidAccount488, InvalidAccount489, InvalidAccount490, InvalidAccount491, InvalidAccount492, InvalidAccount493, InvalidAccount494, InvalidAccount495, InvalidAccount496, InvalidAccount497, InvalidAccount498, InvalidAccount499, InvalidAccount500, InvalidAccount501, InvalidAccount502, InvalidAccount503, InvalidAccount504, InvalidAccount505, InvalidAccount506, InvalidAccount507, InvalidAccount508, InvalidAccount509, InvalidAccount510, InvalidAccount511, InvalidAccount512, InvalidAccount513, InvalidAccount514, InvalidAccount515, InvalidAccount516, InvalidAccount517, InvalidAccount518, InvalidAccount519, InvalidAccount520, InvalidAccount521, InvalidAccount522, InvalidAccount523, InvalidAccount524, InvalidAccount525, InvalidAccount526, InvalidAccount527, InvalidAccount528, InvalidAccount529, InvalidAccount530, InvalidAccount531, InvalidAccount532, InvalidAccount533, InvalidAccount534, InvalidA</value>
+  </data>
+  <data name="RelationshipDeletedStatement" xml:space="preserve">
+    <value>A relationship was deleted</value>
+  </data>
+  <data name="RelationshipInsertedStatement" xml:space="preserve">
+    <value>A relationship was inserted</value>
+  </data>
+  <data name="RelationshipUpdatedStatement" xml:space="preserve">
+    <value>Relationship updated: Reseller Invoice Required</value>
+  </data>
+  <data name="CreditLimitUpdated1Accounts" xml:space="preserve">
+    <value>Credit limit will be updated for 1 Accounts</value>
+  </data>
+  <data name="CreditUpdateOnlyForBillingLocations2" xml:space="preserve">
+    <value>Credit update is only for Billing Locations, please remove the following Accounts:
+  03khbulk0012, 03khbulk0002, 03khbulk0003</value>
+  </data>
+  <data name="CreditUpdateOnlyForBillingLocations3" xml:space="preserve">
+    <value>Credit update is only for Billing Locations, please remove the following Accounts:
+  03khbulk0010, 03khbulk0002, 03khbulk0007</value>
+  </data>
+  <data name="TheFileContainsNoDataForAccounts" xml:space="preserve">
+    <value>The file contains no data for Account Code field.</value>
+  </data>
+  <data name="ResellerSameDealerError" xml:space="preserve">
+    <value>Reseller (Dealer) value cannot be same as selected Dealer</value>
+  </data>
+  <data name="Release" xml:space="preserve">
+    <value>Release</value>
+  </data>
+  <data name="DisputeCreationMandatoryFieldsEmpty" xml:space="preserve">
+    <value>&lt;Program Invoice Number, Reason and Notes&gt; fields cannot be empty/blank in file; please provide correct values.</value>
+  </data>
+  <data name="DisputeCreationEmptyTemplate" xml:space="preserve">
+    <value>Header field value row is required; please use the template provided for adding Disputes to be created</value>
+  </data>
+  <data name="DisputeCreationDuplicateInvoiceNumbers" xml:space="preserve">
+    <value>Duplicate Program invoice numbers [ZKC000008637]; please remove the duplicate values.</value>
+  </data>
+  <data name="DisputeCreationSaved" xml:space="preserve">
+    <value>Dispute creation file has been saved to remote directory for further process of dispute creation</value>
+  </data>
+  <data name="DisputeCreationHeaderMissing" xml:space="preserve">
+    <value>Header field value row is required; please use the template provided for adding Disputes to be created</value>
+  </data>
+  <data name="CreateRebill" xml:space="preserve">
+    <value>Create Rebill</value>
+  </data>
+  <data name="AddLineItem" xml:space="preserve">
+    <value>Add Line Item</value>
+  </data>
+  <data name="AddTax" xml:space="preserve">
+    <value>Add Tax</value>
+  </data>
+  <data name="DeleteSection" xml:space="preserve">
+    <value>Delete Section</value>
+  </data>
+  <data name="SaveInvoice" xml:space="preserve">
+    <value>Save Invoice</value>
+  </data>
+  <data name="SubmitInvoice" xml:space="preserve">
+    <value>Submit Invoice</value>
+  </data>
+  <data name="UploadAttachments" xml:space="preserve">
+    <value>Upload Attachments</value>
+  </data>
+  <data name="Movetohistory" xml:space="preserve">
+    <value>Move to history</value>
+  </data>
+  <data name="ChangeInvoice" xml:space="preserve">
+    <value>Change Invoice</value>
+  </data>
+  <data name="DeleteInvoice" xml:space="preserve">
+    <value>Delete Invoice</value>
+  </data>
+  <data name="RecordUpdatedPleaseCloseToExitUpdateForm" xml:space="preserve">
+    <value>The record has been updated successfully.
+Please use Close button to exit from update form.</value>
+  </data>
+  <data name="DateRangeError" xml:space="preserve">
+    <value>Date range cannot exceed 185 Days</value>
+  </data>
+  <data name="InvoiceOptions" xml:space="preserve">
+    <value>Invoice Options</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="InvoiceSubmissionCompletedSuccessfully" xml:space="preserve">
+    <value>Invoice submission completed successfully.</value>
+  </data>
+  <data name="Impersonate" xml:space="preserve">
+    <value>Impersonate</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="AddNewRelationship" xml:space="preserve">
+    <value>Add New Relationship</value>
+  </data>
+  <data name="RelationshipAlreadyExists" xml:space="preserve">
+    <value>Relationship already exists, please select a new criteria</value>
+  </data>
+  <data name="ClearSearchCriteriaAlertMessage" xml:space="preserve">
+    <value>This will reset all fields in the search criteria. Please confirm to proceed.</value>
+  </data>
+  <data name="SaveAsBookmark" xml:space="preserve">
+    <value>Save As Bookmark</value>
+  </data>
+  <data name="CreateBillingSchedule" xml:space="preserve">
+    <value>Create Billing Schedule</value>
+  </data>
+  <data name="CreateNewPOQ" xml:space="preserve">
+    <value>Create New POQ</value>
+  </data>
+  <data name="SaveAndContinue" xml:space="preserve">
+    <value>Save and Continue</value>
+  </data>
+  <data name="CreateNewPO" xml:space="preserve">
+    <value>Create New PO</value>
+  </data>
+  <data name="Insert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="AddNew" xml:space="preserve">
+    <value>Add New</value>
+  </data>
+  <data name="CustomFieldAddedSuccessfully" xml:space="preserve">
+    <value>Custom field added successfully</value>
+  </data>
+  <data name="SymbolGreaterThan" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="SymbolLessThan" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="CustomFieldUpdatedSuccessfully" xml:space="preserve">
+    <value>Custom field updated successfully</value>
+  </data>
+  <data name="PayInvoices" xml:space="preserve">
+    <value>Pay Invoices</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="CreateAuthorization" xml:space="preserve">
+    <value>Create Authorization</value>
+  </data>
+  <data name="AddNewFee" xml:space="preserve">
+    <value>Add New Fee</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="CreateNewSub-community" xml:space="preserve">
+    <value>Create New Sub-community</value>
+  </data>
+  <data name="ConfirmDeleteAccelerationTerm" xml:space="preserve">
+    <value>If any Dealer/Fleet has this Acceleration Term assigned through Payment Terms relationship or Master configuration, then the new invoices will not see this in affect. Do you wish to continue?</value>
+  </data>
+  <data name="SuccessfulTransaction" xml:space="preserve">
+    <value>Successful transaction.</value>
+  </data>
+  <data name="ResubmitAuthorization" xml:space="preserve">
+    <value>Resubmit Authorization</value>
+  </data>
+  <data name="ReleaseInvoices" xml:space="preserve">
+    <value>Release Invoices</value>
+  </data>
+  <data name="MoveToHistory_" xml:space="preserve">
+    <value>Move To History</value>
+  </data>
+  <data name="MoveToHistoryInvoiceAlert" xml:space="preserve">
+    <value>Moving Awaiting Release transactions to Discrepancy History will prevent the transaction from being able to be settled, Do you want to continue?</value>
+  </data>
+  <data name="MoveToHistorySuccess" xml:space="preserve">
+    <value>Selected transactions have been moved to history.</value>
+  </data>
+  <data name="ReleaseInvoiceAlert" xml:space="preserve">
+    <value>Are you sure you want release the selected invoices?</value>
+  </data>
+  <data name="ReleaseInvoiceSuccess" xml:space="preserve">
+    <value>Successfully submitted the selected invoice(s) for release process.</value>
+  </data>
+  <data name="SelectInvoiceHistoryAlert" xml:space="preserve">
+    <value>Please select transactions to move to history.</value>
+  </data>
+  <data name="NewProductGroupRule" xml:space="preserve">
+    <value>New Product Group Rule</value>
+  </data>
+  <data name="OverrideRulesatAgencyLevel" xml:space="preserve">
+    <value>Override Rules at Agency Level</value>
+  </data>
+  <data name="EditLineItem" xml:space="preserve">
+    <value>Edit Line Item</value>
+  </data>
+  <data name="NewTax" xml:space="preserve">
+    <value>New Tax</value>
+  </data>
+  <data name="SaveLineItem" xml:space="preserve">
+    <value>Save Line Item</value>
+  </data>
+  <data name="SaveTax" xml:space="preserve">
+    <value>Save Tax</value>
+  </data>
+  <data name="ConfirmDeleteAlert" xml:space="preserve">
+    <value>Confirm Delete?</value>
+  </data>
+  <data name="DeleteAttachment" xml:space="preserve">
+    <value>Delete Attachment</value>
+  </data>
+  <data name="DeleteAttachmentAlert" xml:space="preserve">
+    <value>do you want delete this Attachment?</value>
+  </data>
+  <data name="DeleteInvoiceAlert" xml:space="preserve">
+    <value>Are you sure you want to delete Invoice?</value>
+  </data>
+  <data name="DeleteLineItem" xml:space="preserve">
+    <value>Delete Line Item</value>
+  </data>
+  <data name="DeleteLineItemAlert" xml:space="preserve">
+    <value>Are you sure you want to delete the line item?</value>
+  </data>
+  <data name="DeleteTax" xml:space="preserve">
+    <value>Delete Tax</value>
+  </data>
+  <data name="EditTax" xml:space="preserve">
+    <value>Edit Tax</value>
+  </data>
+  <data name="PleaseEnterDescription" xml:space="preserve">
+    <value>Please enter description</value>
+  </data>
+  <data name="UploadingFilesPleaseWaitElipsis" xml:space="preserve">
+    <value>Uploading Files please wait...</value>
+  </data>
+  <data name="MoveToHistoryPODiscrepancyAlert" xml:space="preserve">
+    <value>Moving a discrepancy to Discrepancy History will prevent the transaction from being able to be settled, Do you want to continue?</value>
+  </data>
+  <data name="MovetoPODiscrepancy" xml:space="preserve">
+    <value>Move to PO Discrepancy</value>
+  </data>
+  <data name="AreYouSure" xml:space="preserve">
+    <value>Are you sure?</value>
+  </data>
+  <data name="PODiscrepancyMessage" xml:space="preserve">
+    <value>Selected transactions have been moved to PO Discrepancy.</value>
+  </data>
+  <data name="Rebill" xml:space="preserve">
+    <value>Rebill</value>
+  </data>
+  <data name="RebillTheInvoice" xml:space="preserve">
+    <value>Rebill the Invoice</value>
+  </data>
+  <data name="CreateAReversal" xml:space="preserve">
+    <value>Create a Reversal</value>
+  </data>
+  <data name="ReversalTransactionCompletedSuccessfully" xml:space="preserve">
+    <value>Reversal Transaction submission completed successfully.</value>
+  </data>
+  <data name="Reverse" xml:space="preserve">
+    <value>Reverse</value>
+  </data>
+  <data name="ReDispute" xml:space="preserve">
+    <value>Re Dispute</value>
+  </data>
+  <data name="SaveSelectedFunctions" xml:space="preserve">
+    <value>Save Selected Functions</value>
+  </data>
+  <data name="AssignUserstotheusergroup" xml:space="preserve">
+    <value>Assign Users to the user group</value>
+  </data>
+  <data name="DeletePO" xml:space="preserve">
+    <value>Delete PO</value>
+  </data>
+  <data name="DeletePOAlert" xml:space="preserve">
+    <value>Are you sure you want to delete PO?</value>
+  </data>
+  <data name="SavePO" xml:space="preserve">
+    <value>Save PO</value>
+  </data>
+  <data name="SubmitPO" xml:space="preserve">
+    <value>Submit PO</value>
+  </data>
+  <data name="POSubmissionCompletedSuccessfully" xml:space="preserve">
+    <value>PO submission completed successfully.</value>
+  </data>
+  <data name="SavePOQ" xml:space="preserve">
+    <value>Save POQ</value>
+  </data>
+  <data name="DeletePOQ" xml:space="preserve">
+    <value>Delete POQ</value>
+  </data>
+  <data name="DeletePOQAlert" xml:space="preserve">
+    <value>Are you sure you want to delete POQ?</value>
+  </data>
+  <data name="POQSubmissionCompletedSuccessfully" xml:space="preserve">
+    <value>POQ submission completed successfully.</value>
+  </data>
+  <data name="SubmitPOQ" xml:space="preserve">
+    <value>Submit POQ</value>
+  </data>
+  <data name="SaveApprovalStatus" xml:space="preserve">
+    <value>Save Approval Status</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SaveApprovers" xml:space="preserve">
+    <value>Save Approvers</value>
+  </data>
+  <data name="SaveUsersAssignments" xml:space="preserve">
+    <value>Save Users Assignments</value>
+  </data>
+  <data name="AddNewRecord" xml:space="preserve">
+    <value>Add New Record</value>
+  </data>
+  <data name="AddNewContract" xml:space="preserve">
+    <value>Add New Contract</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>Processing...</value>
+  </data>
+  <data name="SearchCompleted" xml:space="preserve">
+    <value>The entire report has been searched.</value>
+  </data>
+  <data name="DeletePaymentTermsAlert" xml:space="preserve">
+    <value>All existing relationships using the Payment Terms will be effected. Do you wish to Continue?</value>
+  </data>
+  <data name="RecordInsertedSuccessfully" xml:space="preserve">
+    <value>The record has been inserted successfully.
+Please use Close button to exit from insert form.</value>
+  </data>
+  <data name="Uploadfile" xml:space="preserve">
+    <value>Upload file</value>
+  </data>
+  <data name="SendNewTempPassword" xml:space="preserve">
+    <value>Send New Temp Password</value>
+  </data>
+  <data name="SaveUserPopup" xml:space="preserve">
+    <value>Save User</value>
+  </data>
+  <data name="ConfirmResetAlert" xml:space="preserve">
+    <value>This will reset all fields in the search criteria. Please confirm to proceed.</value>
+  </data>
+  <data name="NoDataToDisplay" xml:space="preserve">
+    <value>No data to display</value>
+  </data>
+  <data name="NoDataExists" xml:space="preserve">
+    <value>No Data Exists</value>
+  </data>
+  <data name="RecordHasBeenSavedSuccessfully" xml:space="preserve">
+    <value>Record has been saved successfully.</value>
+  </data>
+  <data name="RecordUpdatedSuccessfully" xml:space="preserve">
+    <value>Record updated successfully.</value>
+  </data>
+  <data name="AddSection" xml:space="preserve">
+    <value>Add Section</value>
+  </data>
+  <data name="DeleteSectionAlertMsg" xml:space="preserve">
+    <value>Are you sure you want to delete section?</value>
+  </data>
+  <data name="RecordAddingError" xml:space="preserve">
+    <value>Error occured while adding record</value>
+  </data>
+  <data name="RelationshipNotFound" xml:space="preserve">
+    <value>Relationship not found after search</value>
+  </data>
+  <data name="RelationshipNotDeleted" xml:space="preserve">
+    <value>Relationship was not deleted</value>
+  </data>
+  <data name="InvoiceResubmissionSucessfully" xml:space="preserve">
+    <value>Invoice re-submitted successfully.</value>
+  </data>
+  <data name="UpdateCreditSuccessfully" xml:space="preserve">
+    <value>Credit limit is updated successfully</value>
+  </data>
+  <data name="ClickSearchToViewData" xml:space="preserve">
+    <value>Click on Search to view data.</value>
+  </data>
+  <data name="DuplicateEntries" xml:space="preserve">
+    <value>Duplicate Entries</value>
+  </data>
+  <data name="GO" xml:space="preserve">
+    <value>GO</value>
+  </data>
+  <data name="WaitWhileFunctionClosing" xml:space="preserve">
+    <value>Please wait while function is closing</value>
+  </data>
+  <data name="ViewCatalogue" xml:space="preserve">
+    <value>View Catalogue</value>
+  </data>
+  <data name="MoveOutofHistory" xml:space="preserve">
+    <value>Move Out of History</value>
+  </data>
+  <data name="MoveOutOfHistorySuccess" xml:space="preserve">
+    <value>All transaction(s) have been successfully moved out of history</value>
+  </data>
+  <data name="LinkAssignedLocations" xml:space="preserve">
+    <value>Link Assigned Locations</value>
+  </data>
+  <data name="SaveLocation" xml:space="preserve">
+    <value>Save Location</value>
+  </data>
+  <data name="UnLinkAssignedLocations" xml:space="preserve">
+    <value>Unlink Assigned Locations</value>
+  </data>
+  <data name="SymbolDoubleGreaterThan" xml:space="preserve">
+    <value>&gt;&gt;</value>
+  </data>
+  <data name="ViewFleetInvoice" xml:space="preserve">
+    <value>View Fleet Invoice</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="FileHasBeenProcessedAndUploadedSuccessfully" xml:space="preserve">
+    <value>File has been processed and uploaded successfully.</value>
+  </data>
+  <data name="ProgramInvoiceNumberAndAtLeastOneValueError" xml:space="preserve">
+    <value>Program Invoice Number and at least one of the Invoice detail value needs to be mapped for update.</value>
+  </data>
+  <data name="RefNumberMaxLimit" xml:space="preserve">
+    <value>Ref # [RefNumber RefNumber RefNumber RefNumber RefNumber RefNumber RefNumber RefNumber RefNumber RefNumber RefNumber RefNumber RefNumber RefNumber RefNumber RefNumber 1] exceed 22 character limit; please correct the values.</value>
+  </data>
+  <data name="UnitNumberMaxLimit" xml:space="preserve">
+    <value>Unit Number [UnitNumbr UnitNumbr UnitNumbr UnitNumbr UnitNumbr UnitNumbr UnitNumbr UnitNumbr UnitNumbr UnitNumbr UnitNumbr UnitNumbr UnitNumbr UnitNumbr UnitNumbr UnitNumbr 1] exceed 22 character limit; please correct the values.</value>
+  </data>
+  <data name="VehicleIdMaxLimit" xml:space="preserve">
+    <value>Vehicle ID [VehicleId VehicleId VehicleId VehicleId VehicleId VehicleId VehicleId VehicleId VehicleId VehicleId VehicleId VehicleId VehicleId VehicleId VehicleId VehicleId 1] exceed 22 character limit; please correct the values.</value>
+  </data>
+  <data name="VehicleMileageMaxLimit" xml:space="preserve">
+    <value>Vehicle Mileage [VehMileage VehMileage VehMileage VehMileage VehMileage VehMileage VehMileage VehMileage VehMileage VehMileage VehMileage VehMileage VehMileage VehMileage VehMileage] exceed 22 character limit; please correct the values.</value>
+  </data>
+  <data name="VinNumberMaxLimit" xml:space="preserve">
+    <value>Vin Number [VinNumber VinNumber VinNumber VinNumber VinNumber VinNumber VinNumber VinNumber VinNumber VinNumber VinNumber VinNumber VinNumber VinNumber VinNumber VinNumber 1] exceed 22 character limit; please correct the values.</value>
+  </data>
+</root>

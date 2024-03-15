@@ -1,0 +1,36 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/PageObjectUtility/.vs/PageObjectUtility/DesignTimeBuild
+/PageObjectUtility/.vs/PageObjectUtility/v17
+/PageObjectUtility/.vs/PageObjectUtility
+/PageObjectUtility/Page elements
+/PageObjectUtility/PageObjectUtility/bin/Debug/net6.0
+/PageObjectUtility/PageObjectUtility/obj
+/AutomationTesting_CorConnect/.vs/AutomationTesting_CorConnect/DesignTimeBuild
+/AutomationTesting_CorConnect/.vs/AutomationTesting_CorConnect/v14
+/AutomationTesting_CorConnect/.vs/AutomationTesting_CorConnect/v17
+/AutomationTesting_CorConnect/.vs/AutomationTesting_CorConnect
+/AutomationTesting_CorConnect/AutomationTesting_CorConnect/bin/Debug/net6.0
+/AutomationTesting_CorConnect/AutomationTesting_CorConnect/obj
+/Page elements
+/AutomationTesting_CorConnect/allure-reports
+/ReportGenerator/ReportGenerator/.vs/ReportGenerator/v17
+/ReportGenerator/ReportGenerator/ReportGenerator/bin/Debug/net6.0
+/ReportGenerator/ReportGenerator/ReportGenerator/obj
+/SetEnviromentProperties/SetEnviromentProperties/.vs/SetEnviromentProperties/v17
+/SetEnviromentProperties/SetEnviromentProperties/SetEnviromentProperties/bin/Debug/net6.0
+/SetEnviromentProperties/SetEnviromentProperties/SetEnviromentProperties/obj/Debug/net6.0
+/SetEnviromentProperties/SetEnviromentProperties/SetEnviromentProperties/obj
+/PageObjectUtility/.vs/ProjectEvaluation
+/AutomationTesting_CorConnect/AutomationTesting_CorConnect/allureConfig.json
+.DS_Store
+.vscode/
+.idea/
+/AutomationTesting_CorConnect/AutomationTesting_CorConnect/Features/CreditLimit/.vshistory/CreditLimitStatus.feature
+/AutomationTesting_CorConnect/AutomationTesting_CorConnect/Helper/.vshistory/MultiSelectHelper.cs
+/AutomationTesting_CorConnect/AutomationTesting_CorConnect/StepDefinitions/Common/.vshistory/CommonStepDefinitions.cs
+/AutomationTesting_CorConnect/AutomationTesting_CorConnect/StepDefinitions/FleetInvoices/.vshistory/FleetInvoicesStepDefinitions.cs
+/AutomationTesting_CorConnect/AutomationTesting_CorConnect/Utils/.vshistory/CommonUtils.cs

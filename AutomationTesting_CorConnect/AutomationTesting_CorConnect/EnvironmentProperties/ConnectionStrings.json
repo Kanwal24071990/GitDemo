@@ -1,0 +1,43 @@
+{
+  "connectionStrings": [
+    {
+      "@name": "QA",
+      "@connectionString": "Data Source=C1QDB01-USEA1A\\CCQ01,31171;Initial Catalog=WebCore_CorConnect;Persist Security Info=True;User ID=tenpearls;Password=pajPaRI8M"
+    },
+    {
+      "@name": "Client",
+      "@connectionString": "Data Source=C1UCC02.aws2.corcentric.com\\\\CCU02,31212;Initial Catalog=WebCore_AmeriquestCorp;Persist Security Info=True;User ID=tenpearls;Password=pajPaRI8M"
+    },
+    {
+      "@name": "Pronto",
+      "@connectionString": "Data Source=C1UCC02.aws2.corcentric.com\\\\CCU02,31212;Initial Catalog=WebCore_AmeriquestCorp;Persist Security Info=True;User ID=tenpearls;Password=pajPaRI8M"
+    },
+    {
+      "@name": "Diamler",
+      "@connectionString": "Data Source=C1UCC01.aws2.corcentric.com\\\\CCU02,31211;Initial Catalog=WebCore_DaimlerAUS;Persist Security Info=True;User ID=tenpearls;Password=pajPaRI8M"
+    }
+  ]
+}
+
+
+//// Preprod Connection Strings
+//{
+//  "connectionStrings": [
+//    {
+//      "@name": "QA",
+//      "@connectionString": "Data Source=C1QDBI01\\CCQ01,31171;Initial Catalog=WebCore_CorConnect;Persist Security Info=True;User ID=tenpearls;Password=pajPaRI8M"
+//    },
+//    {
+//      "@name": "Client",
+//      "@connectionString": "Data Source=C1PCC02\\CCP02,31162;Initial Catalog=WebCore_AmeriquestCorp;Persist Security Info=True;User ID=tenpearls;Password=pajPaRI8M"
+//    },
+//    {
+//      "@name": "Diamler",
+//      "@connectionString": "Data Source=C1PCC01\\CCP01,31161;Initial Catalog=WebCore_DaimlerAUS;Persist Security Info=True;User ID=tenpearls;Password=pajPaRI8M"
+//    },
+//    {
+//      "@name": "Pronto",
+//      "@connectionString": "Data Source=C1PDB03-USEA1A\\INTP01,31163;Initial Catalog=WebCore_Pronto;Persist Security Info=True;User ID=tenpearls;Password=pajPaRI8M"
+//    }
+//  ]
+//}

@@ -1,0 +1,71 @@
+[
+   {
+      "ID":"Dealer Code",
+      "Name":"Dealer Code",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//table[contains(@id,'cbDealerCode')]"
+      }
+   },{
+      "ID":"Fleet Code",
+      "Name":"Fleet Code",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//table[contains(@id,'cbCustomerCode')]"
+      }
+   },{
+      "ID":"Dealer Invoice Number",
+      "Name":"Dealer Invoice Number",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//input[contains(@id,'txtInvoiceNumber_I')]"
+      }
+   },{
+      "ID":"Invoice Date",
+      "Name":"Invoice Date",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//input[contains(@id,'dateDealerInvoiceDate_I')]"
+      }
+   },
+{
+      "ID":"PO Line #",
+      "Name":"PO Line #",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//input[contains(@id,'editRefDocLineNumber_I')]"
+      }
+   },
+{
+      "ID":"Fleet Item",
+      "Name":"Fleet Item",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//input[contains(@id,'editReceiverPartNumber_I')]"
+      }
+   },
+{
+      "ID":"VMRS",
+      "Name":"VMRS",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//input[contains(@id,'editVMRSCode_I')]"
+      }
+   },
+{
+      "ID":"UNSPSC",
+      "Name":"UNSPSC",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//input[contains(@id,'editUNSPSC_I')]"
+      }
+   },
+{
+      "ID":"Manufacturer Name",
+      "Name":"Manufacturer Name",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//input[contains(@id,'editManufacturerName_I')]"
+      }
+   }
+]

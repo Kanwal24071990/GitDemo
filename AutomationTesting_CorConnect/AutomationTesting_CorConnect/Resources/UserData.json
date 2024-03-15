@@ -1,0 +1,172 @@
+[
+  {
+    "user": "testsupport",
+    "password": "abc",
+    "type": "admin",
+    "locations": {
+      "location_1": {
+        "name": "FLT_BLNG_QA001",
+        "valid": "true",
+        "type": "fleet"
+      },
+      "location_2": {
+        "name": "FLT_BLNG_TXCERT001",
+        "valid": "false",
+        "type": "fleet"
+      }
+    }
+  },
+  {
+    "user": "support",
+    "password": "abc",
+    "type": "admin",
+    "locations": {
+      "location_1": {
+        "name": "FLT_BLNG_QA001",
+        "valid": "true",
+        "type": "fleet"
+      },
+      "location_2": {
+        "name": "FLT_BLNG_TXCERT001",
+        "valid": "false",
+        "type": "fleet"
+      }
+    }
+  },
+  {
+    "password": "abc",
+    "type": "fleet",
+    "user": "fleetb_TE_user"
+  },
+  {
+    "user": "FLT_BLNG_QA003",
+    "password": "Test@123",
+    "type": "fleet"
+  },
+  {
+    "user": "DLR_BLNG_QA003-1",
+    "password": "Test@123",
+    "type": "dealer"
+  },
+  {
+    "user": "DLR_BLNG_QA001",
+    "password": "abc",
+    "type": "dealer",
+    "locations": {
+      "location_1": {
+        "name": "DLR_BLNG_QA001",
+        "valid": "true",
+        "type": "dealer"
+      },
+      "location_2": {
+        "name": "DLR_BLNG_QA003",
+        "valid": "false",
+        "type": "dealer"
+      }
+    }
+  },
+  {
+    "user": "CynthiaTestSupport",
+    "password": "10Pearls1+",
+    "isAdmin": true,
+    "type": "admin",
+    "locations": {
+      "location_1": {
+        "name": "DLR_BLNG_QA001",
+        "valid": "true",
+        "type": "dealer"
+      },
+      "location_2": {
+        "name": "DLR_BLNG_QA003",
+        "valid": "true",
+        "type": "dealer"
+      },
+      "location_3": {
+        "name": "FLT_BLNG_QA001",
+        "valid": "true",
+        "type": "fleet"
+      },
+      "location_4": {
+        "name": "FLT_BLNG_TXCERT001",
+        "valid": "true",
+        "type": "fleet"
+      }
+    }
+  },
+  {
+    "user": "SADM_USER",
+    "password": "Test@123",
+    "type": "admin"
+  },
+  {
+    "user": "SADMN_USER02",
+    "password": "Test@123",
+    "type": "admin"
+  },
+  {
+    "password": "Test@123",
+    "type": "community",
+    "user": "CADMN_USER01"
+  },
+  {
+    "password": "Test@123",
+    "type": "community",
+    "user": "CADMN_USER02"
+  },
+  {
+    "password": "Test@123",
+    "type": "community",
+    "user": "CADMN_USER03"
+  },
+  {
+    "password": "requester",
+    "type": "enrollment",
+    "user": "requester"
+  },
+  {
+    "password": "abc",
+    "type": "enrollment",
+    "user": "corcentricApprover"
+  },
+  {
+    "password": "dtnaApprover",
+    "type": "enrollment",
+    "user": "dtnaApprover"
+  },
+  {
+    "password": "creditApprover",
+    "type": "enrollment",
+    "user": "creditApprover"
+  },
+  {
+    "password": "abc",
+    "type": "admin",
+    "user": "superadm"
+  },
+  {
+    "password": "abc",
+    "type": "admin",
+    "user": "TestSupport"
+  },
+  {
+    "password": "abc",
+    "type": "community",
+    "user": "apsuper"
+  },
+  {
+    "password": "Abc123456!",
+    "type": "dealer",
+    "user": "ArgentinaQADealer"
+  },
+  {
+    "user": "CynthiaTestSupport",
+    "password": "10Pearls1+",
+    "type": "admin",
+    "isAdmin": true
+  },
+  {
+    "password": "10Pearls1+",
+    "type": "fleet",
+    "user": "ArgentinaQAFleet"
+  }
+]

@@ -1,0 +1,38 @@
+[
+   {
+      "ID":"Available Export Template(s)",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//table[contains(@id,'gvExportMapping_DXMainTable')]//tr[contains(@class,'DataRow')]"
+      }
+   },
+{
+      "ID":"Execute",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//span[text()='Execute']"
+      }
+   },
+   {
+      "ID":"Field_Company Name",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//span[text()='Company Name']"
+      }
+   },
+   {
+      "ID":"Field_Company Name Clear Button",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//td[contains(@class, 'EditClearButton')]"
+      }
+   },
+      {
+      "ID":"Company Name",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//table[contains(@id,'cmbCompany')]"
+      }
+   }
+]
+

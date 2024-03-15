@@ -1,0 +1,1 @@
+[{"ID":"Company Name","Name":null,"xpath":{"Mechanism":"xpath","Criteria":"//table[contains(@id,'cboCorpsMainsearch')]"}},{"ID":"From","Name":null,"xpath":{"Mechanism":"xpath","Criteria":"//input[contains(@id,'dxedit_dateFrom')]"}},{"ID":"To","Name":null,"xpath":{"Mechanism":"xpath","Criteria":"//input[contains(@id,'dxedit_dateTo')]"}}]

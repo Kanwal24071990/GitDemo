@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "Load Bookmark",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'bookmarkId')]"
+    }
+  },
+  {
+    "ID": "Dealer Criteria",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id,'sellerCriteria')]"
+    }
+  },
+  {
+    "ID": "Dealer Company Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'dealerEntityDetailIds')]"
+    }
+  },
+  {
+    "ID": "Fleet Criteria",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id,'buyerCriteria')]"
+    }
+  },
+  {
+    "ID": "Fleet Company Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'fleetEntityDetailIds')]"
+    }
+  },
+  {
+    "ID": "Date Criteria",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id,'dateCriteria')]"
+    }
+  },
+  {
+    "ID": "Date Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'dateType')]"
+    }
+  },
+  {
+    "ID": "Date Range",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'DateRange')]"
+    }
+  },
+  {
+    "ID": "From",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'fromdate')]"
+    }
+  },
+  {
+    "ID": "To",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'endDate')]"
+    }
+  },
+  {
+    "ID": "Save As Bookmark",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'saveBookmark')]"
+    }
+  },
+  {
+    "ID": "Currency",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'currencyCode')]"
+    }
+  },
+  {
+    "ID": "Group By",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'groupById')]"
+    }
+  },
+  {
+    "ID": "Quantity",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table/tbody/tr[4]/td[5]/div"
+    }
+  }
+
+
+]

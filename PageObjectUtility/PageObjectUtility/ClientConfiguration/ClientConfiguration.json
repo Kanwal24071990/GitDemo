@@ -1,0 +1,190 @@
+[
+  {
+    "Client": "Alliance",
+    "DBName": "Alliance",
+    "WebCoreDBName": "WebCore_Alliance",
+    "Type": "Client"
+  },
+  {
+    "Client": "AmeriquestCorp",
+    "DBName": "AmeriquestCorp",
+    "WebCoreDBName": "WebCore_AmeriquestCorp",
+    "Type": "Client"
+  },
+  {
+    "Client": "Aurora",
+    "DBName": "Aurora",
+    "WebCoreDBName": "WebCore_Aurora",
+    "Type": "Client"
+  },
+  {
+    "Client": "Bridgestone",
+    "DBName": "Bridgestone",
+    "WebCoreDBName": "WebCore_Bridgestone",
+    "Type": "Client"
+  },
+  {
+    "Client": "Canxxus",
+    "DBName": "Canxxus",
+    "WebCoreDBName": "WebCore_Canxxus",
+    "Type": "Client"
+  },
+  {
+    "Client": "Daimler",
+    "DBName": "Daimler",
+    "WebCoreDBName": "Webcore_Daimler",
+    "Type": "Diamler"
+  },
+  {
+    "Client": "DaimlerAUS",
+    "DBName": "DaimlerAUS",
+    "WebCoreDBName": "WebCore_DaimlerAUS",
+    "Type": "Diamler"
+  },
+  {
+    "Client": "DoubleCoin",
+    "DBName": "DoubleCoin",
+    "WebCoreDBName": "WebCore_DoubleCoin",
+    "Type": "Client"
+  },
+  {
+    "Client": "Fleet2020",
+    "DBName": "Fleet2020",
+    "WebCoreDBName": "WebCore_Fleet2020",
+    "Type": "Client"
+  },
+  {
+    "Client": "FunctionalAutomation",
+    "DBName": "CorConnect_FuncAuto",
+    "WebCoreDBName": "WebCore_CorConnect_FuncAuto",
+    "Type": "QA"
+  },
+  {
+    "Client": "QA",
+    "DBName": "CorConnect",
+    "WebCoreDBName": "WebCore_CorConnect",
+    "Type": "QA"
+  },
+  {
+    "Client": "Hino",
+    "DBName": "Hino",
+    "WebCoreDBName": "WebCore_Hino",
+    "Type": "Client"
+  },
+  {
+    "Client": "IMG",
+    "DBName": "IMG",
+    "WebCoreDBName": "WebCore_IMG",
+    "Type": "Client"
+  },
+  {
+    "Client": "Isuzu",
+    "DBName": "Isuzu",
+    "WebCoreDBName": "WebCore_Isuzu",
+    "Type": "Client"
+  },
+  {
+    "Client": "Meineke",
+    "DBName": "Meineke",
+    "WebCoreDBName": "WebCore_Meineke",
+    "Type": "Client"
+  },
+  {
+    "Client": "Michelin",
+    "DBName": "Michelin",
+    "WebCoreDBName": "WebCore_Michelin",
+    "Type": "Client"
+  },
+  {
+    "Client": "O2C",
+    "DBName": "O2C",
+    "WebCoreDBName": "WebCore_O2C",
+    "Type": "Client"
+  },
+  {
+    "Client": "PartShareCBP",
+    "DBName": "PartShareCBP",
+    "WebCoreDBName": "WebCore_PartShareCBP",
+    "Type": "Client"
+  },
+  {
+    "Client": "Premierinc",
+    "DBName": "Remitra",
+    "WebCoreDBName": "WebCore_Remitra",
+    "Type": "Client"
+  },
+  {
+    "Client": "Pronto",
+    "DBName": "Pronto",
+    "WebCoreDBName": "WebCore_Pronto",
+    "Type": "Client",
+    "IsEOP": true
+  },
+  {
+    "Client": "SupplyChainFinancing",
+    "DBName": "SupplyChainFinancing",
+    "WebCoreDBName": "WebCore_SupplyChainFinancing",
+    "Type": "Client"
+  },
+  {
+    "Client": "TransAdvantage",
+    "DBName": "TransAdvantage",
+    "WebCoreDBName": "WebCore_TransAdvantage",
+    "Type": "Client"
+  },
+  {
+    "Client": "Univar",
+    "DBName": "Univar",
+    "WebCoreDBName": "WebCore_Univar",
+    "Type": "Client"
+  },
+  {
+    "Client": "URG",
+    "DBName": "URG",
+    "WebCoreDBName": "WebCore_URG",
+    "Type": "Client"
+  },
+  {
+    "Client": "Vipar",
+    "DBName": "Vipar",
+    "WebCoreDBName": "WebCore_Vipar",
+    "Type": "Client"
+  },
+  {
+    "Client": "ViparBuyingGroup",
+    "DBName": "ViparBuyingGroup",
+    "WebCoreDBName": "WebCore_ViparBuyingGroup",
+    "Type": "Client",
+    "IsEOP":  true
+  },
+  {
+    "Client": "WheelTimeSignature",
+    "DBName": "WheelTimeSignature",
+    "WebCoreDBName": "WebCore_WheelTimeSignature",
+    "Type": "Client"
+  },
+  {
+    "Client": "RiteLoad",
+    "DBName": "RiteLoad",
+    "WebCoreDBName": "WebCore_RiteLoad",
+    "Type": "Client"
+  },
+  {
+    "Client": "IndSCF",
+    "DBName": "IndSCF",
+    "WebCoreDBName": "WebCore_IndSCF",
+    "Type": "Client"
+  },
+  {
+    "Client": "NCG",
+    "DBName": "NCG",
+    "WebCoreDBName": "WebCore_NCG",
+    "Type": "Client"
+  },
+  {
+    "Client": "Geith",
+    "DBName": "Geith",
+    "WebCoreDBName": "WebCore_Geith",
+    "Type": "Client"
+  }
+]

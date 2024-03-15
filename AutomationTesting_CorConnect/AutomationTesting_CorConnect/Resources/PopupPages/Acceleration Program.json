@@ -1,0 +1,119 @@
+[
+   {
+      "ID":"Acceleration Program Name",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//input[contains(@id,'tbAccelerationProgram_I')]"
+      }
+   },
+   {
+      "ID":"Acceleration Program ID",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//input[contains(@id,'tbAccelerationProgramID_I')]"
+      }
+   }
+   ,
+   {
+      "ID":"Due Date adjustment (days)",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//input[contains(@id,'tbAccelerationDays_I')]"
+      }
+   },
+   {
+      "ID":"Acceleration Fee Value",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//input[contains(@id,'accelerationFeeValue_I')]"
+      }
+   },
+   {
+      "ID":"Credit Acceleration Fee Value",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//input[contains(@id,'efnew_creditAccelerationFeeValue_I')]"
+      }
+   },
+   {
+      "ID":"Credit Acceleration Fee Value Type",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//table[contains(@id,'efnew_cbCreFeeValueType')]"
+      }
+   },
+   {
+      "ID":"Acceleration Fee Value Type",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//table[contains(@id,'efnew_cbAccFeeValueType')]"
+      }
+   }
+   ,
+   {
+      "ID":"AR Only ?",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//*[@id='chkIsAROnly_S_D']"
+      }
+   },
+   {
+      "ID":"AR Only Disabled",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//span[@id='chkIsAROnly']"
+      }
+   }
+   ,
+   {
+      "ID":"AP Only ?",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//*[@id='chkIsAPOnly_S_D']"
+      }
+   },
+   {
+      "ID":"AP Only Disabled",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//span[@id='chkIsAPOnly']"
+      }
+   }
+   ,
+   {
+      "ID":"Is Active?",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//span[contains(@id,'chkIsActive')]"
+      }
+   },
+   {
+      "ID":"Include Credit Invoices",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//span[@id='chkCreditInvoices_S_D']"
+      }
+   }
+   ,
+   {
+      "ID":"Save",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//span[text()='Save']"
+      }
+   },
+   {
+      "ID":"Cancel",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//span[text()='Cancel']"
+      }
+   },
+    {
+      "ID":"Update",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//span[text()='Update']"
+      }
+   }
+]

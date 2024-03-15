@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddButtonMissing" xml:space="preserve">
+    <value>Add Button Missing</value>
+  </data>
+  <data name="AddNewRelationShipMissing" xml:space="preserve">
+    <value>Add New RelationShip Missing</value>
+  </data>
+  <data name="AlertMessageMisMatch" xml:space="preserve">
+    <value>Alert Message MisMatch</value>
+  </data>
+  <data name="ButtonNotFoundOnGrid" xml:space="preserve">
+    <value>{0} Button Not Found On Grid.</value>
+  </data>
+  <data name="CancelButtonMissing" xml:space="preserve">
+    <value>Cancel Button Missing</value>
+  </data>
+  <data name="CheckBoxMissing" xml:space="preserve">
+    <value>CheckBox Missing</value>
+  </data>
+  <data name="CountriesListMisMatch" xml:space="preserve">
+    <value>Countries List MisMatch</value>
+  </data>
+  <data name="CountryMisMatch" xml:space="preserve">
+    <value>Country MisMatch</value>
+  </data>
+  <data name="CreditLimitMisMatch" xml:space="preserve">
+    <value>Credit Limit MisMatch</value>
+  </data>
+  <data name="CurrencyCodeMissing" xml:space="preserve">
+    <value>Currency Code Missing</value>
+  </data>
+  <data name="CurrencyMisMatch" xml:space="preserve">
+    <value>Currency MisMatch</value>
+  </data>
+  <data name="ElementNotClickable" xml:space="preserve">
+    <value>Element not clickable.</value>
+  </data>
+  <data name="ElementNotPresent" xml:space="preserve">
+    <value>Element Not Present</value>
+  </data>
+  <data name="EmailFormatNotValid" xml:space="preserve">
+    <value>Email Format Not Valid.</value>
+  </data>
+  <data name="FieldNotDisplayed" xml:space="preserve">
+    <value>Field Not Displayed [{0}]</value>
+  </data>
+  <data name="FieldsNotDisplayed" xml:space="preserve">
+    <value>Search Fields not displayed properly.</value>
+  </data>
+  <data name="FirstNameMisMatch" xml:space="preserve">
+    <value>First Name MisMatch</value>
+  </data>
+  <data name="ImpersonatedColumnMisMatch" xml:space="preserve">
+    <value>Impersonated UserName MisMatch</value>
+  </data>
+  <data name="ImpersonationColumnMisMatch" xml:space="preserve">
+    <value>Impersonation Column MisMatch</value>
+  </data>
+  <data name="LastNameMisMatch" xml:space="preserve">
+    <value>Last Name MisMatch</value>
+  </data>
+  <data name="GroupPanelMsgInvalid" xml:space="preserve">
+    <value>Group Panel Message Invalid</value>
+  </data>
+  <data name="ListElementsMissing" xml:space="preserve">
+    <value>List Elements Missing.</value>
+  </data>
+  <data name="NoDataOnGrid" xml:space="preserve">
+    <value>No Data on Grid, Please Check search criteria.</value>
+  </data>
+  <data name="NumberofWorkingDaysDiffer" xml:space="preserve">
+    <value>Number of working days equals 15.</value>
+  </data>
+  <data name="PDFButtonNotExist" xml:space="preserve">
+    <value>PDF Button Not Exist</value>
+  </data>
+  <data name="SelectedCounterMsgInvalid" xml:space="preserve">
+    <value>Selected Counter Message Invalid</value>
+  </data>
+  <data name="StateListMisMatch" xml:space="preserve">
+    <value>States List MisMatch</value>
+  </data>
+  <data name="StateMisMatch" xml:space="preserve">
+    <value>State MisMatch</value>
+  </data>
+  <data name="TableHeadersMissing" xml:space="preserve">
+    <value>Table headers missing.</value>
+  </data>
+  <data name="UnableToExecuteQuery" xml:space="preserve">
+    <value>Unable To Execute Query.</value>
+  </data>
+  <data name="UnableToNavigate" xml:space="preserve">
+    <value>Unable to navigate.</value>
+  </data>
+  <data name="UpdateDateMisMatch" xml:space="preserve">
+    <value>UpdateDate MisMatch</value>
+  </data>
+  <data name="UserNameMisMatch" xml:space="preserve">
+    <value>UserName MisMatch</value>
+  </data>
+  <data name="ValueMisMatch" xml:space="preserve">
+    <value>Value MisMatch</value>
+  </data>
+  <data name="XlSButtonNotExist" xml:space="preserve">
+    <value>XlS Button NotExist</value>
+  </data>
+  <data name="XlSXButtonNotExist" xml:space="preserve">
+    <value>XlSX Button Not Exist</value>
+  </data>
+  <data name="FileNotDownloaded" xml:space="preserve">
+    <value>{0} File Not Downloaded.</value>
+  </data>
+  <data name="GroupPanelNotExist" xml:space="preserve">
+    <value>GroupPanel doesn't exist</value>
+  </data>
+  <data name="IncorrectPageCounter" xml:space="preserve">
+    <value>Incorrect Page Counter</value>
+  </data>
+  <data name="HeaderCountMisMatch" xml:space="preserve">
+    <value>Header Count MisMatch</value>
+  </data>
+  <data name="PageCaptionMisMatch" xml:space="preserve">
+    <value>Page Caption MisMatch</value>
+  </data>
+  <data name="TableHeaderMissing" xml:space="preserve">
+    <value>Table Header Missing {0}.</value>
+  </data>
+  <data name="ClearButtonNotFound" xml:space="preserve">
+    <value>Clear Button Not Found</value>
+  </data>
+  <data name="SearchButtonNotFound" xml:space="preserve">
+    <value>Search Button Not Found</value>
+  </data>
+  <data name="InvalidDefaultValue" xml:space="preserve">
+    <value>Invalid Default Value for Field {0}</value>
+  </data>
+  <data name="UnableToOpenHyperLink" xml:space="preserve">
+    <value>Unable To Open HyperLink</value>
+  </data>
+  <data name="ErrorGettingData" xml:space="preserve">
+    <value>Error Getting Data From DB. For details check logs.</value>
+  </data>
+  <data name="FirstRowValueMisMatch" xml:space="preserve">
+    <value>FirstRow Value MisMatch</value>
+  </data>
+  <data name="GridRowCountMisMatch" xml:space="preserve">
+    <value>Grid Row Count MisMatch</value>
+  </data>
+  <data name="RowCountAfterFilter" xml:space="preserve">
+    <value>Row Count After Filter not correct</value>
+  </data>
+  <data name="DeleteValueNotFalse" xml:space="preserve">
+    <value>Delete Value Not False</value>
+  </data>
+  <data name="FieldsNotFoundException" xml:space="preserve">
+    <value>Fields not found for Page {0}.</value>
+  </data>
+  <data name="InvalidUserID" xml:space="preserve">
+    <value>Invalid User ID</value>
+  </data>
+  <data name="NestedTableNotVisible" xml:space="preserve">
+    <value>Nested Table Not Visible</value>
+  </data>
+  <data name="RequestNewButtonNotFound" xml:space="preserve">
+    <value>Request New Button Not Found</value>
+  </data>
+  <data name="IncorrectSelectedCounter" xml:space="preserve">
+    <value>Incorrect Selected Counter</value>
+  </data>
+  <data name="CheckBoxNotDisplayed" xml:space="preserve">
+    <value>Check Box Not Displayed {0}</value>
+  </data>
+  <data name="CloseButtonMissing" xml:space="preserve">
+    <value>Close Button Missing</value>
+  </data>
+  <data name="DropDownNotFound" xml:space="preserve">
+    <value>Drop Down Not Found {0}</value>
+  </data>
+  <data name="InsertButtonMissing" xml:space="preserve">
+    <value>Insert Button Missing</value>
+  </data>
+  <data name="UpdateButtonMissing" xml:space="preserve">
+    <value>Update Button Missing</value>
+  </data>
+  <data name="SubmitButtonNotFound" xml:space="preserve">
+    <value>Submit Button Not Found</value>
+  </data>
+  <data name="ButtonMissing" xml:space="preserve">
+    <value>Button Missing {0}</value>
+  </data>
+  <data name="IncorrectValue" xml:space="preserve">
+    <value>Incorrect Value {0}</value>
+  </data>
+  <data name="TextMissing" xml:space="preserve">
+    <value>Text Missing {0}</value>
+  </data>
+  <data name="LabelMissing" xml:space="preserve">
+    <value>Label Missing</value>
+  </data>
+  <data name="InsertOperationFailed" xml:space="preserve">
+    <value>Insert Operation failed. Message occurred "{0}"</value>
+  </data>
+  <data name="FieldNotRecognized" xml:space="preserve">
+    <value>Field {0} not recognized</value>
+  </data>
+  <data name="DataMisMatch" xml:space="preserve">
+    <value>Data MisMatch: {0}</value>
+  </data>
+  <data name="CheckBoxUnchecked" xml:space="preserve">
+    <value>CheckBox is Unchecked: {0}</value>
+  </data>
+  <data name="FieldEmpty" xml:space="preserve">
+    <value>Field is Empty: {0}</value>
+  </data>
+  <data name="UpdateOperationFailed" xml:space="preserve">
+    <value>Update Operation failed. Message occurred "{0}"</value>
+  </data>
+  <data name="ActivationFailed" xml:space="preserve">
+    <value>Activation failed.</value>
+  </data>
+  <data name="ButtonDisabled" xml:space="preserve">
+    <value>Button {0} is disabled.</value>
+  </data>
+  <data name="ButtonEnabled" xml:space="preserve">
+    <value>Button {0} is enabled. </value>
+  </data>
+  <data name="SaveOperationFailed" xml:space="preserve">
+    <value>Save operation failed</value>
+  </data>
+  <data name="DeactivationFailed" xml:space="preserve">
+    <value>Deactivation failed.</value>
+  </data>
+  <data name="FieldNotEmpty" xml:space="preserve">
+    <value>Field Not Empty</value>
+  </data>
+  <data name="SrcMisMatch" xml:space="preserve">
+    <value>Src MisMatch</value>
+  </data>
+  <data name="DatePickerNotClosed" xml:space="preserve">
+    <value>DatePicker Not Closed {0}</value>
+  </data>
+  <data name="DropDownNotClosed" xml:space="preserve">
+    <value>DropDown Not Closed {0}</value>
+  </data>
+  <data name="NoRowAfterFilter" xml:space="preserve">
+    <value>No rows on grid after applying filter.</value>
+  </data>
+  <data name="FilterNotWorking" xml:space="preserve">
+    <value>Filter not working correctly.</value>
+  </data>
+  <data name="ValuesNotSorted" xml:space="preserve">
+    <value>Value not sorted. Sorting Order [{0}]</value>
+  </data>
+  <data name="ElementEnabled" xml:space="preserve">
+    <value>Element [{0}] is enabled. </value>
+  </data>
+  <data name="ElementNotEnabled" xml:space="preserve">
+    <value>Element [{0}] is not enabled.</value>
+  </data>
+  <data name="StateExists" xml:space="preserve">
+    <value>State Exists in Column</value>
+  </data>
+  <data name="FieldNotDisabled" xml:space="preserve">
+    <value>Field Not Disabled {0}.</value>
+  </data>
+  <data name="CheckBoxChecked" xml:space="preserve">
+    <value>CheckBox is Checked: {0}</value>
+  </data>
+  <data name="FileUploadingFailed" xml:space="preserve">
+    <value>File uploading failed.</value>
+  </data>
+  <data name="RecordNotUpdatedDB" xml:space="preserve">
+    <value>Records not updated in DB.</value>
+  </data>
+  <data name="DeleteOperationFailed" xml:space="preserve">
+    <value>Delete operation failed.</value>
+  </data>
+  <data name="ErrorMessageMismatch" xml:space="preserve">
+    <value>Error message mismatch.</value>
+  </data>
+  <data name="MessageMismatch" xml:space="preserve">
+    <value>Message mistmatch. Expected: [{0}], Actual: [{1}]</value>
+  </data>
+  <data name="DuplicateRelAllowed" xml:space="preserve">
+    <value>Application allowing to create duplicate relationship</value>
+  </data>
+  <data name="AuditTrailNotEntryNotFound" xml:space="preserve">
+    <value>Audit entry not found for {0} operation.</value>
+  </data>
+  <data name="DropDownClosed" xml:space="preserve">
+    <value>DropDown closed: {0}</value>
+  </data>
+  <data name="TextBoxDisabled" xml:space="preserve">
+    <value>TextBox {0} is disabled.</value>
+  </data>
+  <data name="FieldNotMarkedMandatory" xml:space="preserve">
+    <value>Field [{0}] not marked as mandatory.</value>
+  </data>
+  <data name="TabMissing" xml:space="preserve">
+    <value>Tab [{0}] missing.</value>
+  </data>
+  <data name="FailedToSubmitInvoice" xml:space="preserve">
+    <value>Failed to submit Invoice [{0}]</value>
+  </data>
+  <data name="InvoiceValidationFailed" xml:space="preserve">
+    <value>Invoice [{0}] validation failed</value>
+  </data>
+  <data name="NoResultForInvoice" xml:space="preserve">
+    <value>No results on grid for Invoice [{0}]</value>
+  </data>
+  <data name="ResultsForInvoiceFound" xml:space="preserve">
+    <value>Invoice [{0}] found on grid</value>
+  </data>
+  <data name="IncorrectDataForInvoice" xml:space="preserve">
+    <value>Incorrect data: [{0}] for Invoice [{1}]</value>
+  </data>
+  <data name="IncorrectValueEntityCreation" xml:space="preserve">
+    <value>CorcentricCode [{0}]: Incorrect value for {1} </value>
+  </data>
+  <data name="FieldDisplayed" xml:space="preserve">
+    <value>Field displayed: [{0}]</value>
+  </data>
+  <data name="ColumnMissing" xml:space="preserve">
+    <value>Column [{0}] is missing in [{1}]</value>
+  </data>
+  <data name="ClearFilterNotWorking" xml:space="preserve">
+    <value>Clear Filter Not Working</value>
+  </data>
+  <data name="ResetNotWorking" xml:space="preserve">
+    <value>Reset On Grid Not Working</value>
+  </data>
+  <data name="RightPanelNotEmpty" xml:space="preserve">
+    <value>Right panel of page not empty</value>
+  </data>
+  <data name="IncorrectNestedPageCounter" xml:space="preserve">
+    <value>Incorrect nested page counter</value>
+  </data>
+  <data name="NestedGroupPanelNotFound" xml:space="preserve">
+    <value>Nested group panel not found</value>
+  </data>
+  <data name="NestedGridNotClosing" xml:space="preserve">
+    <value>Nested grid not closing</value>
+  </data>
+  <data name="NestedHeadersCountMismatch" xml:space="preserve">
+    <value>Nested headers count mismatch</value>
+  </data>
+  <data name="NestedTableHeaderMissing" xml:space="preserve">
+    <value>Nested table header missing [{0}]</value>
+  </data>
+  <data name="ErrorInsertingPart" xml:space="preserve">
+    <value>Some error occurred while inserting part in database</value>
+  </data>
+  <data name="CustomFieldAddFailed" xml:space="preserve">
+    <value>Custom field add operation failed</value>
+  </data>
+  <data name="PopupWinowNotClosed" xml:space="preserve">
+    <value>Popup window not closed</value>
+  </data>
+  <data name="CustomFieldUpdateFailed" xml:space="preserve">
+    <value>Failed to update Custom field</value>
+  </data>
+  <data name="CustomFieldAlreadyDisabled" xml:space="preserve">
+    <value>Custom field already disabled</value>
+  </data>
+  <data name="CustomFieldNotDisabled" xml:space="preserve">
+    <value>Custom field not disabled</value>
+  </data>
+  <data name="SaveAsBookmarkNotFound" xml:space="preserve">
+    <value>Save As Bookmark Not Found</value>
+  </data>
+  <data name="CreationBookmarkError" xml:space="preserve">
+    <value>Error while creating bookmark</value>
+  </data>
+  <data name="TextBoxMissing" xml:space="preserve">
+    <value>Textbox [{0}] missing</value>
+  </data>
+  <data name="FeeNotFound" xml:space="preserve">
+    <value>Fee [{0}] not found</value>
+  </data>
+  <data name="TextBoxEnabled" xml:space="preserve">
+    <value>TextBox {0} is enabled.</value>
+  </data>
+  <data name="CheckBoxEnabled" xml:space="preserve">
+    <value>CheckBox is Enabled: {0}</value>
+  </data>
+  <data name="DropDownEnabled" xml:space="preserve">
+    <value>Drop Down Enabled: {0}</value>
+  </data>
+  <data name="LineItemAdditionFailed" xml:space="preserve">
+    <value>Failed to add line item</value>
+  </data>
+  <data name="TaxInfoAdditionFailed" xml:space="preserve">
+    <value>Failed to add tax info</value>
+  </data>
+  <data name="TableHeaderNotInFile" xml:space="preserve">
+    <value>Table header not in file [{0}]</value>
+  </data>
+  <data name="TableHeaderNotOnUI" xml:space="preserve">
+    <value>Table header missing on UI [{0}]</value>
+  </data>
+  <data name="CreateNewInvoiceNotFound" xml:space="preserve">
+    <value>Create New Invoice Button Not Found</value>
+  </data>
+  <data name="TaxInfoDeletionFailed" xml:space="preserve">
+    <value>Failed to Delete tax info</value>
+  </data>
+  <data name="PageCaptionMismatchForPage" xml:space="preserve">
+    <value>Page caption mismatch for page [{0}]</value>
+  </data>
+  <data name="DropDownDisabled" xml:space="preserve">
+    <value>Drop Down Disabled: {0}</value>
+  </data>
+  <data name="RecordNotUpdated" xml:space="preserve">
+    <value>Record was not updated</value>
+  </data>
+  <data name="NoRecordInDB" xml:space="preserve">
+    <value>No record in DB</value>
+  </data>
+  <data name="DMSInvoiceCreationFailed" xml:space="preserve">
+    <value>Failed to create invoice via DMS Services.</value>
+  </data>
+  <data name="DisputeCreationFailed" xml:space="preserve">
+    <value>Failed to create Dispute</value>
+  </data>
+  <data name="RedisputeOperationFailed" xml:space="preserve">
+    <value>Redispute Operation Failed</value>
+  </data>
+  <data name="ResolveDisputeOperationFailed" xml:space="preserve">
+    <value>Resolve Dispute Operation Failed</value>
+  </data>
+  <data name="DisputeNotResolved" xml:space="preserve">
+    <value>Dispute Not Resolved</value>
+  </data>
+  <data name="InvoiceReversalFailed" xml:space="preserve">
+    <value>Invoice Reversal Failed</value>
+  </data>
+  <data name="MultipleDuplicateEntries" xml:space="preserve">
+    <value>Multiple Duplicate entries please correct them</value>
+  </data>
+  <data name="RecordNotCreated" xml:space="preserve">
+    <value>Record Not Created</value>
+  </data>
+  <data name="MaxTabsViewed" xml:space="preserve">
+    <value>Max 6 tabs can be viewed</value>
+  </data>
+  <data name="OrderRequistionNotAvailable" xml:space="preserve">
+    <value>Order Requisition available only for Fleet users.</value>
+  </data>
+  <data name="ValueNotFoundInInvoiceHistory" xml:space="preserve">
+    <value>Value not found in invoice history</value>
+  </data>
+  <data name="InvoiceDoesNotExist" xml:space="preserve">
+    <value>Invoice does not exist</value>
+  </data>
+</root>

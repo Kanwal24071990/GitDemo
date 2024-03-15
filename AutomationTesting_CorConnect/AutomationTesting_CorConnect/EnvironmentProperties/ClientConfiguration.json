@@ -1,0 +1,1122 @@
+[
+  {
+    "Client": "AmeriquestCorp",
+    "URL": "https://ameriquestcorp-uat.corcentric.com/",
+    "DMS": "https://dmsservice-uat.corcentric.com/AmeriquestCorp/RequestProcessor.svc/web",
+    "CommunityCode": "CPR",
+    "Database": {
+      "DBName": "AmeriquestCorp",
+      "WebCoreDBName": "WebCore_AmeriquestCorp",
+      "Type": "Client"
+    },
+    "users": [
+        {
+            "user": "QASuperAdmin",
+            "password": "C0rcentr1c@147",
+            "type": "admin",
+            "culture": "en-US"
+        },
+        {
+            "user": "QAFltUsr",
+            "password": "abc",
+            "type": "fleet",
+            "culture": "en-US"
+        },
+        {
+            "user": "QADlrUsr",
+            "password": "abc",
+            "type": "dealer",
+            "culture": "en-US"
+        }
+    ]
+  },
+  {
+    "Client": "Daimler",
+    "URL": "https://pfs-uat.corcentric.com/",
+    "DMS": "https://dmsservice-uat.corcentric.com/daimler/requestprocessor.svc/web",
+    "CommunityCode": "DTN",
+    "Database": {
+      "DBName": "Daimler",
+      "WebCoreDBName": "Webcore_Daimler",
+      "Type": "Diamler"
+    },
+    "users": [
+      {
+        "user": "QASuperAdmin",
+        "password": "C0rcentr1c@147",
+        "type": "admin",
+        "culture": "en-US"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "abc",
+        "type": "fleet",
+        "culture": "en-US"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "abc",
+        "type": "dealer",
+        "culture": "en-US"
+      }
+    ]
+  },
+  {
+    "Client": "DaimlerAUS",
+    "URL": "https://pinnaclefleet-uat.corcentric.com/",
+    "DMS": "https://dmsservice-uat.corcentric.com/daimleraustralia/requestprocessor.svc/web",
+    "CommunityCode": "DAU",
+    "Database": {
+      "DBName": "DaimlerAUS",
+      "WebCoreDBName": "WebCore_DaimlerAUS",
+      "Type": "Diamler"
+    },
+    "users": [
+      {
+        "user": "QASuperAdmin",
+        "password": "C0rcentr1c@147",
+        "type": "admin",
+        "culture": "en-US"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "abc",
+        "type": "fleet",
+        "culture": "en-US"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "abc",
+        "type": "dealer",
+        "culture": "en-US"
+      }
+    ]
+  },
+  {
+    "Client": "FunctionalAutomation",
+    "URL": "https://corconnect-qafunctionalautomation.corcentric.com/",
+    "DMS": "https://dmsservice-qa.corcentric.com/corconnect_funcauto/requestprocessor.svc/web",
+    "CommunityCode": "CFA",
+    "Database": {
+      "DBName": "CorConnect_FuncAuto",
+      "WebCoreDBName": "WebCore_CorConnect_FuncAuto",
+      "Type": "QA"
+    },
+    "users": [
+        {
+            "user": "testsupport",
+            "password": "abc",
+            "type": "admin",
+            "culture": "en-US"
+        },
+        {
+            "user": "Super User- MU1",
+            "password": "abc",
+            "type": "admin",
+            "culture": "fr-FR"
+        },
+        {
+            "user": "Super Usr-ES",
+            "password": "abc",
+            "type": "admin",
+            "culture": "es-ES"
+        },
+        {
+            "user": "QAFltUsr",
+            "password": "10Pearls1+",
+            "type": "fleet",
+            "culture": "en-US"
+        },
+        {
+            "user": "QADlrUsr",
+            "password": "abc",
+            "type": "dealer",
+            "culture": "en-US"
+        },
+        {
+            "user": "Flt  Usr- FR",
+            "password": "abc",
+            "type": "fleet",
+            "culture": "fr-FR"
+        },
+        {
+            "user": "Dlr Usr- FR",
+            "password": "abc",
+            "type": "dealer",
+            "culture": "fr-FR"
+        },
+        {
+            "user": "Flt  Usr- ES",
+            "password": "abc",
+            "type": "fleet",
+            "culture": "es-ES"
+        },
+        {
+            "user": "Dlr Usr- ES",
+            "password": "abc",
+            "type": "dealer",
+            "culture": "es-ES"
+        },
+        {
+            "user": "TestFullAccessUser",
+            "password": "abc",
+            "type": "admin",
+            "culture": "en-US"
+        },
+        {
+            "user": "TestNoAccessUser",
+            "password": "abc",
+            "type": "admin",
+            "culture": "en-US"
+        },
+        {
+            "user": "TestReadOnlyAccessUser",
+            "password": "abc",
+            "type": "admin",
+            "culture": "en-US"
+        },
+        {
+            "user": "TestRestrictChildAccessUser",
+            "password": "abc",
+            "type": "admin",
+            "culture": "en-US"
+        },
+        {
+            "user": "TestReadOnlyChildUser",
+            "password": "abc",
+            "type": "admin",
+            "culture": "en-US"
+        }
+    ]
+  },
+  {
+    "Client": "QA",
+    "URL": "https://corconnect-qa.corcentric.com/",
+    "DMS": "https://dmsservice-qa.corcentric.com/CorConnect/RequestProcessor.svc/web",
+    "CommunityCode": "DTN",
+    "Database": {
+      "DBName": "CorConnect",
+      "WebCoreDBName": "WebCore_CorConnect",
+      "Type": "QA"
+    },
+    "users": [
+        {
+            "user": "testsupport",
+            "password": "abc",
+            "type": "admin",
+            "culture": "en-US"
+        },
+        {
+            "user": "BA_SuperAdmin_French",
+            "password": "abc",
+            "type": "admin",
+            "culture": "fr-FR"
+        },
+        {
+            "user": "BA_SuperAdmin_Spanish",
+            "password": "abc",
+            "type": "admin",
+            "culture": "es-ES"
+        },
+        {
+            "user": "12.8FLEET",
+            "password": "abc",
+            "type": "fleet",
+            "culture": "en-US"
+        },
+        {
+            "user": "BA_FltUser_French",
+            "password": "abc",
+            "type": "fleet",
+            "culture": "fr-FR"
+        },
+        {
+            "user": "BA_FltUser_Spanish",
+            "password": "abc",
+            "type": "fleet",
+            "culture": "es-ES"
+        },
+        {
+            "user": "12.8DEALER1",
+            "password": "Corcentric123!",
+            "type": "dealer",
+            "culture": "en-US"
+        },
+        {
+            "user": "BA_DlrUser_French",
+            "password": "abc",
+            "type": "dealer",
+            "culture": "fr-FR"
+        },
+        {
+            "user": "BA_DlrUser_Spanish",
+            "password": "abc",
+            "type": "dealer",
+            "culture": "es-ES"
+        },
+        {
+            "user": "TestFullAccessUser",
+            "password": "abc",
+            "type": "admin",
+            "culture": "en-US"
+        },
+        {
+            "user": "TestNoAccessUser",
+            "password": "abc",
+            "type": "admin",
+            "culture": "en-US"
+        },
+        {
+            "user": "TestReadOnlyAccessUser",
+            "password": "abc",
+            "type": "admin",
+            "culture": "en-US"
+        },
+        {
+            "user": "TestRestrictChildAccessUser",
+            "password": "abc",
+            "type": "admin",
+            "culture": "en-US"
+        },
+        {
+            "user": "TestReadOnlyChildUser",
+            "password": "abc",
+            "type": "admin",
+            "culture": "en-US"
+        }
+    ]
+  },
+  {
+    "Client": "Premierinc",
+    "URL": "https://billing-uat.remitracfo.com/",
+    "DMS": "https://dmsservice-uat.corcentric.com/Remitra/RequestProcessor.svc/web",
+    "CommunityCode": "RCF",
+    "Database": {
+      "DBName": "Remitra",
+      "WebCoreDBName": "WebCore_Remitra",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "QASuperAdmin",
+        "password": "C0rcentr1c@147",
+        "type": "admin",
+        "culture": "en-US"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "abc",
+        "type": "fleet",
+        "culture": "en-US"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "abc",
+        "type": "dealer",
+        "culture": "en-US"
+      }
+    ]
+  },
+  {
+    "Client": "Pronto",
+    "URL": "https://pronto-uat.corcentric.com/",
+    "DMS": "https://dmsservice-uat.corcentric.com/Pronto/RequestProcessor.svc/web",
+    "CommunityCode": "PRO",
+    "Database": {
+      "DBName": "Pronto",
+      "WebCoreDBName": "WebCore_Pronto",
+      "EOPDBName": "ProntoEOP",
+      "Type": "Pronto"
+    },
+    "users": [
+      {
+        "user": "QASUPERADMIN",
+        "password": "C0rcentr1c@148",
+        "type": "admin",
+        "culture": "en-US"
+      },
+      {
+        "user": "QAFltUsr1",
+        "password": "Test@123",
+        "type": "fleet",
+        "culture": "en-US"
+      },
+      {
+        "user": "QADlrUsr1",
+        "password": "Test@123",
+        "type": "dealer",
+        "culture": "en-US"
+      }
+    ]
+  },
+  {
+    "Client": "Alliance",
+    "URL": "https://alliance-uat.corcentric.com/",
+    "DMS": "https://dmsservice-uat.corcentric.com/alliance/requestprocessor.svc/web",
+    "CommunityCode": "ALL",
+    "Database": {
+      "DBName": "Alliance",
+      "WebCoreDBName": "WebCore_Alliance",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "QASuperAdmin",
+        "password": "C0rcentr1c@147",
+        "type": "admin",
+        "culture": "en-US"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "abc",
+        "type": "fleet",
+        "culture": "en-US"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "abc",
+        "type": "dealer",
+        "culture": "en-US"
+      }
+    ]
+  },
+  {
+    "Client": "Aurora",
+    "URL": "https://aurora-uat.corcentric.com/",
+    "DMS": "https://dmsservice-uat.corcentric.com/aurora/RequestProcessor.svc/web",
+    "CommunityCode": "AUR",
+    "Database": {
+      "DBName": "Aurora",
+      "WebCoreDBName": "WebCore_Aurora",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "QASuperAdmin",
+        "password": "C0rcentr1c@147",
+        "type": "admin",
+        "culture": "en-US"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "abc",
+        "type": "fleet",
+        "culture": "en-US"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "abc",
+        "type": "dealer",
+        "culture": "en-US"
+      }
+    ]
+  },
+  {
+    "Client": "Bridgestone",
+    "URL": "https://bridgestone-uat.corcentric.com/",
+    "DMS": "https://dmsservice-uat.corcentric.com/Bridgestone/RequestProcessor.svc/web",
+    "CommunityCode": "BRD",
+    "Database": {
+      "DBName": "Bridgestone",
+      "WebCoreDBName": "WebCore_Bridgestone",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "QASuperAdmin",
+        "password": "C0rcentr1c@147",
+        "type": "admin",
+        "culture": "en-US"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "Abcd@123",
+        "type": "fleet",
+        "culture": "en-US"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "Abcd@123",
+        "type": "dealer",
+        "culture": "en-US"
+      }
+    ]
+  },
+  {
+    "Client": "DoubleCoin",
+    "URL": "https://smartmoneyfleet-uat.corcentric.com/",
+    "DMS": "https://dmsservice-uat.corcentric.com/DoubleCoin/RequestProcessor.svc/web",
+    "CommunityCode": "DCS",
+    "Database": {
+      "DBName": "DoubleCoin",
+      "WebCoreDBName": "WebCore_DoubleCoin",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "QASuperAdmin",
+        "password": "C0rcentr1c@147",
+        "type": "admin",
+        "culture": "en-US"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "Abcd@5678",
+        "type": "fleet",
+        "culture": "en-US"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "Abcd@1234",
+        "type": "dealer",
+        "culture": "en-US"
+      }
+    ]
+  },
+  {
+    "Client": "Hino",
+    "URL": "https://hino-uat.corcentric.com/",
+    "DMS": "https://dmsservice-uat.corcentric.com/Hino/RequestProcessor.svc/web",
+    "CommunityCode": "HIN",
+    "Database": {
+      "DBName": "Hino",
+      "WebCoreDBName": "WebCore_Hino",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "QASuperAdmin",
+        "password": "C0rcentr1c@147",
+        "type": "admin",
+        "culture": "en-US"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "abc",
+        "type": "fleet",
+        "culture": "en-US"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "abc",
+        "type": "dealer",
+        "culture": "en-US"
+      }
+    ]
+  },
+  {
+    "Client": "IMG",
+    "URL": "https://img-uat.corcentric.com/",
+    "DMS": "https://dmsservice-uat.corcentric.com/img/requestprocessor.svc/web",
+    "CommunityCode": "IMG",
+    "Database": {
+      "DBName": "IMG",
+      "WebCoreDBName": "WebCore_IMG",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "QASuperAdmin",
+        "password": "C0rcentr1c@147",
+        "type": "admin",
+        "culture": "en-US"
+      },
+      {
+        "user": "",
+        "password": "",
+        "type": "fleet",
+        "culture": "en-US"
+      },
+      {
+        "user": "",
+        "password": "",
+        "type": "dealer",
+        "culture": "en-US"
+      }
+    ]
+  },
+  {
+    "Client": "Isuzu",
+    "URL": "https://isuzu-uat.corcentric.com/",
+    "DMS": "https://dmsservice-uat.corcentric.com/isuzu/requestprocessor.svc/web",
+    "CommunityCode": "ISZ",
+    "Database": {
+      "DBName": "Isuzu",
+      "WebCoreDBName": "WebCore_Isuzu",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "QASuperAdmin",
+        "password": "C0rcentr1c@147",
+        "type": "admin",
+        "culture": "en-US"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "abc",
+        "type": "fleet",
+        "culture": "en-US"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "abc",
+        "type": "dealer",
+        "culture": "en-US"
+      }
+    ]
+  },
+  {
+    "Client": "Meineke",
+    "URL": "https://mdpci-uat.corcentric.com/",
+    "DMS": "https://dmsservice-uat.corcentric.com/Meineke/RequestProcessor.svc/web",
+    "CommunityCode": "MEI",
+    "Database": {
+      "DBName": "Meineke",
+      "WebCoreDBName": "WebCore_Meineke",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "QASuperAdmin",
+        "password": "C0rcentr1c@147",
+        "type": "admin",
+        "culture": "en-US"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "Abcd@5678",
+        "type": "fleet",
+        "culture": "en-US"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "Abcd@5678",
+        "type": "dealer",
+        "culture": "en-US"
+      }
+    ]
+  },
+  {
+    "Client": "PartShareCBP",
+    "URL": "https://partsharecbp-uat.corcentric.com/",
+    "DMS": "https://dmsservice-uat.corcentric.com/partsharecbp/RequestProcessor.svc/web",
+    "CommunityCode": "ADN",
+    "Database": {
+      "DBName": "PartShareCBP",
+      "WebCoreDBName": "WebCore_PartShareCBP",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "QASuperAdmin",
+        "password": "C0rcentr1c@147",
+        "type": "admin",
+        "culture": "en-US"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "abc",
+        "type": "fleet",
+        "culture": "en-US"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "abc",
+        "type": "dealer",
+        "culture": "en-US"
+      }
+    ]
+  },
+  {
+    "Client": "SupplyChainFinancing",
+    "URL": "https://supplychainfinancing-uat.corcentric.com/",
+    "DMS": "https://dmsservice-uat.corcentric.com/SupplyChainFinancing/RequestProcessor.svc/web",
+    "CommunityCode": "SCP",
+    "Database": {
+      "DBName": "SupplyChainFinancing",
+      "WebCoreDBName": "WebCore_SupplyChainFinancing",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "QASuperAdmin",
+        "password": "C0rcentr1c@147",
+        "type": "admin",
+        "culture": "en-US"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "Abcd@5678",
+        "type": "fleet",
+        "culture": "en-US"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "Abcd@5678",
+        "type": "dealer",
+        "culture": "en-US"
+      }
+    ]
+  },
+  {
+    "Client": "TransAdvantage",
+    "URL": "https://transadvantage-uat.corcentric.com/",
+    "DMS": "https://dmsservice-uat.corcentric.com/Transadvantage/RequestProcessor.svc/web",
+    "Database": {
+      "DBName": "TransAdvantage",
+      "WebCoreDBName": "WebCore_TransAdvantage",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "QASuperAdmin",
+        "password": "C0rcentr1c@147",
+        "type": "admin"
+      },
+      {
+        "user": "",
+        "password": "",
+        "type": "fleet"
+      },
+      {
+        "user": "",
+        "password": "",
+        "type": "dealer"
+      }
+    ]
+  },
+  {
+    "Client": "Vipar",
+    "URL": "https://partspherefleet-uat.corcentric.com/",
+    "DMS": "https://dmsservice-uat.corcentric.com/vipar/RequestProcessor.svc/web",
+    "CommunityCode": "VIP",
+    "Database": {
+      "DBName": "Vipar",
+      "WebCoreDBName": "WebCore_Vipar",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "QASuperAdmin",
+        "password": "C0rcentr1c@147",
+        "type": "admin",
+        "culture": "en-US"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "abc",
+        "type": "fleet",
+        "culture": "en-US"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "abc",
+        "type": "dealer",
+        "culture": "en-US"
+      }
+    ]
+  },
+  {
+    "Client": "ViparBuyingGroup",
+    "URL": "https://partsphereoms-uat.corcentric.com/",
+    "DMS": "https://dmsservice-uat.corcentric.com/ViparBuyingGroup/requestprocessor.svc/web",
+    "CommunityCode": "VBG",
+    "Database": {
+      "DBName": "ViparBuyingGroup",
+      "WebCoreDBName": "WebCore_ViparBuyingGroup",
+      "Type": "Pronto"
+    },
+    "users": [
+      {
+        "user": "QASuperAdmin",
+        "password": "C0rcentr1c@147",
+        "type": "admin",
+        "culture": "en-US"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "Abcd@5678",
+        "type": "fleet",
+        "culture": "en-US"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "Abcd@5678",
+        "type": "dealer",
+        "culture": "en-US"
+      }
+    ]
+  },
+  {
+    "Client": "Univar",
+    "URL": "https://univar-uat.corcentric.com/",
+    "DMS": "https://dmsservice-uat.corcentric.com/Univar/requestprocessor.svc/web",
+    "CommunityCode": "UNV",
+    "Database": {
+      "DBName": "Univar",
+      "WebCoreDBName": "WebCore_Univar",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "QASuperAdmin",
+        "password": "C0rcentr1c@147",
+        "type": "admin",
+        "culture": "en-US"
+      },
+      {
+        "user": "",
+        "password": "",
+        "type": "fleet",
+        "culture": "en-US"
+      },
+      {
+        "user": "",
+        "password": "",
+        "type": "dealer",
+        "culture": "en-US"
+      }
+    ]
+  },
+  {
+    "Client": "WheelTimeSignature",
+    "URL": "https://signature-uat.corcentric.com/",
+    "DMS": "https://dmsservice-uat.corcentric.com/Signature/RequestProcessor.svc/web",
+    "CommunityCode": "WTS",
+    "Database": {
+      "DBName": "WheelTimeSignature",
+      "WebCoreDBName": "WebCore_WheelTimeSignature",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "QASuperAdmin",
+        "password": "C0rcentr1c@147",
+        "type": "admin",
+        "culture": "en-US"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "Test@123",
+        "type": "fleet",
+        "culture": "en-US"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "Test@123",
+        "type": "dealer",
+        "culture": "en-US"
+      }
+    ]
+  },
+  {
+    "Client": "Michelin",
+    "URL": "https://michelin-uat.corcentric.com/",
+    "DMS": "https://dmsservice-uat.corcentric.com/Michelin/RequestProcessor.svc/web",
+    "CommunityCode": "MIC",
+    "Database": {
+      "DBName": "Michelin",
+      "WebCoreDBName": "WebCore_Michelin",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "CynthiaTestSupport",
+        "password": "abc",
+        "type": "admin",
+        "culture": "en-US"
+      },
+      {
+        "user": "fltuser",
+        "password": "abc",
+        "type": "fleet",
+        "culture": "en-US"
+      },
+      {
+        "user": "dlrUsr",
+        "password": "abc",
+        "type": "dealer",
+        "culture": "en-US"
+      }
+    ]
+  },
+  {
+    "Client": "Canxxus",
+    "URL": "https://canxxus-uat.corcentric.com/",
+    "DMS": "https://dmsservice-uat.corcentric.com/Canxxus/RequestProcessor.svc/web",
+    "CommunityCode": "CXS",
+    "Database": {
+      "DBName": "Canxxus",
+      "WebCoreDBName": "WebCore_Canxxus",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "QASuperAdmin",
+        "password": "C0rcentr1c@147",
+        "type": "admin",
+        "culture": "en-US"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "abc",
+        "type": "fleet",
+        "culture": "en-US"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "abc",
+        "type": "dealer",
+        "culture": "en-US"
+      }
+    ]
+  },
+  {
+    "Client": "O2C",
+    "URL": "https://o2c.corcentric.com/",
+    "DMS": "https://dmsservice-uat.corcentric.com/o2c/RequestProcessor.svc/web",
+    "Database": {
+      "DBName": "O2C",
+      "WebCoreDBName": "WebCore_O2C",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "QASuperAdmin",
+        "password": "C0rcentr1c@147",
+        "type": "admin",
+        "culture": "en-US"
+      },
+      {
+        "user": "",
+        "password": "",
+        "type": "fleet",
+        "culture": "en-US"
+      },
+      {
+        "user": "",
+        "password": "",
+        "type": "dealer",
+        "culture": "en-US"
+      }
+    ]
+  },
+  {
+    "Client": "URG",
+    "URL": "https://urg-uat.corcentric.com/Secure/MainForm.aspx?",
+    "DMS": "https://dmsservice-uat.corcentric.com/urg/RequestProcessor.svc/web",
+    "CommunityCode": "URG",
+    "Database": {
+      "DBName": "URG",
+      "WebCoreDBName": "WebCore_URG",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "QASuperAdmin",
+        "password": "C0rcentr1c@147",
+        "type": "admin",
+        "culture": "en-US"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "abc",
+        "type": "fleet",
+        "culture": "en-US"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "abc",
+        "type": "dealer",
+        "culture": "en-US"
+      }
+    ]
+  },
+  {
+    "Client": "Fleet2020",
+    "URL": "https://nationaleasefleet2020-uat.corcentric.com/",
+    "DMS": "https://dmsservice-uat.corcentric.com/NationalLeaseFleet2020/RequestProcessor.svc/web",
+    "CommunityCode": "NTL",
+    "Database": {
+      "DBName": "Fleet2020",
+      "WebCoreDBName": "WebCore_Fleet2020",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "QASuperAdmin",
+        "password": "C0rcentr1c@147",
+        "type": "admin",
+        "culture": "en-US"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "abc",
+        "type": "fleet",
+        "culture": "en-US"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "abc",
+        "type": "dealer",
+        "culture": "en-US"
+      }
+    ]
+  },
+  {
+    "Client": "IndSCF",
+    "URL": "https://indscf-uat.corcentric.com/",
+    "DMS": "https://dmsservice-uat.corcentric.com/indscf/RequestProcessor.svc/web",
+    "CommunityCode": "NSC",
+    "Database": {
+      "DBName": "IndSCF",
+      "WebCoreDBName": "WebCore_IndSCF",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "QASuperAdmin",
+        "password": "C0rcentr1c@147",
+        "type": "admin",
+        "culture": "en-US"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "abc",
+        "type": "fleet",
+        "culture": "en-US"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "abc",
+        "type": "dealer",
+        "culture": "en-US"
+      }
+    ]
+  },
+  {
+    "Client": "RiteLoad",
+    "URL": "https://rtld-uat.corcentric.com/",
+    "DMS": "https://dmsservice-uat.corcentric.com/riteload/RequestProcessor.svc/web",
+    "CommunityCode": "RTL",
+    "Database": {
+      "DBName": "RiteLoad",
+      "WebCoreDBName": "WebCore_RiteLoad",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "QASuperAdmin",
+        "password": "C0rcentr1c@147",
+        "type": "admin",
+        "culture": "en-US"
+      },
+      {
+        "user": "QAFltUsr",
+        "password": "abc",
+        "type": "fleet",
+        "culture": "en-US"
+      },
+      {
+        "user": "QADlrUsr",
+        "password": "abc",
+        "type": "dealer",
+        "culture": "en-US"
+      }
+    ]
+  },
+  {
+    "Client": "NCG",
+    "URL": "https://ncg-uat.corcentric.com/",
+    "DMS": "https://dmsservice-uat.corcentric.com/ncg/requestprocessor.svc",
+    "CommunityCode": "NWC",
+    "Database": {
+      "DBName": "NCG",
+      "WebCoreDBName": "WebCore_NCG",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "QASuperAdmin",
+        "password": "C0rcentr1c@147",
+        "type": "admin",
+        "culture": "en-US"
+      },
+      {
+        "user": "",
+        "password": "",
+        "type": "fleet",
+        "culture": "en-US"
+      },
+      {
+        "user": "",
+        "password": "",
+        "type": "dealer",
+        "culture": "en-US"
+      }
+    ]
+  },
+  {
+    "Client": "Geith",
+    "URL": "https://geith-uat.corcentric.com/",
+    "DMS": "https://dmsservice-uat.corcentric.com/geith/requestprocessor.svc",
+    "CommunityCode": "NSC",
+    "Database": {
+      "DBName": "Geith",
+      "WebCoreDBName": "WebCore_Geith",
+      "Type": "Client"
+    },
+    "users": [
+      {
+        "user": "QASuperAdmin",
+        "password": "C0rcentr1c@147",
+        "type": "admin",
+        "culture": "en-US"
+      },
+      {
+        "user": "",
+        "password": "",
+        "type": "fleet",
+        "culture": "en-US"
+      },
+      {
+        "user": "",
+        "password": "",
+        "type": "dealer",
+        "culture": "en-US"
+      }
+    ]
+  },
+  {
+    "Client": "EIPP",
+    "URL": "https://corconnect-eippqa.corcentric.com/",
+    "DMS": "https://dmsservice-qa.corcentric.com/eipp/requestprocessor.svc",
+    "CommunityCode": "NSC",
+    "Database": {
+      "DBName": "EIPP",
+      "WebCoreDBName": "Webcore_EIPP",
+      "Type": "QA"
+    },
+    "users": [
+      {
+        "user": "support",
+        "password": "abc",
+        "type": "admin",
+        "culture": "en-US"
+      },
+      {
+        "user": "",
+        "password": "",
+        "type": "fleet",
+        "culture": "en-US"
+      },
+      {
+        "user": "",
+        "password": "",
+        "type": "dealer",
+        "culture": "en-US"
+      }
+    ]
+  }
+]

@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddingDataForTestCase" xml:space="preserve">
+    <value>AddingDataForTestCase {0}</value>
+  </data>
+  <data name="AddingTestCaseProperty" xml:space="preserve">
+    <value>Adding TestCase Property {0}={1}</value>
+  </data>
+  <data name="ClosingExcelConnection" xml:space="preserve">
+    <value>Closing Excel Connection</value>
+  </data>
+  <data name="CreatingNewApplicationContext" xml:space="preserve">
+    <value>Creating New Application Context</value>
+  </data>
+  <data name="EmptyEnviormentData" xml:space="preserve">
+    <value>Empty Enviorment Data</value>
+  </data>
+  <data name="ExcelFileExtension" xml:space="preserve">
+    <value>Excel File Extension='{0}'</value>
+  </data>
+  <data name="InitializingPage" xml:space="preserve">
+    <value>InitializingPage= </value>
+  </data>
+  <data name="ExecutingQuery" xml:space="preserve">
+    <value>Executing Query</value>
+  </data>
+  <data name="LoadingEnviormentData" xml:space="preserve">
+    <value>Loading EnviormentData</value>
+  </data>
+  <data name="LoadingTestData" xml:space="preserve">
+    <value>Loading Test Data</value>
+  </data>
+  <data name="MappingData" xml:space="preserve">
+    <value>Mapping {0}={1}</value>
+  </data>
+  <data name="OpenningExcelconnection" xml:space="preserve">
+    <value>Openning Excel Connection</value>
+  </data>
+  <data name="ReadingSheet" xml:space="preserve">
+    <value>Reading Sheet='{0}'</value>
+  </data>
+  <data name="ReadingTestInputData" xml:space="preserve">
+    <value>Reading Test Input Data</value>
+  </data>
+  <data name="ReadingUserData" xml:space="preserve">
+    <value>Reading User Data</value>
+  </data>
+  <data name="RetrivingDataForTC" xml:space="preserve">
+    <value>Retreiving Data For Test Case: {0}</value>
+  </data>
+  <data name="ReturningApplicationContext" xml:space="preserve">
+    <value>Returning Application Context</value>
+  </data>
+  <data name="ReturningDALInstance" xml:space="preserve">
+    <value>Returning DataAccess Layer Instance</value>
+  </data>
+  <data name="ReturningLoggingContext" xml:space="preserve">
+    <value>ReturningLoggingContext</value>
+  </data>
+  <data name="RetrivingDataFromDB" xml:space="preserve">
+    <value>Retriving Data From DB</value>
+  </data>
+  <data name="StartingTest" xml:space="preserve">
+    <value>Starting Test</value>
+  </data>
+  <data name="ValidatingFileDownload" xml:space="preserve">
+    <value>Validating {0} File Download</value>
+  </data>
+  <data name="ValidatingGridButtons" xml:space="preserve">
+    <value>Validating Grid Buttons</value>
+  </data>
+  <data name="ValidatingGroupPanel" xml:space="preserve">
+    <value>Validating Group Panel</value>
+  </data>
+  <data name="ValidatingHyperlink" xml:space="preserve">
+    <value>Validating Hyperlink</value>
+  </data>
+  <data name="ValidatingPageButtons" xml:space="preserve">
+    <value>Validating Page Buttons</value>
+  </data>
+  <data name="ValidatingPageCaption" xml:space="preserve">
+    <value>Validating Page Caption</value>
+  </data>
+  <data name="ValidatingPageFields" xml:space="preserve">
+    <value>Validating Page Fields</value>
+  </data>
+  <data name="ValidatingSelectedCounter" xml:space="preserve">
+    <value>Validating Selected Counter</value>
+  </data>
+  <data name="ValidatingTableHeaders" xml:space="preserve">
+    <value>Validating Table Headers</value>
+  </data>
+  <data name="ValidatingPageCounter" xml:space="preserve">
+    <value>Validating Page Counter</value>
+  </data>
+  <data name="DeletingPart" xml:space="preserve">
+    <value>Delete Part Number: {0}</value>
+  </data>
+  <data name="ExpectedMessage" xml:space="preserve">
+    <value> Expected message: [{0}], Actual message: [{1}]</value>
+  </data>
+  <data name="ExpectedValue" xml:space="preserve">
+    <value> Expected value: [{0}], Actual value: [{1}]</value>
+  </data>
+  <data name="ValidatingTabs" xml:space="preserve">
+    <value>Validating Tabs</value>
+  </data>
+  <data name="ValidatingRightPanelEmpty" xml:space="preserve">
+    <value>Validating right panel to be empty</value>
+  </data>
+  <data name="ValidatingNestedGroupPanel" xml:space="preserve">
+    <value>Validating nested grid group panel</value>
+  </data>
+  <data name="ValidatingNestedPageCounter" xml:space="preserve">
+    <value>Validating nested table page counter</value>
+  </data>
+  <data name="ValidatingNestedTableHeaders" xml:space="preserve">
+    <value>Validating nested table headers</value>
+  </data>
+  <data name="ValidatingNestedGridButtons" xml:space="preserve">
+    <value>Validating Nested Grid Buttons</value>
+  </data>
+</root>

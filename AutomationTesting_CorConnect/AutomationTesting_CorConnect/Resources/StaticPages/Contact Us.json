@@ -1,0 +1,30 @@
+[
+   {
+      "ID":"Call Us",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//span[contains(@id,'CallUs')]"
+      }
+   },
+   {
+      "ID":"Email Us",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//span[contains(@id,'EmailUs')]"
+      }
+   },
+ {
+      "ID":"Email Link",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//a[contains(@id,'EmailLink')]"
+      }
+   },
+ {
+      "ID":"Online Support Center",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//a[@id='lnkOnlineSupportPortal']"
+      }
+   }
+]

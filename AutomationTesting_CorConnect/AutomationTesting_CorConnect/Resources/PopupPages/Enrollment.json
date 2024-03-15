@@ -1,0 +1,16 @@
+[
+  {
+    "ID": "Account Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtAccountName')]"
+    }
+  },
+  {
+    "ID": "GO",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'Button')]"
+    }
+  }
+]

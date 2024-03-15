@@ -1,0 +1,193 @@
+[
+  {
+    "ID": "User Type (Perm Level)",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cbUserType')]"
+    }
+  },
+  {
+    "ID": "Entity Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cbEntityType')]"
+    }
+  },
+  {
+    "ID": "Billing Locations",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'multiselect_BillingLocation')]"
+    }
+  },
+  {
+    "ID": "User Group",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'multiSelect_UserGroup')]"
+    }
+  },
+  {
+    "ID": "User Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'tbUserName_I')]"
+    }
+  },
+  {
+    "ID": "First Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'tbFirstName_I')]"
+    }
+  },
+  {
+    "ID": "Last Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'tbLastName_I')]"
+    }
+  },
+  {
+    "ID": "Email",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'tbEmail_I')]"
+    }
+  },
+  {
+    "ID": "Create User",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(text(),'Create User')]"
+    }
+  },
+  {
+    "ID": "Close",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Close']"
+    }
+  },
+  {
+    "ID": "Save User",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Save User']"
+    }
+  },
+  {
+    "ID": "Title",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'lblTitle')]"
+    }
+  },
+  {
+    "ID": "Main Table",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'Grid_DXMainTable')]"
+    }
+  },
+  {
+    "ID": "Is Active?",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'chkIsActive_S_D')]"
+    }
+  },
+  {
+    "ID": "Is Suspended",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'chkSuspended_S_D')]"
+    }
+  },
+  {
+    "ID": "Shop Locations",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'multiselect_ShopLocation')]"
+    }
+  },
+  {
+    "ID": "Sub Community",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cbSubcommunity')]"
+    }
+  },
+  {
+    "ID": "Work No",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'tbWork_I')]"
+    }
+  },
+  {
+    "ID": "Cell No",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'tbCell_I')]"
+    }
+  },
+  {
+    "ID": "Ext",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'tbExt_I')]"
+    }
+  },
+  {
+    "ID": "Fax No",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'tbFax_I')]"
+    }
+  },
+  {
+    "ID": "Security Code",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'tbSecurityCode_I')]"
+    }
+  },
+  {
+    "ID": "Contact Times",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'cbContactTimes_I')]"
+    }
+  },
+  {
+    "ID": "Activate all default User Group Notifications",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'lblEnableDefaultGroupNotification')]"
+    }
+  },
+  {
+    "ID": "Is Notification User",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'chkIsNotificationUser_S_D')]"
+    }
+  },
+  {
+    "ID": "Language",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cbDefaultLanguage')]"
+    }
+  },
+  {
+    "ID": "Invoice Approval Limits",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'lblInvApprovalLimit')]"
+    }
+  }
+
+
+]

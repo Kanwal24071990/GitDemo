@@ -1,0 +1,311 @@
+[
+  {
+    "ID": "TabList",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//ul[contains(@id,'pcLanding_TC')]"
+    }
+  },
+  {
+    "ID": "Invoice Number Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id,'lblCurrentInvoiceNumber')]"
+    }
+  },
+  {
+    "ID": "Company",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id,'lblCompany')]"
+    }
+  },
+  {
+    "ID": "Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtName')]"
+    }
+  },
+  {
+    "ID": "Phone",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtPhone')]"
+    }
+  },
+  {
+    "ID": "Email Cc",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtEmail')]"
+    }
+  },
+  {
+    "ID": "Reason",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//select[contains(@id,'ddlReason')]"
+    }
+  },
+  {
+    "ID": "Submit",
+    "Name": "Submit",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//div[contains(@id,'BtnSubmit')]"
+    }
+  },
+  {
+    "ID": "Notes",
+    "Name": "Notes",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//textarea[contains(@id,'txtNotes')]"
+    }
+  },
+  {
+    "ID": "Upload file",
+    "Name": "Upload file",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'fuAttach')]"
+    }
+  },
+  {
+    "ID": "Edit",
+    "Name": "Edit",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//a[contains(@id,'gvResolvedDisputes_DXCBtn0')]"
+    }
+  },
+  {
+    "ID": "Pending Action By",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cbPendingActionBy')]"
+    }
+  },
+  {
+    "ID": "Action",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//select[contains(@id,'ddlAction')]"
+    }
+  },
+  {
+    "ID": "Resolution Note",
+    "Name": "Resolution Note",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//textarea[contains(@id,'txtNotes')]"
+    }
+  },
+  {
+    "ID": "Save",
+    "Name": "Save",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Save']"
+    }
+  },
+  {
+    "ID": "Re Dispute",
+    "Name": "Re Dispute",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Re-Dispute']"
+    }
+  },
+  {
+    "ID": "Status Label",
+    "Name": "Status Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//b[text()='Status:']"
+    }
+  },
+  {
+    "ID": "Disputed By Label",
+    "Name": "Disputed By Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//b[text()='Disputed By:']"
+    }
+  },
+  {
+    "ID": "Dispute Resolution Invoice Number Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//b[text()='Invoice Number:']"
+    }
+  },
+  {
+    "ID": "Dispute Resolution Invoice Number",
+    "Name": "Disputed By Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id,'lblDisputeTitle')]/strong[2]"
+    }
+  },
+  {
+    "ID": "On Label",
+    "Name": "On Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//b[text()='On:']"
+    }
+  },
+  {
+    "ID": "Reason Label",
+    "Name": "Reason Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//b[text()='Reason:']"
+    }
+  },
+  {
+    "ID": "Reason Detail Label",
+    "Name": "Reason Detail Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//b[text()='Reason Detail:']"
+    }
+  },
+  {
+    "ID": "Dispute Note Label",
+    "Name": "Dispute Note Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//b[text()='Dispute Note:']"
+    }
+  },
+  {
+    "ID": "Dispute Grid",
+    "Name": "Dispute Grid",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'gvResolutionNotes')]"
+    }
+  },
+  {
+    "ID": "Owned By",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cbOwnedBy')]"
+    }
+  },
+  {
+    "ID": "Follow Up By",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'dateFollowUpBy_I')]"
+    }
+  },
+  {
+    "ID": "Notify And Visible To Dealer",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'chkDealer')]"
+    }
+  },
+  {
+    "ID": "Notify And Visible To Fleet",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'chkFleet')]"
+    }
+  },
+  {
+    "ID": "Notes Required Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'spantxtNoteMandatory')][text()='*']"
+    }
+  },
+  {
+    "ID": "exportXlsButton",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//div[contains(@id,'btnXlsExport_CD')]//img"
+    }
+  },
+  {
+    "ID": "exportXlsxButton",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//div[contains(@id,'btnXlsxExport_CD')]//img"
+    }
+  },
+  {
+    "ID": "Resolution Detail",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//select[contains(@id,'ddlResolutionDetail')]"
+    }
+  },
+  {
+    "ID": "Dispute Acknowledge",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'chkAcknowledgement')]"
+    }
+  },
+  {
+    "ID": "Correct PO",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtPurchaseOrderNbr')]"
+    }
+  },
+  {
+    "ID": "Duplicate Invoice Number",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtProgInvoiceNbr')]"
+    }
+  },
+  {
+    "ID": "Who Was Paid",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtWhoWasPaid')]"
+    }
+  },
+  {
+    "ID": "Date Paid",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'deDatePaid_I')]"
+    }
+  },
+  {
+    "ID": "Paid By Check Number",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtPaidByChkNbr')]"
+    }
+  },
+  {
+    "ID": "Incorrect Line Item",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtLineItem')]"
+    }
+  },
+  {
+    "ID": "Correct Price",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtCorrectPrice')]"
+    }
+  },
+  {
+    "ID": "Warranty Item",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//textarea[contains(@id,'txtWarrantyItem')]"
+    }
+  }
+]

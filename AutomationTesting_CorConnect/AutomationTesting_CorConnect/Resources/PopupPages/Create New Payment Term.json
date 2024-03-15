@@ -1,0 +1,58 @@
+[
+   {
+      "ID":"Payment Term Name",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//input[contains(@id,'tbPaymentTerm_I')]"
+      }
+   },
+   {
+      "ID":"Payment Term Description",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//input[contains(@id,'tbPaymentTermDescription_I')]"
+      }
+   },
+   {
+      "ID":"Net Due Days",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//input[contains(@id,'tbNetDueDays_I')]"
+      }
+   },
+   {
+      "ID":"AR Only",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//*[@id='chkArOnly_S_D']"
+      }
+   },
+   {
+      "ID":"AP Only",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//*[@id='chkApOnly_S_D']"
+      }
+   },
+   {
+      "ID":"Early Pay Discounts",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//*[@id='chkEarlyPayDiscounts_S_D']"
+      }
+   },
+   {
+      "ID":"Cancel",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//span[text()='Cancel']"
+      }
+   },
+   {
+      "ID":"Save Term",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//span[text()='Save Term']"
+      }
+   }
+]

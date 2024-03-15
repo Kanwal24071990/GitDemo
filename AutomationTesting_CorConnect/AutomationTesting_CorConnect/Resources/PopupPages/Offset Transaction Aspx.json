@@ -1,0 +1,65 @@
+[
+  {
+    "ID": "Rebill the Invoice",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//*[contains(@id,'ckPanel1_options_RB1_I_D')]"
+    }
+  },
+  {
+    "ID": "Comments",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//textarea[contains(@id,'comments') and contains(@id,'_I')]"
+    }
+  },
+  {
+    "ID": "Rebill",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Rebill']"
+    }
+  },
+  {
+    "ID": "Create a Reversal",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//*[contains(@id,'ckPanel1_options_RB0_I_D')]"
+    }
+  },
+  {
+    "ID": "Dealer For Reversal",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cbDealerCode')]"
+    }
+  },
+  {
+    "ID": "Reversal Reason",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cbReversalReason')]"
+    }
+  },
+  {
+    "ID": "Fleet or Dealer Approver",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'txtBuyerSeller_I')]"
+    }
+  },
+  {
+    "ID": "Reverse",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[text()='Reverse']"
+    }
+  },
+  {
+    "ID": "Comments_Rebill",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//textarea[contains(@id,'commentsRebill_I')]"
+    }
+  }
+]

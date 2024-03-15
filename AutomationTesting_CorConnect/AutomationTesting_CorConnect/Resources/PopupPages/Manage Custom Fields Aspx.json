@@ -1,0 +1,93 @@
+[
+  {
+    "ID": "Label",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'txtLabel')]"
+    }
+  },
+  {
+    "ID": "Description",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'txtDescription')]"
+    }
+  },
+  {
+    "ID": "Entity Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'EntityType')]"
+    }
+  },
+  {
+    "ID": "Data Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id, 'DataType')]"
+    }
+  },
+  {
+    "ID": "Max Length",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'txtMaxLength')]"
+    }
+  },
+  {
+    "ID": "Required",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'chkRequired') and contains(@class, 'CheckBox')]"
+    }
+  },
+  {
+    "ID": "Visible On_Available",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//select[contains(@id, 'unAssignedSelect')]"
+    }
+  },
+  {
+    "ID": "Visible On_Selected",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//select[contains(@id, 'assignedSelect')]"
+    }
+  },
+  {
+    "ID": "MoveAllLocationsToRight",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'btnMoveAllLocationsToRight')]"
+    }
+  },
+  {
+    "ID": "MoveLocationsToRight",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'btnMoveLocationsToRight')]"
+    }
+  },
+  {
+    "ID": "MoveLocationsToLeft",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'btnMoveLocationsToLeft')]"
+    }
+  },
+  {
+    "ID": "MoveAllLocationsToLeft",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id, 'btnMoveAllLocationsToLeft')]"
+    }
+  },
+  {
+    "ID": "Active",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//span[contains(@id, 'chkActive') and contains(@class, 'CheckBox')]"
+    }
+  }
+]

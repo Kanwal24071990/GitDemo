@@ -1,0 +1,25 @@
+[
+   {
+      "ID":"User ID",
+      "Name":"User ID",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//input[@id='txtuserID_I']"
+      }
+   },
+   {
+      "ID":"Password",
+      "Name":"Password",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//input[@id='txtPassword_I']"
+      }
+   },
+   {
+      "ID":"SUBMIT",
+      "xpath":{
+         "Mechanism":"xpath",
+         "Criteria":"//input[@id='btnSubmit_I']"
+      }
+   }
+]

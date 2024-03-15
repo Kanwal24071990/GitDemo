@@ -1,0 +1,93 @@
+[
+  {
+    "ID": "Fleet",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cbReceiverCode')]"
+    }
+  },
+  {
+    "ID": "Dealer",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cbSenderCode')]"
+    }
+  },
+  {
+    "ID": "Adjustment Of Price",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cbAdjustmentPrice')]"
+    }
+  },
+  {
+    "ID": "Accounting Document Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cbAccountingDocType')]"
+    }
+  },
+  {
+    "ID": "Transaction Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'TransactionType_dropDownEdit')]"
+    }
+  },
+  {
+    "ID": "Effective Date",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'dtEffectiveDate_I')]"
+    }
+  },
+    {
+    "ID": "Currency",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cbCurrency')]"
+    }
+  },
+  {
+    "ID": "Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cbMarkUpDownType')]"
+    }
+  },
+   {
+    "ID": "Value",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'tbMarkUpDownAmount_I')]"
+    }
+  },
+{
+    "ID": "Price Level",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cbPriceLevel')]"
+    }
+  },
+  {
+    "ID": "Tier Type",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cbTierType')]"
+    }
+  },
+   {
+    "ID": "Adjustment Name",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//input[contains(@id,'tbAdjustmentName_I')]"
+    }
+  },
+     {
+    "ID": "Pricing Group",
+    "xpath": {
+      "Mechanism": "xpath",
+      "Criteria": "//table[contains(@id,'cbPricingGroup') and not(contains(@id, 'LP'))]"
+    }
+  }
+]

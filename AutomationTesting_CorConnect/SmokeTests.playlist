@@ -1,0 +1,1086 @@
+<Playlist Version="2.0">
+  <Rule Name="Includes" Match="Any">
+    <Rule Match="All">
+      <Property Name="Solution" />
+      <Rule Match="Any">
+        <Rule Match="All">
+          <Property Name="Project" Value="AutomationTesting_CorConnect" />
+          <Rule Match="Any">
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.AccountMaintaince" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="AccountMaintaince" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.AccountMaintaince.AccountMaintaince.TC_16378" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_16378()" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.AccountMaintaince.AccountMaintaince.TC_16379" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_16379()" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.AccountMaintaince.AccountMaintaince.TC_16380" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_16380()" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.AccountMaintaince.AccountMaintaince.TC_16381" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_16381()" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.AccountMaintaince.AccountMaintaince.TC_16382" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_16382()" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.AccountMaintaince.AccountMaintaince.TC_16383" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_16383()" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.AccountMaintaince.AccountMaintaince.TC_20087" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20087()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.AccountStatusChangeReport" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="AccountStatusChangeReport" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.AccountStatusChangeReport.AccountStatusChangeReport.TC_20748" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20748()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.AgencyGroupApproversReport" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="AgencyGroupApproversReport" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.AgencyGroupApproversReport.AgencyGroupApproversReport.TC_20749" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20749()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.BatchRequestStatus" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="BatchRequestStatus" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.BatchRequestStatus.BatchRequestStatus.TC_20750" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20750()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.BookmarksMaintaince" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="BookmarksMaintenance" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.BookmarksMaintaince.BookmarksMaintenance.TC_20209" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20209()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.BulkActions" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="BulkActions" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.BulkActions.BulkActions.TC_17282" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_17282()" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.BulkActions.BulkActions.TC_20275" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20275()" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.BulkActions.BulkActions.TC_21239" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_21239()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.CommunityDocuments" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="CommunityDocuments" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.CommunityDocuments.CommunityDocuments.TC_21235" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_21235()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.ContactUs" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="ContactUs" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.ContactUs.ContactUs.TC_16376" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_16376()" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.ContactUs.ContactUs.TC_21236" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_21236()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.DealerInvoices" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="DealerInvoices" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.DealerInvoices.DealerInvoices.TC_20719" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20719()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.DealerLocations" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="DealerLocations" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.DealerLocations.DealerLocations.TC_20665" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20665()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.DealerLookup" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="DealerLookup" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.DealerLookup.DealerLookup.TC_16374" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_16374()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.DealerPOPOQTransactionLookup" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="DealerPOPOQTransactionLookup" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.DealerPOPOQTransactionLookup.DealerPOPOQTransactionLookup.TC_20737" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20737()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.DealerPreAuthorization" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="DealerPreAuthorization" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.DealerPreAuthorization.DealerPreAuthorization.TC_15792" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_15792()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.DealerReleaseInvoices" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="DealerReleaseInvoices" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.DealerReleaseInvoices.DealerReleaseInvoices.TC_20745" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20745()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.DealerSalesSummaryLocation" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="DealerSalesSummaryLocation" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.DealerSalesSummaryLocation.DealerSalesSummaryLocation.TC_20138" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20138()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.DealerStatements" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="DealerStatements" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.DealerStatements.DealerStatements.TC_20720" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20720()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.Disputes" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="Disputes" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.Disputes.Disputes.TC_20721" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20721()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.DunningStatus" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="DunningStatus" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.DunningStatus.DunningStatus.TC_19232" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_19232()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.EntityCrossReferenceMaintenance" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="EntityCrossReferenceMaintenance" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.EntityCrossReferenceMaintenance.EntityCrossReferenceMaintenance.TC_20141" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20141()" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.EntityCrossReferenceMaintenance.EntityCrossReferenceMaintenance.TC_20254" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20254()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.EntityGroupMaintenance" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="EntityGroupMaintenance" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.EntityGroupMaintenance.EntityGroupMaintenance.TC_20208" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20208()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.FleetInvoices" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="FleetInvoices" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.FleetInvoices.FleetInvoices.TC_18776" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_18776()" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.FleetInvoices.FleetInvoices.TC_20724" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20724()" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.FleetInvoices.FleetInvoices.TC_20725" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20725()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.FleetLookup" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="FleetLookup" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.FleetLookup.FleetLookup.TC_16375" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_16375()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.FleetMasterInvoicesStatements" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="FleetMasterInvoicesStatements" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.FleetMasterInvoicesStatements.FleetMasterInvoicesStatements.TC_20726" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20726()" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.FleetMasterInvoicesStatements.FleetMasterInvoicesStatements.TC_20727" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20727()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.FleetPartsCrossReference" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="FleetPartsCrossReference" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.FleetPartsCrossReference.FleetPartsCrossReference.TC_20140" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20140()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.FleetPOPOQTransactionLookup" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="FleetPOPOQTransactionLookup" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.FleetPOPOQTransactionLookup.FleetPOPOQTransactionLookup.TC_20739" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20739()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.FleetPreAuthorization" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="FleetPreAuthorization" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.FleetPreAuthorization.FleetPreAuthorization.TC_15793" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_15793()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.FleetReleaseInvoices" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="FleetReleaseInvoices" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.FleetReleaseInvoices.FleetReleaseInvoices.TC_20746" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20746()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.FleetSalesSummaryBillTo" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="FleetSalesSummaryBillTo" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.FleetSalesSummaryBillTo.FleetSalesSummaryBillTo.TC_20139" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20139()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.FleetStatements" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="FleetStatements" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.FleetStatements.FleetStatements.TC_20728" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20728()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.GPDraftStatements" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="GPDraftStatements" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.GPDraftStatements.GPDraftStatements.TC_20729" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20729()" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.GPDraftStatements.GPDraftStatements.TC_20730" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20730()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.InvoiceDetailReport" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="InvoiceDetailReport" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.InvoiceDetailReport.InvoiceDetailReport.TC_20751" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20751()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.InvoiceDiscrepancy" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="InvoiceDiscrepancy" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.InvoiceDiscrepancy.InvoiceDiscrepancy.TC_20666" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20666()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.InvoiceDiscrepancyHistory" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="InvoiceDiscrepancyHistory" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.InvoiceDiscrepancyHistory.InvoiceDiscrepancyHistory.TC_20736" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20736()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.InvoiceDownload" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="InvoiceDownload" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.InvoiceDownload.InvoiceDownload.TC_14002" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_14002()" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.InvoiceDownload.InvoiceDownload.TC_20731" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20731()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.InvoiceEntry" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="InvoiceEntry" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.InvoiceEntry.InvoiceEntry.TC_20747" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20747()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.LineItemReport" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="LineItemReport" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.LineItemReport.LineItemReport.TC_20667" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20667()" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.LineItemReport.LineItemReport.TC_20668" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20668()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.ManagePaymentAcceleration" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="ManagePaymentAcceleration" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.ManagePaymentAcceleration.ManagePaymentAcceleration.TC_21051" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_21051()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.ManagePaymentTerms" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="ManagePaymentTerms" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.ManagePaymentTerms.ManagePaymentTerms.TC_21055" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_21055()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.ManageTaxExemptions" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="ManageTaxExemptions" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.ManageTaxExemptions.ManageTaxExemptions.TC_17952" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_17952()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.MasterBillingStatementConfiguration" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="MasterBillingStatementConfiguration" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.MasterBillingStatementConfiguration.MasterBillingStatementConfiguration.TC_21059" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_21059()" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.MasterBillingStatementConfiguration.MasterBillingStatementConfiguration.TC_21060" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_21060()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.OpenAuthorizations" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="OpenAuthorizations" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.OpenAuthorizations.OpenAuthorizations.TC_20744" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20744()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.P_CardTransactions" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="P_CardTransactions" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.P_CardTransactions.P_CardTransactions.TC_20733" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20733()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.PartPriceLookup" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="PartPriceLookup" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.PartPriceLookup.PartPriceLookup.TC_20245" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20245()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.Parts" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="Parts" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.Parts.Parts.TC_20255" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20255()" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.Parts.Parts.TC_20256" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20256()" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.Parts.Parts.TC_20257" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20257()" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.Parts.Parts.TC_20258" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20258()" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.Parts.Parts.TC_20259" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20259()" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.Parts.Parts.TC_20260" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20260()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.PartSalesByFleetReport" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="PartSalesByFleetReport" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.PartSalesByFleetReport.PartSalesByFleetReport.TC_20752" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20752()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.PartsCrossReference" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="PartsCrossReference" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.PartsCrossReference.PartsCrossReference.TC_20210" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20210()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.PCardErrorInvoices" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="PCardErrorInvoices" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.PCardErrorInvoices.PCardErrorInvoices.TC_20732" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20732()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.POEntry" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="POEntry" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.POEntry.POEntry.TC_20741" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20741()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.POQEntry" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="POQEntry" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.POQEntry.POQEntry.TC_20742" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20742()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.QlikViewDashboard" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="QlikViewDashboard" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.QlikViewDashboard.QlikViewDashboard.TC_20252" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20252()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.SettlementFile" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="SettlementFile" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.SettlementFile.SettlementFile.TC_20734" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20734()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.SettlementFileSummary" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="SettlementFileSummary" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.SettlementFileSummary.SettlementFileSummary.TC_20735" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20735()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.ShopSummaryReport" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="ShopSummaryReport" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.ShopSummaryReport.ShopSummaryReport.TC_20753" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20753()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.SupportCenter" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="SupportCenter" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.SupportCenter.SupportCenter.TC_20253" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20253()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.TaxCodeConfiguration" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="TaxCodeConfiguration" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.TaxCodeConfiguration.TaxCodeConfiguration.TC_20137" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20137()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.UpdateCredit.CreditHistory" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="CreditHistory" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.UpdateCredit.CreditHistory.CreditHistory.TC_17638" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_17638()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.Tests.UserProfile" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="UserProfile" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.Tests.UserProfile.UserProfile.TC_20251" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20251()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+            <Rule Match="All">
+              <Property Name="Namespace" Value="AutomationTesting_CorConnect.UserGroupSetup.Tests" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="UserGroupSetup" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.UserGroupSetup.Tests.UserGroupSetup.TC_20266" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20266()" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.UserGroupSetup.Tests.UserGroupSetup.TC_20556" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20556()" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="AutomationTesting_CorConnect.UserGroupSetup.Tests.UserGroupSetup.TC_20557" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TC_20557()" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+          </Rule>
+        </Rule>
+      </Rule>
+    </Rule>
+  </Rule>
+</Playlist>

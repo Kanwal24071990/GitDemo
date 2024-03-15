@@ -1,0 +1,34 @@
+[
+	{
+		"ID": "Dealer Code",
+		"Name": null,
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'cbDealerCode')]"
+		}
+	},
+	{
+		"ID": "Fleet Code",
+		"Name": null,
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'cbCustomerCode')]"
+		}
+	},
+	{
+		"ID": "Part Number",
+		"Name": null,
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//table[contains(@id,'cbPartNumber')]"
+		}
+	},
+	{
+		"ID": "Date",
+		"Name": null,
+		"xpath": {
+			"Mechanism": "xpath",
+			"Criteria": "//input[contains(@id,'dxedit_date')]"
+		}
+	}
+]
